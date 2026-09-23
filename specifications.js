@@ -36,8 +36,7 @@ root.innerHTML=`
       <p>Eight ANSI B sheets: cover and notes, site plan, pump room plan, flow diagram, connection details, installation sequence, alternate arrangements, schedules and records. Every sheet reference in this document (for example 3/M-301) points into that set.</p>
       <div class="links">
         <a class="primary" href="https://www.aquarevwater.us/drawings">Open the drawing set</a>
-        <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">PDF, 17 &#215; 11</a>
-        
+        <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF, 17 &#215; 11</a>
       </div>
     </div>
   </div>
@@ -342,7 +341,7 @@ root.innerHTML=`
   <p>Use arrangement D on sheet M-401: identical parallel branches with isolation valves, each device seeing half the flow, inside its range. The single model that matches the return pipe is always the first choice; parallel branches are for flow the single model cannot take. Confirm with AquaRev before ordering.</p>
 
   <h3>Troubleshooting after start-up</h3>
-  <div class="tw"><table>
+  <div class="tw keep"><table>
     <thead><tr><th>Symptom</th><th>Do this</th></tr></thead>
     <tbody>
       <tr><td class="lab">Weep at a union</td><td>Depressurize, loosen, clean both faces, reseat the O-ring, retighten by hand. Do not add torque, sealant or cement.</td></tr>
@@ -387,7 +386,7 @@ root.innerHTML=`
       <tr><td>What do I order and what do I hand in?</td><td class="num">M-501</td><td>Device schedule, materials, tools, sequence check, installation record, closeout, contacts.</td></tr>
     </tbody>
   </table></div>
-  <p><a href="https://www.aquarevwater.us/drawings">Open Drawing Set 100</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">PDF</a></p>
+  <p><a href="https://www.aquarevwater.us/drawings">Open Drawing Set 100</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download the PDF</a></p>
   <div class="caution">
     <div class="t">Typical drawings</div>
     <p>Set 100 shows a typical arrangement: a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room. Before use on a property, replace the design basis with the site assessment record, fill the property and location fields in each title block, and have the set checked. Permit determinations rest with the authority having jurisdiction.</p>

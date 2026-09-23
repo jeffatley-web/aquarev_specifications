@@ -100,7 +100,8 @@ root.innerHTML=`
     <b>Set 100 &#183; Revision A</b><br>Issued for review &#183; 22 September 2026<br><br>
     8 sheets &#183; ANSI B (17 &#215; 11 in.)<br>
     Companion to<br><b>Specifications &amp; Installation Instructions</b><br><b>Pump Room Implementation Guide Rev 1.1</b><br><br>
-    aquarevwater.us/data
+    aquarevwater.us/data<br>
+    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF<small>8 sheets &#183; 17 &#215; 11 in. &#183; 1.7 MB</small></a>
   </div>
 </header>
 
@@ -120,7 +121,7 @@ root.innerHTML=`
 <div class="note">
   <div class="t">How to read this set</div>
   <p>Sheets show a typical arrangement: a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room. Existing equipment is drawn in black and is not modified. New work is drawn in blue. The cut zone is hatched in amber. Use the 100% button on any sheet to read it at print size, then scroll sideways.</p>
-  <p style="margin-top:8px">Written companion: <a href="https://www.aquarevwater.us/specifications">Specifications &amp; Installation Instructions</a> (Section 22 51 19 and the crew instructions) &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">PDF</a></p>
+  <p style="margin-top:8px">Written companion: <a href="https://www.aquarevwater.us/specifications">Specifications &amp; Installation Instructions</a> (Section 22 51 19 and the crew instructions) &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">Download its PDF</a></p>
 </div>
 
 <!-- ============================================================ G-001 -->
@@ -1616,7 +1617,7 @@ root.innerHTML=`
 
 
 <footer>
-  <div><b>AquaRev Water</b> &#183; Installation Drawing Set 100 &#183; Rev A &#183; 22 September 2026</div>
+  <div><b>AquaRev Water</b> &#183; Installation Drawing Set 100 &#183; Rev A &#183; 22 September 2026 &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF</a></div>
   <div>Typical drawings. Field-verify before use. Permit determinations rest with the authority having jurisdiction.</div>
 </footer>
 </div>

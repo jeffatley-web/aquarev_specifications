@@ -137,10 +137,13 @@
   #arsp .cover .sub{font-size:13.5pt;margin-top:10px}
   #arsp .cover .brand{margin-bottom:16px}
   #arsp .toc{margin-top:12px}#arsp .toc li{padding:6px 0}
-  #arsp .card, #arsp .note, #arsp .stop, #arsp .caution, #arsp .clauses>li{break-inside:avoid}
+  #arsp .card, #arsp .note, #arsp .stop, #arsp .caution, #arsp .clauses>li, #arsp .linkcard, #arsp footer, #arsp .keep{break-inside:avoid}
+  #arsp footer{display:block}
+  #arsp footer div{margin-bottom:4px}
   #arsp thead{display:table-header-group}
   #arsp tr, #arsp .check li, #arsp .toc li{break-inside:avoid}
-  #arsp .steps>li{display:block;position:relative;padding-left:44px;break-inside:auto}
+  #arsp .steps>li{display:block;position:relative;padding-left:44px;break-inside:avoid}
+  #arsp .steps h5{break-after:avoid}
   #arsp .steps>li::before{position:absolute;left:0;top:16px}
   #arsp .clauses>li{display:block;position:relative;padding-left:52px}
   #arsp .clauses>li>.c{position:absolute;left:0;top:7px}
