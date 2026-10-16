@@ -93,11 +93,11 @@ root.innerHTML=`
 <header class="cover">
   <div>
     <div class="brand">Aqua<span>Rev</span> Water &nbsp;&#183;&nbsp; Commercial</div>
-    <h1>Installation Drawing Set</h1>
-    <p class="sub">Site plan, pump room equipment plan, flow diagram, connection details and installation sequence for an AquaRev water conditioning device on a typical commercial swimming pool and spa recirculation system.</p>
+    <h1>Reference Drawing Set</h1>
+    <p class="sub">A sample commercial pool and spa pump room, drawn so an engineer or contractor new to the AquaRev water conditioning device can see where it goes, how it connects, and how it is installed. Not a site-specific drawing; the same set serves every property.</p>
   </div>
   <div class="meta">
-    <b>Set 100 &#183; Revision A</b><br>Issued for review &#183; 22 September 2026<br><br>
+    <b>Set 100 &#183; Revision A</b><br>Reference set &#183; 22 September 2026<br><br>
     8 sheets &#183; ANSI B (17 &#215; 11 in.)<br>
     Companion to<br><b>Specifications &amp; Installation Instructions</b><br><b>Pump Room Implementation Guide Rev 1.1</b><br><br>
     aquarevwater.us/data<br>
@@ -120,7 +120,7 @@ root.innerHTML=`
 
 <div class="note">
   <div class="t">How to read this set</div>
-  <p>Sheets show a typical arrangement: a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room. Existing equipment is drawn in black and is not modified. New work is drawn in blue. The cut zone is hatched in amber. Use the 100% button on any sheet to read it at print size, then scroll sideways.</p>
+  <p>This is a reference set, not a per-property issue. A sample 150,000-gallon pool and 3,000-gallon spa sharing one equipment room stand in for any property; pump rooms differ too much to draw each one. Existing equipment is drawn in black and is not modified. New work is drawn in blue. The cut zone is hatched in amber. Use the 100% button on any sheet to read it at print size, then scroll sideways.</p>
   <p style="margin-top:8px">Written companion: <a href="https://www.aquarevwater.us/specifications">Specifications &amp; Installation Instructions</a> (Section 22 51 19 and the crew instructions) &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">Download its PDF</a></p>
 </div>
 
@@ -146,15 +146,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Cover Sheet, General</text><text x="1396" y="398" class="disp" font-size="14">Notes &amp; Legend</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">As noted</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -163,9 +163,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Typical arrangement. Field-verify</text><text x="1396" y="796">all existing pipe sizes, materials,</text><text x="1396" y="810">flow rates and clearances before</text><text x="1396" y="824">ordering or cutting. Existing</text><text x="1396" y="838">equipment shown is not modified.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Sample arrangement. Field-verify</text><text x="1396" y="796">all existing pipe sizes, materials,</text><text x="1396" y="810">flow rates and clearances before</text><text x="1396" y="824">ordering or cutting. Existing</text><text x="1396" y="838">equipment shown is not modified.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">G-001</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 1 OF 8</text>
@@ -174,8 +174,8 @@ root.innerHTML=`
     <!-- cover title -->
     <text x="80" y="118" class="lab s12">AQUAREV WATER &#183; COMMERCIAL POOL SYSTEMS &#183; DRAWING SET 100</text>
     <text x="80" y="176" class="disp" font-size="46" letter-spacing="-.5">AquaRev Water Conditioning Device</text>
-    <text x="80" y="226" class="disp" font-size="46" letter-spacing="-.5">Installation Drawings</text>
-    <text x="80" y="262" font-size="18" fill="#5C6B82">Typical commercial swimming pool and spa pump room &#183; in-line device on the return line, downstream of all treatment equipment</text>
+    <text x="80" y="226" class="disp" font-size="46" letter-spacing="-.5">Reference Installation Drawings</text>
+    <text x="80" y="262" font-size="18" fill="#5C6B82">Sample commercial pool and spa pump room, for engineers new to the device &#183; in-line on the return, downstream of all treatment equipment</text>
     <line x1="80" y1="288" x2="1350" y2="288" stroke="#0E1E3A" stroke-width="2"/>
 
     <!-- sheet index -->
@@ -194,7 +194,7 @@ root.innerHTML=`
     <g class="rule-s"><line x1="80" y1="356" x2="580" y2="356"/><line x1="80" y1="380" x2="580" y2="380"/><line x1="80" y1="404" x2="580" y2="404"/><line x1="80" y1="428" x2="580" y2="428"/><line x1="80" y1="452" x2="580" y2="452"/><line x1="80" y1="476" x2="580" y2="476"/><line x1="80" y1="500" x2="580" y2="500"/><line x1="80" y1="524" x2="580" y2="524"/></g>
 
     <!-- design basis -->
-    <text x="80" y="562" class="lab s11">DESIGN BASIS &#183; TYPICAL PROPERTY (REPLACE WITH SITE ASSESSMENT RECORD)</text>
+    <text x="80" y="562" class="lab s11">DESIGN BASIS &#183; SAMPLE PROPERTY USED ON EVERY SHEET</text>
     <g>
       <rect x="80" y="572" width="500" height="22" class="tbfill"/>
       <g class="th"><text x="88" y="587">LOOP</text><text x="200" y="587">VOLUME</text><text x="280" y="587">TURNOVER</text><text x="360" y="587">FLOW</text><text x="420" y="587">RETURN</text><text x="480" y="587">DEVICE</text></g>
@@ -245,7 +245,7 @@ root.innerHTML=`
     <text x="664" y="322" class="lab s11">GENERAL NOTES</text>
     <g font-size="11.4">
       <g class="mono" fill="#0F5C91"><text x="664" y="346">1</text><text x="664" y="384">2</text><text x="664" y="436">3</text><text x="664" y="474">4</text><text x="664" y="512">5</text><text x="664" y="564">6</text><text x="664" y="588">7</text><text x="664" y="626">8</text><text x="664" y="650">9</text><text x="664" y="688">10</text><text x="664" y="712">11</text><text x="664" y="736">12</text><text x="664" y="774">13</text><text x="664" y="798">14</text></g>
-      <text x="690" y="346">These drawings show a typical arrangement. Verify all existing conditions, pipe sizes, materials, flow</text><text x="690" y="362">rates and clearances in the field before ordering equipment or cutting pipe.</text>
+      <text x="690" y="346">This is a reference set drawn around a sample property. It is not issued per site; the same set serves every</text><text x="690" y="362">installation. Verify existing conditions, pipe sizes, flow and clearances in the field before ordering or cutting.</text>
       <text x="690" y="384">The AquaRev device is a passive in-line water conditioning device certified to NSF/ANSI/CAN 50-2024</text><text x="690" y="400">(IAPMO R&amp;T File No. W-12547). It supplements the pool's disinfection system and does not replace it.</text><text x="690" y="416">Sanitizer and pH are maintained within the regulated range at all times, exactly as before.</text>
       <text x="690" y="436">Install one device per recirculating loop, on the return line, downstream of the pump, filter, heater,</text><text x="690" y="452">chemical feeders and sensors, as close to the pool return as practical. Any orientation is acceptable.</text>
       <text x="690" y="474">Existing equipment is not modified. No electrical, gas, water-supply, drain or sewer connection is made.</text><text x="690" y="490">Suction-side piping, main drains and drain covers are not touched.</text>
@@ -307,15 +307,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Site Plan</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">1" = 10'-0"</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -324,9 +324,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Typical site. Replace with the</text><text x="1396" y="796">property's survey or as-built</text><text x="1396" y="810">plan. Buried pipe routes are</text><text x="1396" y="824">diagrammatic; no excavation</text><text x="1396" y="838">is part of this work.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Sample site, drawn to show where</text><text x="1396" y="796">the work sits on a property.</text><text x="1396" y="810">Buried pipe routes are</text><text x="1396" y="824">diagrammatic; no excavation</text><text x="1396" y="838">is part of this work.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">C-101</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 2 OF 8</text>
@@ -432,7 +432,7 @@ root.innerHTML=`
       <use href="#hex" x="712" y="952"/><text x="712" y="956" class="knt">9</text><text x="732" y="956">Pool closure signage and barrier during the 3 to 5 hour closure window, per property policy.</text>
     </g>
     <!-- site data -->
-    <text x="150" y="722" class="lab s11">SITE DATA (TYPICAL &#183; FILL FROM ASSESSMENT RECORD)</text>
+    <text x="150" y="722" class="lab s11">SITE DATA &#183; SAMPLE PROPERTY</text>
     <g font-size="11">
       <g class="mut"><text x="150" y="746">Bodies of water</text><text x="150" y="768">Pool volume / turnover</text><text x="150" y="790">Spa volume / turnover</text><text x="150" y="812">Return pipe, pool / spa</text><text x="150" y="834">Equipment room</text><text x="150" y="856">Devices</text><text x="150" y="878">Pool closure</text></g>
       <g class="mono"><text x="330" y="746">2 (pool, spa) &#183; one loop each</text><text x="330" y="768">150,000 gal &#183; 6.0 h &#183; 417 gpm</text><text x="330" y="790">3,000 gal &#183; 0.5 h &#183; 100 gpm</text><text x="330" y="812">4" PVC &#183; 2" PVC (field verify OD)</text><text x="330" y="834">20' × 14' at grade, door to service path</text><text x="330" y="856">WCD-1 KD4X8X4 &#183; WCD-2 KD2X4X2</text><text x="330" y="878">3 to 5 h per loop incl. cement cure</text></g>
@@ -461,15 +461,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Pump Room</text><text x="1396" y="398" class="disp" font-size="14">Equipment Plan</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">1/2" = 1'-0"</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -478,9 +478,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Equipment positions are typical.</text><text x="1396" y="796">Pipe sizes shown are the design</text><text x="1396" y="810">basis; measure outside diameter</text><text x="1396" y="824">on site. Existing equipment (E)</text><text x="1396" y="838">is N.I.C. and is not modified.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Equipment positions are typical.</text><text x="1396" y="796">Pipe sizes shown are the design</text><text x="1396" y="810">basis; measure outside diameter</text><text x="1396" y="824">on site. Existing equipment (E)</text><text x="1396" y="838">is N.I.C. and is not modified.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-101</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 3 OF 8</text>
@@ -695,15 +695,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Recirculation</text><text x="1396" y="398" class="disp" font-size="14">Flow Diagram</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">None (schematic)</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -712,9 +712,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Single-line schematic, not to</text><text x="1396" y="796">scale. Valves and bypasses are</text><text x="1396" y="810">typical; the existing arrangement</text><text x="1396" y="824">governs. The device is the last</text><text x="1396" y="838">component before the return.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Single-line schematic, not to</text><text x="1396" y="796">scale. Valves and bypasses are</text><text x="1396" y="810">typical; the existing arrangement</text><text x="1396" y="824">governs. The device is the last</text><text x="1396" y="838">component before the return.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-201</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 4 OF 8</text>
@@ -866,15 +866,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Device &amp; Connection</text><text x="1396" y="398" class="disp" font-size="14">Details</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">As noted</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -883,9 +883,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Dimensions are from the Product</text><text x="1396" y="796">Specification Guide 2026. Measure</text><text x="1396" y="810">the unit in hand before marking</text><text x="1396" y="824">pipe. Union and cement maker's</text><text x="1396" y="838">instructions govern the joint.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Dimensions are from the Product</text><text x="1396" y="796">Specification Guide 2026. Measure</text><text x="1396" y="810">the unit in hand before marking</text><text x="1396" y="824">pipe. Union and cement maker's</text><text x="1396" y="838">instructions govern the joint.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-301</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 5 OF 8</text>
@@ -1087,15 +1087,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Installation</text><text x="1396" y="398" class="disp" font-size="14">Sequence</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">None</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -1104,9 +1104,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">One loop, one device, one crew.</text><text x="1396" y="796">Three to five hours including</text><text x="1396" y="810">cement cure. Expanded from the</text><text x="1396" y="824">Product Specification Guide and</text><text x="1396" y="838">Implementation Guide §8.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">One loop, one device, one crew.</text><text x="1396" y="796">Three to five hours including</text><text x="1396" y="810">cement cure. Expanded from the</text><text x="1396" y="824">Product Specification Guide and</text><text x="1396" y="838">Implementation Guide §8.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-302</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 6 OF 8</text>
@@ -1337,15 +1337,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Orientation &amp;</text><text x="1396" y="398" class="disp" font-size="14">Alternate Arrangements</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">None</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -1354,9 +1354,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">The device works in any</text><text x="1396" y="796">orientation. These arrangements</text><text x="1396" y="810">solve space and flow-range</text><text x="1396" y="824">problems without moving any</text><text x="1396" y="838">existing equipment.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">The device works in any</text><text x="1396" y="796">orientation. These arrangements</text><text x="1396" y="810">solve space and flow-range</text><text x="1396" y="824">problems without moving any</text><text x="1396" y="838">existing equipment.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-401</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 7 OF 8</text>
@@ -1488,15 +1488,15 @@ root.innerHTML=`
       <text x="1396" y="102" class="lab">COMMERCIAL POOL SYSTEMS</text>
       <text x="1396" y="124" class="mono" font-size="9.5">aquarevwater.us</text>
       <text x="1396" y="160" class="lab">PROJECT</text>
-      <text x="1396" y="184" class="disp" font-size="14">Typical Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
+      <text x="1396" y="184" class="disp" font-size="14">Sample Commercial Pool</text><text x="1396" y="202" class="disp" font-size="14">Pump Room</text>
       <text x="1396" y="226" font-size="11.5">AquaRev water conditioning</text><text x="1396" y="242" font-size="11.5">device installation</text>
-      <text x="1396" y="272" class="lab">PROPERTY</text><line x1="1396" y1="292" x2="1572" y2="292" class="rule-s"/>
-      <text x="1396" y="312" class="lab">LOCATION</text><line x1="1396" y1="330" x2="1572" y2="330" class="rule-s"/>
+      <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
+      <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
       <text x="1396" y="380" class="disp" font-size="14">Schedules &amp;</text><text x="1396" y="398" class="disp" font-size="14">Records</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
-        <text x="1396" y="474" class="lab">CHECKED</text><line x1="1470" y1="476" x2="1572" y2="476" class="rule-s"/>
+        <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
         <text x="1396" y="496" class="lab">DATE</text><text x="1470" y="496" class="mono">22 SEP 2026</text>
         <text x="1396" y="518" class="lab">SCALE</text><text x="1470" y="518">None</text>
         <text x="1396" y="540" class="lab">SIZE</text><text x="1470" y="540">ANSI B 17 &#215; 11</text>
@@ -1505,9 +1505,9 @@ root.innerHTML=`
       <text x="1396" y="612" class="lab">REVISIONS</text>
       <g font-size="10" class="mono"><text x="1396" y="634">REV</text><text x="1428" y="634">DATE</text><text x="1500" y="634">DESCRIPTION</text></g>
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
-      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Issued for review</text></g>
+      <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Schedule values are the design</text><text x="1396" y="796">basis. Replace with the site</text><text x="1396" y="810">assessment record before</text><text x="1396" y="824">ordering. Keep the completed</text><text x="1396" y="838">record in the project file.</text><text x="1396" y="860">NOT FOR CONSTRUCTION UNTIL</text><text x="1396" y="872">SITE-ADAPTED AND CHECKED.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Schedule values are for the</text><text x="1396" y="796">sample property. Real units are</text><text x="1396" y="810">selected from the site assessment</text><text x="1396" y="824">record. The record form is a</text><text x="1396" y="838">template for any installation.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-501</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 8 OF 8</text>
@@ -1582,7 +1582,7 @@ root.innerHTML=`
     </g>
 
     <!-- installation record form -->
-    <text x="930" y="214" class="lab s11">INSTALLATION RECORD &#183; ONE PER DEVICE</text>
+    <text x="930" y="214" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER DEVICE</text>
     <rect x="930" y="222" width="430" height="440" fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"/>
     <g class="rule-s"><line x1="930" y1="252" x2="1360" y2="252"/><line x1="930" y1="282" x2="1360" y2="282"/><line x1="930" y1="312" x2="1360" y2="312"/><line x1="930" y1="342" x2="1360" y2="342"/><line x1="930" y1="372" x2="1360" y2="372"/><line x1="930" y1="402" x2="1360" y2="402"/><line x1="930" y1="432" x2="1360" y2="432"/><line x1="930" y1="462" x2="1360" y2="462"/><line x1="930" y1="492" x2="1360" y2="492"/><line x1="930" y1="522" x2="1360" y2="522"/><line x1="930" y1="552" x2="1360" y2="552"/><line x1="930" y1="582" x2="1360" y2="582"/><line x1="930" y1="612" x2="1360" y2="612"/><line x1="1150" y1="222" x2="1150" y2="662" /></g>
     <g class="lab" font-size="9.5">
@@ -1607,7 +1607,7 @@ root.innerHTML=`
 
 <footer>
   <div><b>AquaRev Water</b> &#183; Installation Drawing Set 100 &#183; Rev A &#183; 22 September 2026 &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF</a></div>
-  <div>Typical drawings. Field-verify before use. Permit determinations rest with the authority having jurisdiction.</div>
+  <div>Reference set drawn around a sample property. Field conditions govern. Permit determinations rest with the authority having jurisdiction.</div>
 </footer>
 </div>
 

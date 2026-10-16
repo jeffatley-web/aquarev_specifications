@@ -11,7 +11,7 @@ root.innerHTML=`
     <p class="sub">The written companion to Drawing Set 100: a three-part specification for the AquaRev water conditioning device on a commercial pool or spa recirculation system, and the step-by-step instructions the installing contractor works from.</p>
   </div>
   <div class="meta">
-    <b>Revision A</b><br>Issued for review &#183; 22 September 2026<br><br>
+    <b>Revision A</b><br>Reference document &#183; 22 September 2026<br><br>
     Companion to<br><b>Installation Drawing Set 100</b><br><b>Product Specification Guide 2026</b><br><b>Pump Room Implementation Guide Rev 1.1</b><br><br>
     aquarevwater.us/data
   </div>
@@ -388,8 +388,8 @@ root.innerHTML=`
   </table></div>
   <p><a href="https://www.aquarevwater.us/drawings">Open Drawing Set 100</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download the PDF</a></p>
   <div class="caution">
-    <div class="t">Typical drawings</div>
-    <p>Set 100 shows a typical arrangement: a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room. Before use on a property, replace the design basis with the site assessment record, fill the property and location fields in each title block, and have the set checked. Permit determinations rest with the authority having jurisdiction.</p>
+    <div class="t">A reference set, not a per-property issue</div>
+    <p>Set 100 is drawn around a sample property, a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room, for engineers and contractors new to the device. Drawings are not produced for each installation; pump rooms differ too much to map every one. The site assessment record (Implementation Guide §3) and field conditions govern each job. Permit determinations rest with the authority having jurisdiction.</p>
   </div>
 </section>
 

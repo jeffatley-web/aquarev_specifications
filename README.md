@@ -83,7 +83,7 @@ drawings https://claude.ai/artifact/MXuMZFfC1exQmvcYonPKDo.
 
 ## Before publishing live
 
-The drawings are a typical arrangement and every title block says "not for
-construction until site-adapted and checked". That is intended for a public
+The drawings are a reference set drawn around a sample property; every title block
+says "reference set, not a site-specific drawing". That is intended for a public
 reference page. The IAPMO listing name and model-ID inconsistencies noted in the
 Implementation Guide memory still apply to any submittal built from these pages.
