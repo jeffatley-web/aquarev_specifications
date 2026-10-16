@@ -1578,17 +1578,20 @@ root.innerHTML=`
       <text x="1246" y="704">PHOTOS</text><text x="1246" y="716">LABEL/CUT/FINAL</text>
     </g>
     <line x1="70" y1="724" x2="1360" y2="724" class="rule"/>
-    <g fill="none" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="724" width="1290" height="102"/></g>
-    <g class="rule-s"><line x1="70" y1="758" x2="1360" y2="758"/><line x1="70" y1="792" x2="1360" y2="792"/><line x1="224" y1="690" x2="224" y2="826"/><line x1="318" y1="690" x2="318" y2="826"/><line x1="432" y1="690" x2="432" y2="826"/><line x1="546" y1="690" x2="546" y2="826"/><line x1="680" y1="690" x2="680" y2="826"/><line x1="774" y1="690" x2="774" y2="826"/><line x1="898" y1="690" x2="898" y2="826"/><line x1="1032" y1="690" x2="1032" y2="826"/><line x1="1136" y1="690" x2="1136" y2="826"/><line x1="1240" y1="690" x2="1240" y2="826"/></g>
+    <g fill="none" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="724" width="1290" height="204"/></g>
+    <g class="rule-s"><line x1="70" y1="758" x2="1360" y2="758"/><line x1="70" y1="792" x2="1360" y2="792"/><line x1="70" y1="826" x2="1360" y2="826"/><line x1="70" y1="860" x2="1360" y2="860"/><line x1="70" y1="894" x2="1360" y2="894"/><line x1="224" y1="690" x2="224" y2="928"/><line x1="318" y1="690" x2="318" y2="928"/><line x1="432" y1="690" x2="432" y2="928"/><line x1="546" y1="690" x2="546" y2="928"/><line x1="680" y1="690" x2="680" y2="928"/><line x1="774" y1="690" x2="774" y2="928"/><line x1="898" y1="690" x2="898" y2="928"/><line x1="1032" y1="690" x2="1032" y2="928"/><line x1="1136" y1="690" x2="1136" y2="928"/><line x1="1240" y1="690" x2="1240" y2="928"/></g>
     <g class="mono" font-size="8.5" fill="#93A2B8">
       <text x="904" y="746">____ / ____ PSI</text><text x="1038" y="746">&#9744; DRY &#9744; WEEP</text><text x="1142" y="746">&#9744; DRY &#9744; WEEP</text><text x="1246" y="746">&#9744; &#9744; &#9744;</text>
       <text x="904" y="780">____ / ____ PSI</text><text x="1038" y="780">&#9744; DRY &#9744; WEEP</text><text x="1142" y="780">&#9744; DRY &#9744; WEEP</text><text x="1246" y="780">&#9744; &#9744; &#9744;</text>
       <text x="904" y="814">____ / ____ PSI</text><text x="1038" y="814">&#9744; DRY &#9744; WEEP</text><text x="1142" y="814">&#9744; DRY &#9744; WEEP</text><text x="1246" y="814">&#9744; &#9744; &#9744;</text>
+      <text x="904" y="848">____ / ____ PSI</text><text x="1038" y="848">&#9744; DRY &#9744; WEEP</text><text x="1142" y="848">&#9744; DRY &#9744; WEEP</text><text x="1246" y="848">&#9744; &#9744; &#9744;</text>
+      <text x="904" y="882">____ / ____ PSI</text><text x="1038" y="882">&#9744; DRY &#9744; WEEP</text><text x="1142" y="882">&#9744; DRY &#9744; WEEP</text><text x="1246" y="882">&#9744; &#9744; &#9744;</text>
+      <text x="904" y="916">____ / ____ PSI</text><text x="1038" y="916">&#9744; DRY &#9744; WEEP</text><text x="1142" y="916">&#9744; DRY &#9744; WEEP</text><text x="1246" y="916">&#9744; &#9744; &#9744;</text>
     </g>
     <!-- signatures -->
-    <g class="rule"><line x1="70" y1="872" x2="560" y2="872"/><line x1="600" y1="872" x2="900" y2="872"/><line x1="940" y1="872" x2="1360" y2="872"/></g>
-    <g class="lab" font-size="9.5"><text x="70" y="888">INSTALLER SIGNATURE</text><text x="600" y="888">DATE</text><text x="940" y="888">RECEIVED FOR THE PROPERTY (NAME, TITLE)</text></g>
-    <text x="70" y="920" font-size="10.5" fill="#5C6B82">One record per job. List every device installed on the job, one row per body of water. Weep at start-up: corrected before the row is signed off. File with the closeout documents above.</text>
+    <g class="rule"><line x1="70" y1="964" x2="560" y2="964"/><line x1="600" y1="964" x2="900" y2="964"/><line x1="940" y1="964" x2="1360" y2="964"/></g>
+    <g class="lab" font-size="9.5"><text x="70" y="980">INSTALLER SIGNATURE</text><text x="600" y="980">DATE</text><text x="940" y="980">RECEIVED FOR THE PROPERTY (NAME, TITLE)</text></g>
+    <text x="70" y="1000" font-size="10.5" fill="#5C6B82">One record per job. List every device installed on the job, one row per body of water. Weep at start-up: corrected before the row is signed off. File with the closeout documents above.</text>
   </svg>
   </div>
 </figure>
