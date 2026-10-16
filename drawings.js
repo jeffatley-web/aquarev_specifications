@@ -1524,31 +1524,26 @@ root.innerHTML=`
       <text x="76" y="152">Schedule 40 PVC union halves with O-rings</text><text x="420" y="152" class="mono">2</text><text x="505" y="152">AquaRev</text><text x="580" y="152">Supplied in the carton with the device; verify present</text>
       <text x="76" y="172">PVC primer</text><text x="420" y="172" class="mono">1</text><text x="505" y="172">Contractor</text><text x="580" y="172">ASTM F656, purple, in date</text>
       <text x="76" y="192">PVC solvent cement</text><text x="420" y="192" class="mono">1</text><text x="505" y="192">Contractor</text><text x="580" y="192">ASTM D2564; heavy body for 4 in. and larger; in date</text>
-      <text x="76" y="212">Spare pipe, same size and schedule as the return</text><text x="420" y="212" class="mono">10 ft</text><text x="505" y="212">Contractor</text><text x="580" y="212">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
-      <text x="76" y="232">Couplings and 90° elbows, same size and schedule</text><text x="420" y="232" class="mono">as req.</text><text x="505" y="232">Contractor</text><text x="580" y="232">ASTM D2466 Sch 40 PVC socket fittings</text>
-      <text x="76" y="252">Pipe supports</text><text x="420" y="252" class="mono">as req.</text><text x="505" y="252">Contractor</text><text x="580" y="252">None for the device; only where a rerouted run needs them</text>
-      <text x="76" y="272">Lock-out devices and tags</text><text x="420" y="272" class="mono">per loop</text><text x="505" y="272">Contractor</text><text x="580" y="272">Pump disconnect plus every chemical feeder on the loop</text>
-      <text x="76" y="292">Flow-direction label on pipe at device</text><text x="420" y="292" class="mono">1</text><text x="505" y="292">Contractor</text><text x="580" y="292">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
     </g>
-    <g class="rule-s"><line x1="70" y1="138" x2="890" y2="138"/><line x1="70" y1="158" x2="890" y2="158"/><line x1="70" y1="178" x2="890" y2="178"/><line x1="70" y1="198" x2="890" y2="198"/><line x1="70" y1="218" x2="890" y2="218"/><line x1="70" y1="238" x2="890" y2="238"/><line x1="70" y1="258" x2="890" y2="258"/><line x1="70" y1="278" x2="890" y2="278"/><line x1="70" y1="298" x2="890" y2="298"/></g>
-    <text x="70" y="318" class="mono" font-size="8.5" fill="#5C6B82">MODEL: SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE (1/M-301). CLEARANCE ENVELOPE: E/M-401.</text>
-    <text x="70" y="331" class="mono" font-size="8.5" fill="#5C6B82">FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV BEFORE ORDERING.</text>
+    <g class="rule-s"><line x1="70" y1="138" x2="890" y2="138"/><line x1="70" y1="158" x2="890" y2="158"/><line x1="70" y1="178" x2="890" y2="178"/><line x1="70" y1="198" x2="890" y2="198"/></g>
+    <text x="70" y="218" class="mono" font-size="8.5" fill="#5C6B82">MODEL: SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE (1/M-301). CLEARANCE ENVELOPE: E/M-401.</text>
+    <text x="70" y="231" class="mono" font-size="8.5" fill="#5C6B82">FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV BEFORE ORDERING.</text>
 
     <!-- tools -->
-    <text x="70" y="366" class="lab s11">TOOLS AND SAFETY</text>
+    <text x="70" y="276" class="lab s11">TOOLS AND SAFETY</text>
     <g font-size="11">
-      <text x="70" y="388">Pipe cutter or fine-tooth saw &#183; deburring tool &#183; tape measure &#183; marker &#183; primer and cement daubers &#183; clean rags &#183; bucket</text>
-      <text x="70" y="406">Gloves and eye protection &#183; fan or open door for ventilation &#183; no heat or open flame near primer and cement</text>
-      <text x="70" y="424">Camera (carton label, cut zone with tape in frame, finished install with listing mark) &#183; copy of the AHJ determination on site</text>
+      <text x="70" y="298">Pipe cutter or fine-tooth saw &#183; deburring tool &#183; tape measure &#183; marker &#183; primer and cement daubers &#183; clean rags &#183; bucket</text>
+      <text x="70" y="316">Gloves and eye protection &#183; fan or open door for ventilation &#183; no heat or open flame near primer and cement</text>
+      <text x="70" y="334">Camera (carton label, cut zone with tape in frame, finished install with listing mark) &#183; copy of the AHJ determination on site</text>
     </g>
 
     <!-- closeout -->
-    <text x="70" y="472" class="lab s11">CLOSEOUT: KEEP IN THE PROJECT FILE</text>
+    <text x="70" y="382" class="lab s11">CLOSEOUT: KEEP IN THE PROJECT FILE</text>
     <g font-size="11">
-      <text x="70" y="494">1. Site assessment record for each body of water, with photographs (Implementation Guide §3).</text>
-      <text x="70" y="512">2. AHJ determination record with the written reply, or the permit and inspection sign-off (Implementation Guide §6–7).</text>
-      <text x="70" y="530">3. IAPMO R&amp;T listing, Product Specification Guide and warranty terms as issued at purchase.</text>
-      <text x="70" y="548">4. The installation record, completed, with serial numbers, installer licence and photographs.</text>
+      <text x="70" y="404">1. Site assessment record for each body of water, with photographs (Implementation Guide §3).</text>
+      <text x="70" y="422">2. AHJ determination record with the written reply, or the permit and inspection sign-off (Implementation Guide §6–7).</text>
+      <text x="70" y="440">3. IAPMO R&amp;T listing, Product Specification Guide and warranty terms as issued at purchase.</text>
+      <text x="70" y="458">4. The installation record, completed, with serial numbers, installer licence and photographs.</text>
     </g>
 
     <!-- contacts -->
