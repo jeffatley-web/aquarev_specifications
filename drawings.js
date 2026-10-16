@@ -1557,7 +1557,7 @@ root.innerHTML=`
 
     <!-- installation record form, one per job -->
     <line x1="70" y1="590" x2="1360" y2="590" class="rule-s"/>
-    <text x="70" y="616" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER JOB &#183; ONE ROW PER BODY OF WATER</text>
+    <text x="70" y="616" class="lab s11">INSTALLATION RECORD</text>
     <!-- job header: four boxes -->
     <g fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="626" width="400" height="52"/><rect x="470" y="626" width="300" height="52"/><rect x="770" y="626" width="200" height="52"/><rect x="970" y="626" width="390" height="52"/></g>
     <g class="lab" font-size="9.5"><text x="78" y="642">PROPERTY / ADDRESS</text><text x="478" y="642">INSTALLER / LICENCE NO.</text><text x="778" y="642">INSTALL DATE</text><text x="978" y="642">AHJ DETERMINATION ON SITE</text></g>
@@ -1566,27 +1566,25 @@ root.innerHTML=`
     <rect x="70" y="690" width="1290" height="34" class="tbfill"/>
     <g class="th" font-size="9.5">
       <text x="76" y="704">BODY OF</text><text x="76" y="716">WATER</text>
-      <text x="230" y="704">MODEL</text>
-      <text x="324" y="704">SERIAL</text>
-      <text x="438" y="704">RETURN PIPE</text><text x="438" y="716">OD / MATERIAL</text>
-      <text x="552" y="704">FLOW GPM</text><text x="552" y="716">HOW MEASURED</text>
-      <text x="686" y="704">CUT</text><text x="686" y="716">LENGTH IN.</text>
-      <text x="780" y="704">CEMENT /</text><text x="780" y="716">CURE ALLOWED</text>
-      <text x="904" y="704">FILTER GAUGE</text><text x="904" y="716">BEFORE / AFTER</text>
-      <text x="1038" y="704">LEAK CHECK</text><text x="1038" y="716">START-UP</text>
-      <text x="1142" y="704">LEAK CHECK</text><text x="1142" y="716">AFTER 24 H</text>
-      <text x="1246" y="704">PHOTOS</text><text x="1246" y="716">LABEL/CUT/FINAL</text>
+      <text x="306" y="704">MODEL</text>
+      <text x="426" y="704">SERIAL</text>
+      <text x="576" y="704">RETURN PIPE</text><text x="576" y="716">OD / MATERIAL</text>
+      <text x="736" y="704">CUT</text><text x="736" y="716">LENGTH IN.</text>
+      <text x="856" y="704">CEMENT /</text><text x="856" y="716">CURE ALLOWED</text>
+      <text x="1026" y="704">FILTER GAUGE</text><text x="1026" y="716">BEFORE / AFTER</text>
+      <text x="1156" y="704">LEAK CHECK</text><text x="1156" y="716">START-UP</text>
+      <text x="1261" y="704">LEAK CHECK</text><text x="1261" y="716">AFTER 24 H</text>
     </g>
     <line x1="70" y1="724" x2="1360" y2="724" class="rule"/>
     <g fill="none" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="724" width="1290" height="204"/></g>
-    <g class="rule-s"><line x1="70" y1="758" x2="1360" y2="758"/><line x1="70" y1="792" x2="1360" y2="792"/><line x1="70" y1="826" x2="1360" y2="826"/><line x1="70" y1="860" x2="1360" y2="860"/><line x1="70" y1="894" x2="1360" y2="894"/><line x1="224" y1="690" x2="224" y2="928"/><line x1="318" y1="690" x2="318" y2="928"/><line x1="432" y1="690" x2="432" y2="928"/><line x1="546" y1="690" x2="546" y2="928"/><line x1="680" y1="690" x2="680" y2="928"/><line x1="774" y1="690" x2="774" y2="928"/><line x1="898" y1="690" x2="898" y2="928"/><line x1="1032" y1="690" x2="1032" y2="928"/><line x1="1136" y1="690" x2="1136" y2="928"/><line x1="1240" y1="690" x2="1240" y2="928"/></g>
+    <g class="rule-s"><line x1="70" y1="758" x2="1360" y2="758"/><line x1="70" y1="792" x2="1360" y2="792"/><line x1="70" y1="826" x2="1360" y2="826"/><line x1="70" y1="860" x2="1360" y2="860"/><line x1="70" y1="894" x2="1360" y2="894"/><line x1="300" y1="690" x2="300" y2="928"/><line x1="420" y1="690" x2="420" y2="928"/><line x1="570" y1="690" x2="570" y2="928"/><line x1="730" y1="690" x2="730" y2="928"/><line x1="850" y1="690" x2="850" y2="928"/><line x1="1020" y1="690" x2="1020" y2="928"/><line x1="1150" y1="690" x2="1150" y2="928"/><line x1="1255" y1="690" x2="1255" y2="928"/></g>
     <g class="mono" font-size="8.5" fill="#93A2B8">
-      <text x="904" y="746">____ / ____ PSI</text><text x="1038" y="746">&#9744; DRY &#9744; WEEP</text><text x="1142" y="746">&#9744; DRY &#9744; WEEP</text><text x="1246" y="746">&#9744; &#9744; &#9744;</text>
-      <text x="904" y="780">____ / ____ PSI</text><text x="1038" y="780">&#9744; DRY &#9744; WEEP</text><text x="1142" y="780">&#9744; DRY &#9744; WEEP</text><text x="1246" y="780">&#9744; &#9744; &#9744;</text>
-      <text x="904" y="814">____ / ____ PSI</text><text x="1038" y="814">&#9744; DRY &#9744; WEEP</text><text x="1142" y="814">&#9744; DRY &#9744; WEEP</text><text x="1246" y="814">&#9744; &#9744; &#9744;</text>
-      <text x="904" y="848">____ / ____ PSI</text><text x="1038" y="848">&#9744; DRY &#9744; WEEP</text><text x="1142" y="848">&#9744; DRY &#9744; WEEP</text><text x="1246" y="848">&#9744; &#9744; &#9744;</text>
-      <text x="904" y="882">____ / ____ PSI</text><text x="1038" y="882">&#9744; DRY &#9744; WEEP</text><text x="1142" y="882">&#9744; DRY &#9744; WEEP</text><text x="1246" y="882">&#9744; &#9744; &#9744;</text>
-      <text x="904" y="916">____ / ____ PSI</text><text x="1038" y="916">&#9744; DRY &#9744; WEEP</text><text x="1142" y="916">&#9744; DRY &#9744; WEEP</text><text x="1246" y="916">&#9744; &#9744; &#9744;</text>
+      <text x="1026" y="746">____ / ____ PSI</text><text x="1156" y="746">&#9744; DRY &#9744; WEEP</text><text x="1261" y="746">&#9744; DRY &#9744; WEEP</text>
+      <text x="1026" y="780">____ / ____ PSI</text><text x="1156" y="780">&#9744; DRY &#9744; WEEP</text><text x="1261" y="780">&#9744; DRY &#9744; WEEP</text>
+      <text x="1026" y="814">____ / ____ PSI</text><text x="1156" y="814">&#9744; DRY &#9744; WEEP</text><text x="1261" y="814">&#9744; DRY &#9744; WEEP</text>
+      <text x="1026" y="848">____ / ____ PSI</text><text x="1156" y="848">&#9744; DRY &#9744; WEEP</text><text x="1261" y="848">&#9744; DRY &#9744; WEEP</text>
+      <text x="1026" y="882">____ / ____ PSI</text><text x="1156" y="882">&#9744; DRY &#9744; WEEP</text><text x="1261" y="882">&#9744; DRY &#9744; WEEP</text>
+      <text x="1026" y="916">____ / ____ PSI</text><text x="1156" y="916">&#9744; DRY &#9744; WEEP</text><text x="1261" y="916">&#9744; DRY &#9744; WEEP</text>
     </g>
     <!-- signatures -->
     <g class="rule"><line x1="70" y1="964" x2="560" y2="964"/><line x1="600" y1="964" x2="900" y2="964"/><line x1="940" y1="964" x2="1360" y2="964"/></g>
