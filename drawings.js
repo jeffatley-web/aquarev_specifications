@@ -1530,7 +1530,8 @@ root.innerHTML=`
       <text x="76" y="292">Flow-direction label on pipe at device</text><text x="420" y="292" class="mono">1</text><text x="480" y="292">Contractor</text><text x="580" y="292">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
     </g>
     <g class="rule-s"><line x1="70" y1="138" x2="890" y2="138"/><line x1="70" y1="158" x2="890" y2="158"/><line x1="70" y1="178" x2="890" y2="178"/><line x1="70" y1="198" x2="890" y2="198"/><line x1="70" y1="218" x2="890" y2="218"/><line x1="70" y1="238" x2="890" y2="238"/><line x1="70" y1="258" x2="890" y2="258"/><line x1="70" y1="278" x2="890" y2="278"/><line x1="70" y1="298" x2="890" y2="298"/></g>
-    <text x="70" y="318" class="mono" font-size="8.5" fill="#5C6B82">MODEL: BY RETURN PIPE SIZE, THEN FLOW INSIDE THE RANGE (1/M-301). CLEARANCE: E/M-401. FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV.</text>
+    <text x="70" y="318" class="mono" font-size="8.5" fill="#5C6B82">MODEL: SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE (1/M-301). CLEARANCE ENVELOPE: E/M-401.</text>
+    <text x="70" y="331" class="mono" font-size="8.5" fill="#5C6B82">FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV BEFORE ORDERING.</text>
 
     <!-- tools -->
     <text x="70" y="366" class="lab s11">TOOLS AND SAFETY</text>
