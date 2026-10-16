@@ -244,12 +244,12 @@ root.innerHTML=`
     <line x1="640" y1="310" x2="640" y2="1000" class="rule-s"/>
     <text x="664" y="322" class="lab s11">GENERAL NOTES</text>
     <g font-size="11.4">
-      <g class="mono" fill="#0F5C91"><text x="664" y="346">1</text><text x="664" y="384">2</text><text x="664" y="436">3</text><text x="664" y="474">4</text><text x="664" y="512">5</text><text x="664" y="564">6</text><text x="664" y="588">7</text><text x="664" y="626">8</text><text x="664" y="650">9</text><text x="664" y="688">10</text><text x="664" y="712">11</text><text x="664" y="736">12</text><text x="664" y="774">13</text><text x="664" y="798">14</text></g>
+      <g class="mono" fill="#0F5C91"><text x="664" y="346">1</text><text x="664" y="384">2</text><text x="664" y="436">3</text><text x="664" y="474">4</text><text x="664" y="512">5</text><text x="664" y="564">6</text><text x="664" y="588">7</text><text x="664" y="626">8</text><text x="664" y="650">9</text><text x="664" y="688">10</text><text x="664" y="712">11</text><text x="664" y="736">12</text></g>
       <text x="690" y="346">This is a reference set drawn around a sample property. It is not issued per site; the same set serves every</text><text x="690" y="362">installation. Verify existing conditions, pipe sizes, flow and clearances in the field before ordering or cutting.</text>
       <text x="690" y="384">The AquaRev device is a passive in-line water conditioning device certified to NSF/ANSI/CAN 50-2024</text><text x="690" y="400">(IAPMO R&amp;T File No. W-12547). It supplements the pool's disinfection system and does not replace it.</text><text x="690" y="416">Sanitizer and pH are maintained within the regulated range at all times, exactly as before.</text>
       <text x="690" y="436">Install one device per recirculating loop, on the return line, downstream of the pump, filter, heater,</text><text x="690" y="452">chemical feeders and sensors, as close to the pool return as practical. Any orientation is acceptable.</text>
       <text x="690" y="474">Existing equipment is not modified. No electrical, gas, water-supply, drain or sewer connection is made.</text><text x="690" y="490">Suction-side piping, main drains and drain covers are not touched.</text>
-      <text x="690" y="512">Size by return pipe diameter, then confirm the loop flow falls inside the model range (1/M-301). Refer flow</text><text x="690" y="528">within 10% of a range limit, pools over 500,000 gal, and 8 in. or larger returns to AquaRev before</text><text x="690" y="544">ordering. Loops above a model's maximum may be split across two devices in parallel (M-401).</text>
+      <text x="690" y="512">Size by return pipe diameter, then confirm the loop flow falls inside the model range (1/M-301). Refer flow</text><text x="690" y="528">within 10% of a range limit to AquaRev before ordering. Loops above a model's maximum may be split</text><text x="690" y="544">across two devices in parallel (M-401).</text>
       <text x="690" y="564">The device adds up to 2.6 psi at rated flow. Confirm pump margin with a clean filter before installing.</text>
       <text x="690" y="588">Connections: two Schedule 40 PVC unions supplied with the device, solvent-welded to the existing pipe.</text><text x="690" y="604">Primer ASTM F656, cement ASTM D2564, practice ASTM D2855. Heavy-body cement for 4 in. and larger.</text>
       <text x="690" y="626">No dedicated supports are required. Existing pipe supports remain; on a long unsupported run, support near the device (4/M-301).</text>
@@ -257,8 +257,6 @@ root.innerHTML=`
       <text x="690" y="688">Allow the cement manufacturer's full cure for the pipe size and temperature before pressurizing.</text>
       <text x="690" y="712">Work is performed by a licensed pool contractor or plumber. The warranty requires professional installation.</text>
       <text x="690" y="736">Obtain the AHJ's written permit determination before install day (Implementation Guide §6–7).</text><text x="690" y="752">The contractor carries a copy on site.</text>
-      <text x="690" y="774">Record model, serial, cut length, cure time and gauge readings on the installation record (M-501).</text>
-      <text x="690" y="798">Where these drawings differ from the union or cement manufacturer's instructions, the manufacturer's</text><text x="690" y="814">instructions govern.</text>
     </g>
 
     <!-- legend -->
@@ -1035,31 +1033,31 @@ root.innerHTML=`
     <!-- ===== DETAIL 4: pipe support, no scale ===== -->
     <g>
       <!-- floor -->
-      <rect x="760" y="900" width="600" height="14" fill="url(#hatch-conc)" stroke="none"/><line x1="760" y1="900" x2="1360" y2="900" stroke="#0E1E3A" stroke-width="2"/>
-      <text x="1352" y="926" class="mono rt" font-size="8" fill="#5C6B82">EQUIPMENT ROOM FLOOR (E)</text>
+      <rect x="760" y="820" width="600" height="14" fill="url(#hatch-conc)" stroke="none"/><line x1="760" y1="820" x2="1360" y2="820" stroke="#0E1E3A" stroke-width="2"/>
+      <text x="1352" y="846" class="mono rt" font-size="8" fill="#5C6B82">EQUIPMENT ROOM FLOOR (E)</text>
       <!-- pipe -->
       <rect x="780" y="673" width="560" height="54" class="eq"/>
       <text x="800" y="704" class="mono" font-size="8.5">4" RETURN (E)</text><text x="1332" y="704" class="mono rt" font-size="8.5">TO POOL</text>
       <!-- device -->
       <use href="#wcd" transform="translate(1060 700) scale(2.8)"/>
       <!-- existing support, remains -->
-      <g class="eqm"><rect x="844" y="727" width="12" height="165"/><rect x="826" y="892" width="48" height="8"/><rect x="834" y="666" width="32" height="68" rx="3" fill="none"/></g>
+      <g class="eqm"><rect x="844" y="727" width="12" height="85"/><rect x="826" y="812" width="48" height="8"/><rect x="834" y="666" width="32" height="68" rx="3" fill="none"/></g>
       <!-- optional support on a long run, dashed -->
-      <g fill="none" stroke="#5C6B82" stroke-width="1.2" stroke-dasharray="5 3"><rect x="1264" y="727" width="12" height="165"/><rect x="1246" y="892" width="48" height="8"/><rect x="1254" y="666" width="32" height="68" rx="3"/></g>
+      <g fill="none" stroke="#5C6B82" stroke-width="1.2" stroke-dasharray="5 3"><rect x="1264" y="727" width="12" height="85"/><rect x="1246" y="812" width="48" height="8"/><rect x="1254" y="666" width="32" height="68" rx="3"/></g>
       <!-- leaders -->
       <path d="M856 770 L864 770" class="ldr" marker-start="url(#dot)"/><text x="868" y="773" font-size="9">EXISTING SUPPORT (E), REMAINS WHERE IT IS</text>
       <path d="M1270 666 L1270 646" class="ldr" marker-start="url(#dot)"/><text x="1270" y="640" class="ctr" font-size="9">OPTIONAL: LONG UNSUPPORTED RUN ONLY</text>
       <path d="M1215 706 L1215 790 L1140 790" class="ldr" marker-start="url(#dot)"/><text x="1136" y="793" class="rt" font-size="9">UNION (N) CARRIES THE DEVICE</text>
       <!-- notes -->
-      <text x="760" y="826" class="lab">NOTES</text>
+      <text x="760" y="862" class="lab">NOTES</text>
       <g font-size="10">
-        <text x="760" y="844">1. No dedicated supports are required. The device is carried by the return line on its two unions.</text>
-        <text x="760" y="860">2. Existing pipe hangers and stands remain in place. Do not remove one to make room; move the cut instead.</text>
-        <text x="760" y="876">3. On a long unsupported horizontal run, support the pipe or the device body adjacent to the device as good practice.</text>
-        <text x="760" y="892">4. Vertical, diagonal and angled runs: existing riser clamps remain. No additional clamp is needed.</text>
+        <text x="760" y="880">1. No dedicated supports are required. The device is carried by the return line on its two unions.</text>
+        <text x="760" y="896">2. Existing pipe hangers and stands remain in place. Do not remove one to make room; move the cut instead.</text>
+        <text x="760" y="912">3. On a long unsupported horizontal run, support the pipe or the device body adjacent to the device as good practice.</text>
+        <text x="760" y="928">4. Vertical, diagonal and angled runs: existing riser clamps remain. No additional clamp is needed.</text>
+        <text x="760" y="944">5. Hardware, where used: galvanized or fiberglass strut, PVC-coated or stainless clamps in chemical rooms. Not supplied with the device.</text>
+        <text x="760" y="960">6. Winter: the device drains through the unions with the rest of the loop. No separate drain point is needed.</text>
       </g>
-      <text x="760" y="950" font-size="10">5. Hardware, where used: galvanized or fiberglass strut, PVC-coated or stainless clamps in chemical rooms. Not supplied with the device.</text>
-      <text x="760" y="966" font-size="10">6. Winter: the device drains through the unions with the rest of the loop. No separate drain point is needed.</text>
       <!-- title -->
       <use href="#bub" x="740" y="558"/><text x="740" y="555" class="knt s9">4</text><text x="740" y="569" class="knt s8">M-301</text>
       <text x="766" y="556" class="cap">PIPE SUPPORT AT DEVICE &#183; HORIZONTAL RUN</text>
@@ -1551,8 +1549,6 @@ root.innerHTML=`
     <g font-size="11">
       <text x="930" y="108">Sales and AHJ package support</text><text x="930" y="124" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
       <text x="930" y="148">Technical support and warranty claims</text><text x="930" y="164" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
-      <text x="930" y="188">Listing verification</text><text x="930" y="204" class="mono" font-size="10.5">pld.iapmo.org &#183; File No. W-12547</text>
-      <text x="930" y="228">Documents</text><text x="930" y="244" class="mono" font-size="10.5">aquarevwater.us/data &#183; aquarevwater.us/warranty</text>
     </g>
 
     <!-- installation record form, one per job -->
