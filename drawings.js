@@ -252,7 +252,7 @@ root.innerHTML=`
       <text x="690" y="512">Size by return pipe diameter, then confirm the loop flow falls inside the model range (M-501). Refer flow</text><text x="690" y="528">within 10% of a range limit, pools over 500,000 gal, and 8 in. or larger returns to AquaRev before</text><text x="690" y="544">ordering. Loops above a model's maximum may be split across two devices in parallel (M-401).</text>
       <text x="690" y="564">The device adds up to 2.6 psi at rated flow. Confirm pump margin with a clean filter before installing.</text>
       <text x="690" y="588">Connections: two Schedule 40 PVC unions supplied with the device, solvent-welded to the existing pipe.</text><text x="690" y="604">Primer ASTM F656, cement ASTM D2564, practice ASTM D2855. Heavy-body cement for 4 in. and larger.</text>
-      <text x="690" y="626">Support the pipe within 12 in. of each union on horizontal runs. Never clamp the device body (4/M-301).</text>
+      <text x="690" y="626">No dedicated supports are required. Existing pipe supports remain; on a long unsupported run, support near the device (4/M-301).</text>
       <text x="690" y="650">Lock out and tag the pump disconnect and every chemical feeder on the loop before opening the line.</text><text x="690" y="666">Depressurize and verify the filter gauge reads zero before cutting.</text>
       <text x="690" y="688">Allow the cement manufacturer's full cure for the pipe size and temperature before pressurizing.</text>
       <text x="690" y="712">Work is performed by a licensed pool contractor or plumber. The warranty requires professional installation.</text>
@@ -568,8 +568,6 @@ root.innerHTML=`
     <!-- cut zone + new device WCD-1 -->
     <rect x="638" y="156" width="44" height="138" class="cutz"/>
     <use href="#wcd" transform="translate(660 225) rotate(-90) scale(.94)"/>
-    <rect x="652" y="146" width="16" height="6" fill="#1B7FC4"/><rect x="652" y="298" width="16" height="6" fill="#1B7FC4"/>
-    <text x="676" y="152" class="mono" font-size="7.5" fill="#0F5C91">PS (N)</text><text x="676" y="304" class="mono" font-size="7.5" fill="#0F5C91">PS (N)</text>
     <line x1="700" y1="240" x2="700" y2="190" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/>
     <text x="706" y="220" class="mono" font-size="9" fill="#0F5C91">FLOW</text>
     <text x="706" y="200" class="disp acc" font-size="10">WCD-1 (N)</text><text x="706" y="212" class="mono" font-size="8.5" fill="#0F5C91">KD4X8X4</text>
@@ -603,7 +601,6 @@ root.innerHTML=`
     <use href="#gv" x="1010" y="290" transform="rotate(90 1010 290)"/><text x="1024" y="294" class="mono" font-size="7.5">GV (E)</text>
     <rect x="994" y="150" width="32" height="100" class="cutz"/>
     <use href="#wcd" transform="translate(1010 200) rotate(-90) scale(.675)"/>
-    <rect x="1003" y="140" width="14" height="5" fill="#1B7FC4"/><rect x="1003" y="256" width="14" height="5" fill="#1B7FC4"/>
     <line x1="1036" y1="222" x2="1036" y2="178" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/>
     <text x="1030" y="132" class="disp rt acc" font-size="9.5">WCD-2 (N)</text><text x="1030" y="143" class="mono rt" font-size="8" fill="#0F5C91">KD2X4X2</text>
     <text x="998" y="90" class="mono rt" font-size="9">2" TO SPA RETURN (E)</text>
@@ -662,7 +659,7 @@ root.innerHTML=`
       <use href="#hex" x="1140" y="488"/><text x="1140" y="492" class="knt">9</text><text x="1158" y="486">Existing return isolation valve where</text><text x="1158" y="499">fitted; otherwise drain filter to isolate.</text>
       <use href="#hex" x="1140" y="524"/><text x="1140" y="528" class="knt">10</text><text x="1158" y="522">Existing injection points stay upstream</text><text x="1158" y="535">of the device. No relocation.</text>
       <use href="#hex" x="1140" y="560"/><text x="1140" y="564" class="knt">11</text><text x="1158" y="558">Existing controller and sample line,</text><text x="1158" y="571">N.I.C. Do not change setpoints.</text>
-      <use href="#hex" x="1140" y="596"/><text x="1140" y="600" class="knt">12</text><text x="1158" y="594">Pipe support (N) within 12" of each</text><text x="1158" y="607">union. 4/M-301.</text>
+      <use href="#hex" x="1140" y="596"/><text x="1140" y="600" class="knt">12</text><text x="1158" y="594">Existing pipe supports remain. No</text><text x="1158" y="607">dedicated support is added. 4/M-301.</text>
       <use href="#hex" x="1140" y="632"/><text x="1140" y="636" class="knt">13</text><text x="1158" y="630">Suction-side piping. Not touched.</text>
       <use href="#hex" x="1140" y="668"/><text x="1140" y="672" class="knt">14</text><text x="1158" y="666">Door. Open for ventilation while</text><text x="1158" y="679">priming and cementing.</text>
     </g>
@@ -1044,34 +1041,28 @@ root.innerHTML=`
       <text x="800" y="704" class="mono" font-size="8.5">4" RETURN (E)</text><text x="1332" y="704" class="mono rt" font-size="8.5">TO POOL</text>
       <!-- device -->
       <use href="#wcd" transform="translate(1060 700) scale(2.8)"/>
-      <!-- stands -->
-      <g class="dev"><rect x="844" y="727" width="12" height="165"/><rect x="826" y="892" width="48" height="8"/><rect x="1264" y="727" width="12" height="165"/><rect x="1246" y="892" width="48" height="8"/></g>
-      <g fill="none" stroke="#1B7FC4" stroke-width="2"><rect x="834" y="666" width="32" height="68" rx="3"/><rect x="1254" y="666" width="32" height="68" rx="3"/></g>
-      <!-- no clamp on body -->
-      <circle cx="1060" cy="620" r="13" fill="#FFFFFF" stroke="#B03A2E" stroke-width="2"/><line x1="1051" y1="611" x2="1069" y2="629" stroke="#B03A2E" stroke-width="2"/>
-      <text x="1060" y="600" class="mono ctr stopt" font-size="8.5">NO CLAMP ON BODY</text>
-      <path d="M1060 633 L1060 644" class="ldr" marker-end="url(#da)"/>
-      <!-- dims 12" max -->
-      <g class="dim"><line x1="850" y1="650" x2="905" y2="650" marker-start="url(#da)" marker-end="url(#da)"/><line x1="1215" y1="650" x2="1270" y2="650" marker-start="url(#da)" marker-end="url(#da)"/></g>
-      <g class="ext"><line x1="850" y1="656" x2="850" y2="664"/><line x1="905" y1="656" x2="905" y2="676"/><line x1="1215" y1="656" x2="1215" y2="676"/><line x1="1270" y1="656" x2="1270" y2="664"/></g>
-      <text x="877" y="646" class="dimt s9">12" MAX</text><text x="1242" y="646" class="dimt s9">12" MAX</text>
+      <!-- existing support, remains -->
+      <g class="eqm"><rect x="844" y="727" width="12" height="165"/><rect x="826" y="892" width="48" height="8"/><rect x="834" y="666" width="32" height="68" rx="3" fill="none"/></g>
+      <!-- optional support on a long run, dashed -->
+      <g fill="none" stroke="#5C6B82" stroke-width="1.2" stroke-dasharray="5 3"><rect x="1264" y="727" width="12" height="165"/><rect x="1246" y="892" width="48" height="8"/><rect x="1254" y="666" width="32" height="68" rx="3"/></g>
       <!-- leaders -->
-      <path d="M850 760 L820 760 L790 760" class="ldr" marker-start="url(#dot)"/><text x="788" y="776" font-size="9">STRUT STAND + PIPE CLAMP (N), TYP 2</text><text x="788" y="788" font-size="9">OR CLEVIS HANGER FROM STRUCTURE</text>
-      <path d="M1160 706 L1200 780 L1220 780" class="ldr" marker-start="url(#dot)"/><text x="1224" y="783" font-size="9">UNION (N)</text>
+      <path d="M850 760 L820 760 L790 760" class="ldr" marker-start="url(#dot)"/><text x="788" y="776" font-size="9">EXISTING PIPE SUPPORT (E), REMAINS</text><text x="788" y="788" font-size="9">WHERE IT IS. NOT RELOCATED.</text>
+      <path d="M1270 666 L1270 646" class="ldr" marker-start="url(#dot)"/><text x="1270" y="640" class="ctr" font-size="9">OPTIONAL: LONG UNSUPPORTED RUN ONLY</text>
+      <path d="M1160 706 L1200 800 L1220 800" class="ldr" marker-start="url(#dot)"/><text x="1224" y="803" font-size="9">UNION (N) CARRIES THE DEVICE</text>
       <!-- notes -->
-      <text x="760" y="820" class="lab">NOTES</text>
+      <text x="760" y="826" class="lab">NOTES</text>
       <g font-size="10">
-        <text x="760" y="838">1. Support the pipe within 12 in. of each union, both sides. The unions carry no pipe load.</text>
-        <text x="760" y="854">2. Never clamp or hang the device body. Support the pipe, not the device.</text>
-        <text x="760" y="870">3. Existing hangers within 12 in. may be reused. Add stands or hangers where they are not.</text>
-        <text x="760" y="886">4. Vertical runs: riser clamp above the upper union. Diagonal and angled runs: same 12 in. rule.</text>
+        <text x="760" y="844">1. No dedicated supports are required. The device is carried by the return line on its two unions.</text>
+        <text x="760" y="860">2. Existing pipe hangers and stands remain in place. Do not remove one to make room; move the cut instead.</text>
+        <text x="760" y="876">3. On a long unsupported horizontal run, support the pipe or the device body adjacent to the device as good practice.</text>
+        <text x="760" y="892">4. Vertical, diagonal and angled runs: existing riser clamps remain. No additional clamp is needed.</text>
       </g>
-      <text x="760" y="950" font-size="10">5. Hardware: galvanized or fiberglass strut, PVC-coated or stainless clamps in chemical rooms. Not supplied with the device.</text>
+      <text x="760" y="950" font-size="10">5. Hardware, where used: galvanized or fiberglass strut, PVC-coated or stainless clamps in chemical rooms. Not supplied with the device.</text>
       <text x="760" y="966" font-size="10">6. Winter: the device drains through the unions with the rest of the loop. No separate drain point is needed.</text>
       <!-- title -->
       <use href="#bub" x="740" y="558"/><text x="740" y="555" class="knt s9">4</text><text x="740" y="569" class="knt s8">M-301</text>
       <text x="766" y="556" class="cap">PIPE SUPPORT AT DEVICE &#183; HORIZONTAL RUN</text>
-      <text x="766" y="572" class="caps">NO SCALE &#183; SUPPORT THE PIPE, NOT THE DEVICE</text>
+      <text x="766" y="572" class="caps">NO SCALE &#183; NO DEDICATED SUPPORTS REQUIRED &#183; EXISTING SUPPORTS REMAIN</text>
     </g>
   </svg>
   </div>
@@ -1270,8 +1261,8 @@ root.innerHTML=`
         <text x="10" y="341">into the union tails with the O-rings in place and the faces</text>
         <text x="10" y="356">clean. Confirm full insertion, then tighten each nut hand-tight</text>
         <text x="10" y="371">plus a small snug. No wrench, no dope, no cement on the</text>
-        <text x="10" y="386">threads. Support the pipe within 12 in. of each union on a</text>
-        <text x="10" y="401">horizontal run (4/M-301).</text>
+        <text x="10" y="386">threads. No dedicated supports are needed; existing pipe</text>
+        <text x="10" y="401">supports stay where they are (4/M-301).</text>
       </g>
     </g>
 
@@ -1376,17 +1367,16 @@ root.innerHTML=`
     <!-- ===== A: horizontal ===== -->
     <g>
       <use href="#bub" x="90" y="98"/><text x="90" y="95" class="knt s9">A</text><text x="90" y="109" class="knt s8">M-401</text>
-      <text x="116" y="96" class="cap">HORIZONTAL RUN &#183; PREFERRED</text><text x="116" y="112" class="caps">EASIEST TO SUPPORT, INSPECT AND REMOVE</text>
+      <text x="116" y="96" class="cap">HORIZONTAL RUN &#183; PREFERRED</text><text x="116" y="112" class="caps">EASIEST TO INSPECT AND REMOVE</text>
       <line x1="70" y1="120" x2="480" y2="120" class="rule"/>
       <rect x="90" y="380" width="380" height="10" fill="url(#hatch-conc)"/><line x1="90" y1="380" x2="470" y2="380" stroke="#0E1E3A" stroke-width="1.6"/>
       <line x1="90" y1="250" x2="470" y2="250" class="pe"/>
       <use href="#wcd" transform="translate(280 250) scale(1.6)"/>
-      <g class="dev"><rect x="150" y="262" width="10" height="112"/><rect x="136" y="374" width="38" height="6"/><rect x="400" y="262" width="10" height="112"/><rect x="386" y="374" width="38" height="6"/></g>
-      <g fill="none" stroke="#1B7FC4" stroke-width="1.8"><rect x="143" y="238" width="24" height="26" rx="2"/><rect x="393" y="238" width="24" height="26" rx="2"/></g>
+      <g class="eqm"><rect x="120" y="262" width="10" height="112"/><rect x="106" y="374" width="38" height="6"/><rect x="113" y="238" width="24" height="26" rx="2" fill="none"/></g>
       <line x1="100" y1="200" x2="160" y2="200" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="100" y="190" class="mono" font-size="8" fill="#0F5C91">FROM PUMP</text>
       <line x1="400" y1="200" x2="460" y2="200" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="460" y="190" class="mono rt" font-size="8" fill="#0F5C91">TO POOL</text>
-      <text x="155" y="304" class="mono ctr" font-size="7.5">SUPPORT (N)</text><text x="405" y="304" class="mono ctr" font-size="7.5">SUPPORT (N)</text>
-      <g font-size="10"><text x="90" y="420">Supports within 12 in. of each union. Label faces out.</text><text x="90" y="436">Room above the body to lift it out after loosening</text><text x="90" y="452">both nuts. No other requirements.</text></g>
+      <text x="125" y="304" class="mono ctr" font-size="7.5">SUPPORT (E)</text>
+      <g font-size="10"><text x="90" y="420">No dedicated supports. Existing hangers remain. Label</text><text x="90" y="436">faces out. Room above the body to lift it out after</text><text x="90" y="452">loosening both nuts. No other requirements.</text></g>
     </g>
 
     <!-- ===== B: vertical ===== -->
@@ -1397,10 +1387,9 @@ root.innerHTML=`
       <rect x="800" y="140" width="14" height="340" fill="url(#hatch-wall)" stroke="#0E1E3A" stroke-width="1"/><text x="822" y="310" class="mono" font-size="8" transform="rotate(90 822 310)">WALL OR COLUMN (E)</text>
       <line x1="690" y1="150" x2="690" y2="470" class="pe"/>
       <use href="#wcd" transform="translate(690 300) rotate(-90) scale(1.6)"/>
-      <g class="dev"><rect x="700" y="176" width="100" height="10"/><rect x="700" y="418" width="100" height="10"/></g>
-      <g fill="none" stroke="#1B7FC4" stroke-width="1.8"><rect x="676" y="168" width="28" height="26" rx="2"/><rect x="676" y="410" width="28" height="26" rx="2"/></g>
-      <text x="668" y="174" class="mono rt" font-size="7.5" fill="#0F5C91">RISER CLAMP (N)</text><text x="668" y="185" class="mono rt" font-size="7.5" fill="#0F5C91">ABOVE UPPER UNION</text>
-      <text x="668" y="416" class="mono rt" font-size="7.5" fill="#0F5C91">CLAMP (N)</text><text x="668" y="427" class="mono rt" font-size="7.5" fill="#0F5C91">BELOW LOWER UNION</text>
+      <g class="eqm"><rect x="700" y="176" width="100" height="10"/><rect x="676" y="168" width="28" height="26" rx="2" fill="none"/></g>
+      <text x="668" y="174" class="mono rt" font-size="7.5">RISER CLAMP (E)</text><text x="668" y="185" class="mono rt" font-size="7.5">REMAINS</text>
+      <text x="668" y="420" class="mono rt" font-size="7.5" fill="#5C6B82">NO ADDED CLAMP</text>
       <line x1="556" y1="440" x2="556" y2="380" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="530" y="470" class="mono" font-size="8" fill="#0F5C91">FROM PUMP (UP-FLOW SHOWN)</text>
       <line x1="556" y1="220" x2="556" y2="160" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="530" y="150" class="mono" font-size="8" fill="#0F5C91">TO POOL</text>
       <g font-size="10"><text x="530" y="500">Down-flow is equally acceptable. Keep hand access to both nuts.</text></g>
@@ -1422,7 +1411,7 @@ root.innerHTML=`
       <g class="dim"><line x1="1100" y1="360" x2="1300" y2="360" marker-start="url(#da)" marker-end="url(#da)"/></g><g class="ext"><line x1="1100" y1="330" x2="1100" y2="366"/><line x1="1300" y1="330" x2="1300" y2="366"/></g>
       <text x="1200" y="356" class="dimt s9">≥ L1 + 8"</text>
       <line x1="965" y1="160" x2="1010" y2="160" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="965" y="150" class="mono" font-size="8" fill="#0F5C91">FROM PUMP</text>
-      <g font-size="10"><text x="960" y="420">Add elbows and lengths of the same size and schedule</text><text x="960" y="436">to create the run. Keep the device the last component.</text><text x="960" y="452">Support the new run within 12 in. of each union and at</text><text x="960" y="468">each elbow. Elbows add friction; four 90s on 4 in. pipe</text><text x="960" y="484">add well under 1 psi at 417 gpm. Confirm pump margin.</text></g>
+      <g font-size="10"><text x="960" y="420">Add elbows and lengths of the same size and schedule</text><text x="960" y="436">to create the run. Keep the device the last component.</text><text x="960" y="452">Support the new run at its elbows as for any rerouted</text><text x="960" y="468">pipe. Elbows add friction; four 90s on 4 in. pipe</text><text x="960" y="484">add well under 1 psi at 417 gpm. Confirm pump margin.</text></g>
     </g>
 
     <!-- ===== D: parallel devices ===== -->
@@ -1530,8 +1519,8 @@ root.innerHTML=`
     <g class="th"><text x="76" y="108">TAG</text><text x="130" y="108">LOOP</text><text x="200" y="108">RETURN PIPE</text><text x="300" y="108">DESIGN FLOW</text><text x="400" y="108">MODEL</text><text x="490" y="108">RANGE GPM</text><text x="590" y="108">HEAD LOSS</text><text x="680" y="108">UNIONS</text><text x="790" y="108">LOCATION</text><text x="1090" y="108">SUPPORTS</text><text x="1230" y="108">WEIGHT</text></g>
     <line x1="70" y1="114" x2="1360" y2="114" class="rule"/>
     <g class="tdm">
-      <text x="76" y="132">WCD-1</text><text x="130" y="132" font-family="'Source Sans 3',Arial,sans-serif">Pool</text><text x="200" y="132">4" PVC Sch 40</text><text x="300" y="132">417 gpm</text><text x="400" y="132">KD4X8X4</text><text x="490" y="132">240–480</text><text x="590" y="132">≤ 2.6 psi</text><text x="680" y="132">2 × 4" Sch 40</text><text x="790" y="132" font-family="'Source Sans 3',Arial,sans-serif">After FM-1 on return run, 9½" from wall (M-101)</text><text x="1090" y="132" font-family="'Source Sans 3',Arial,sans-serif">2 stands (N)</text><text x="1230" y="132">35 lb</text>
-      <text x="76" y="152">WCD-2</text><text x="130" y="152" font-family="'Source Sans 3',Arial,sans-serif">Spa</text><text x="200" y="152">2" PVC Sch 40</text><text x="300" y="152">100 gpm</text><text x="400" y="152">KD2X4X2</text><text x="490" y="152">44–127</text><text x="590" y="152">≤ 2.6 psi</text><text x="680" y="152">2 × 2" Sch 40</text><text x="790" y="152" font-family="'Source Sans 3',Arial,sans-serif">After FM-2 on spa return, at wall (M-101)</text><text x="1090" y="152" font-family="'Source Sans 3',Arial,sans-serif">2 stands (N)</text><text x="1230" y="152">8 lb</text>
+      <text x="76" y="132">WCD-1</text><text x="130" y="132" font-family="'Source Sans 3',Arial,sans-serif">Pool</text><text x="200" y="132">4" PVC Sch 40</text><text x="300" y="132">417 gpm</text><text x="400" y="132">KD4X8X4</text><text x="490" y="132">240–480</text><text x="590" y="132">≤ 2.6 psi</text><text x="680" y="132">2 × 4" Sch 40</text><text x="790" y="132" font-family="'Source Sans 3',Arial,sans-serif">After FM-1 on return run, 9½" from wall (M-101)</text><text x="1090" y="132" font-family="'Source Sans 3',Arial,sans-serif">None added</text><text x="1230" y="132">35 lb</text>
+      <text x="76" y="152">WCD-2</text><text x="130" y="152" font-family="'Source Sans 3',Arial,sans-serif">Spa</text><text x="200" y="152">2" PVC Sch 40</text><text x="300" y="152">100 gpm</text><text x="400" y="152">KD2X4X2</text><text x="490" y="152">44–127</text><text x="590" y="152">≤ 2.6 psi</text><text x="680" y="152">2 × 2" Sch 40</text><text x="790" y="152" font-family="'Source Sans 3',Arial,sans-serif">After FM-2 on spa return, at wall (M-101)</text><text x="1090" y="152" font-family="'Source Sans 3',Arial,sans-serif">None added</text><text x="1230" y="152">8 lb</text>
     </g>
     <g class="rule-s"><line x1="70" y1="138" x2="1360" y2="138"/><line x1="70" y1="158" x2="1360" y2="158"/></g>
     <text x="70" y="176" class="mono" font-size="8.5" fill="#5C6B82">SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE. FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV BEFORE ORDERING.</text>
@@ -1548,9 +1537,9 @@ root.innerHTML=`
       <text x="76" y="320">PVC solvent cement</text><text x="420" y="320" class="mono">1</text><text x="480" y="320">Contractor</text><text x="580" y="320">ASTM D2564; heavy body for 4 in. and larger; in date</text>
       <text x="76" y="340">Spare pipe, same size and schedule as the return</text><text x="420" y="340" class="mono">10 ft</text><text x="480" y="340">Contractor</text><text x="580" y="340">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
       <text x="76" y="360">Couplings and 90° elbows, same size and schedule</text><text x="420" y="360" class="mono">as req.</text><text x="480" y="360">Contractor</text><text x="580" y="360">ASTM D2466 Sch 40 PVC socket fittings</text>
-      <text x="76" y="380">Pipe supports: strut stands or clevis hangers with clamps</text><text x="420" y="380" class="mono">2</text><text x="480" y="380">Contractor</text><text x="580" y="380">Within 12 in. of each union; corrosion-resistant hardware</text>
+      <text x="76" y="380">Pipe supports</text><text x="420" y="380" class="mono">as req.</text><text x="480" y="380">Contractor</text><text x="580" y="380">None required for the device; only where a rerouted run needs them</text>
       <text x="76" y="400">Lock-out devices and tags</text><text x="420" y="400" class="mono">per loop</text><text x="480" y="400">Contractor</text><text x="580" y="400">Pump disconnect plus every chemical feeder on the loop</text>
-      <text x="76" y="420">Flow-direction label on pipe at device</text><text x="420" y="420" class="mono">1</text><text x="480" y="420">Contractor</text><text x="580" y="420">Optional; arrow toward pool, "AquaRev WCD, do not clamp body"</text>
+      <text x="76" y="420">Flow-direction label on pipe at device</text><text x="420" y="420" class="mono">1</text><text x="480" y="420">Contractor</text><text x="580" y="420">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
     </g>
     <g class="rule-s"><line x1="70" y1="266" x2="890" y2="266"/><line x1="70" y1="286" x2="890" y2="286"/><line x1="70" y1="306" x2="890" y2="306"/><line x1="70" y1="326" x2="890" y2="326"/><line x1="70" y1="346" x2="890" y2="346"/><line x1="70" y1="366" x2="890" y2="366"/><line x1="70" y1="386" x2="890" y2="386"/><line x1="70" y1="406" x2="890" y2="406"/><line x1="70" y1="426" x2="890" y2="426"/></g>
 
@@ -1571,7 +1560,7 @@ root.innerHTML=`
       <text x="90" y="622">03 Cut length measured from dry-fitted tails; cut square</text>
       <text x="90" y="644">04 Ends deburred, clean, dry; parts count confirmed</text>
       <text x="500" y="578">05 Tails primed, cemented, full depth, ¼ turn, 30 s hold</text>
-      <text x="500" y="600">06 IN toward pump; nuts hand tight + snug; pipe supported</text>
+      <text x="500" y="600">06 IN toward pump; nuts hand tight + snug; existing supports undisturbed</text>
       <text x="500" y="622">07 Full cure waited; drains closed; filter refilled</text>
       <text x="500" y="644">08 Pump restarted, no leaks, gauge read, feeders restored, photos</text>
     </g>

@@ -56,7 +56,7 @@ root.innerHTML=`
 
   <h4>1.1 Summary</h4>
   <ol class="clauses">
-    <li><span class="c">1.1.A</span><div><p><strong>Work included.</strong> Furnish and install one AquaRev water conditioning device per recirculating loop, in series on the existing return line, downstream of all treatment equipment, using the two Schedule 40 PVC unions supplied with the device, with pipe supports, and with the records listed in Part 3.</p></div></li>
+    <li><span class="c">1.1.A</span><div><p><strong>Work included.</strong> Furnish and install one AquaRev water conditioning device per recirculating loop, in series on the existing return line, downstream of all treatment equipment, using the two Schedule 40 PVC unions supplied with the device, and with the records listed in Part 3.</p></div></li>
     <li><span class="c">1.1.B</span><div><p><strong>Work not included.</strong> No modification to the pump, filter, heater, chlorinator or salt cell, chemical feeders, controller, sensors, suction piping, main drains, drain covers, shell, deck or barriers. No electrical, gas, water-supply, drain, sewer or backwash connection. No change to turnover, flow rate or disinfection method.</p></div></li>
     <li><span class="c">1.1.C</span><div><p><strong>Related documents.</strong> Installation Drawing Set 100, sheets G-001 through M-501. Product Specification Guide 2026. Pump Room Implementation Guide Rev 1.1 (site assessment, approvals, permit determination, jurisdiction package). Installation Pathway Rev 1.0 (who does what, when).</p></div></li>
   </ol>
@@ -175,9 +175,9 @@ root.innerHTML=`
       <tr><td class="lab">Solvent cement</td><td>ASTM D2564 for PVC. Heavy-body cement for 4 in. and larger. Within shelf date.</td></tr>
       <tr><td class="lab">Pipe</td><td>ASTM D1785 Schedule 40 PVC, same size as the return line. Carry 10 ft for reroute or recovery.</td></tr>
       <tr><td class="lab">Fittings</td><td>ASTM D2466 Schedule 40 PVC socket couplings, 90° elbows and tees as required for arrangements C and D on sheet M-401.</td></tr>
-      <tr><td class="lab">Pipe supports</td><td>Strut stands with pipe clamps, or clevis hangers from structure, corrosion-resistant for a chemical room. Two per device, within 12 in. of each union.</td></tr>
+      <tr><td class="lab">Pipe supports</td><td>None required for the device. Where a rerouted run (arrangement C on M-401) needs support, corrosion-resistant strut or clevis hangers with clamps.</td></tr>
       <tr><td class="lab">Lock-out</td><td>Lock-out devices and tags for the pump disconnect and every chemical feeder on the loop.</td></tr>
-      <tr><td class="lab">Label</td><td>Optional flow-direction label on the pipe at the device: arrow toward pool, "AquaRev WCD, do not clamp body".</td></tr>
+      <tr><td class="lab">Label</td><td>Optional flow-direction label on the pipe at the device: arrow toward pool, "AquaRev WCD, remove at unions".</td></tr>
     </tbody>
   </table></div>
 
@@ -205,7 +205,7 @@ root.innerHTML=`
     <li><span class="c">3.3.D</span><div><p><strong>Cut.</strong> Square, at the marked cut length, with 4 in. minimum clear from each union to any fitting. Deburr inside and out; wipe clean and dry.</p></div></li>
     <li><span class="c">3.3.E</span><div><p><strong>Joints.</strong> Slide the nut onto the pipe first. Prime pipe end and socket, cement both, push fully home with a quarter turn, hold 30 seconds, wipe the bead. Repeat the other end. Orient nuts to be turned by hand. Follow ASTM D2855 and the cement manufacturer.</p></div></li>
     <li><span class="c">3.3.F</span><div><p><strong>Set.</strong> Seat the device in the tails with O-rings in place and faces clean. Confirm full insertion. Tighten each nut hand-tight plus a small snug. No wrench, no thread sealant, no cement on the threads.</p></div></li>
-    <li><span class="c">3.3.G</span><div><p><strong>Support.</strong> Pipe supported within 12 in. of each union on horizontal runs; riser clamp above the upper union on vertical runs. Never clamp the device body.</p></div></li>
+    <li><span class="c">3.3.G</span><div><p><strong>Support.</strong> No dedicated supports are required; the device is carried by the return line on its two unions. Existing pipe supports remain in place. On a long unsupported horizontal run, support the pipe or the device body adjacent to the device as good practice.</p></div></li>
     <li><span class="c">3.3.H</span><div><p><strong>Cure.</strong> Full cure per the cement manufacturer for the pipe size and temperature before pressurizing. Close drains and refill the filter during the wait.</p></div></li>
   </ol>
 
@@ -252,7 +252,7 @@ root.innerHTML=`
     <ul class="check">
       <li><div><b>Cut length measured from the unit</b><small>Tails dry-fitted, socket bottom to socket bottom. Written down.</small></div></li>
       <li><div><b>Primer and cement in date</b><small>Heavy-body cement for 4 in. and up.</small></div></li>
-      <li><div><b>Spare pipe, fittings, supports on the truck</b><small>Same size and schedule. Two supports per device.</small></div></li>
+      <li><div><b>Spare pipe and fittings on the truck</b><small>Same size and schedule as the return line.</small></div></li>
       <li><div><b>Lock-out kit for pump and every feeder</b><small>Locks, tags, and a way to ventilate the room.</small></div></li>
     </ul>
   </div>
@@ -311,7 +311,7 @@ root.innerHTML=`
         <li>Check the IN arrow points toward the pump, label facing out.</li>
         <li>O-rings in their grooves, faces clean and dry. Seat the device in the tails and confirm full insertion.</li>
         <li>Tighten each nut hand-tight plus a small snug. No wrench. No thread sealant. No cement on the threads. The O-ring makes the seal, not torque.</li>
-        <li>Set the pipe supports within 12 in. of each union. Do not clamp the device body.</li>
+        <li>Leave the existing pipe supports where they are. No dedicated support is needed for the device.</li>
       </ol>
     </li>
     <li>
@@ -335,7 +335,7 @@ root.innerHTML=`
   </ol>
 
   <h3>If the straight run is too short</h3>
-  <p>Use arrangement C on sheet M-401: remove the short run and rebuild it as an offset with four 90° elbows of the same size and schedule, putting the device on the new horizontal leg. Support within 12 in. of each union and at each elbow. Four elbows on 4 in. pipe at 417 gpm add well under 1 psi; confirm pump margin on the record. The device stays the last component.</p>
+  <p>Use arrangement C on sheet M-401: remove the short run and rebuild it as an offset with four 90° elbows of the same size and schedule, putting the device on the new horizontal leg. Support the new run at its elbows as for any rerouted pipe; the device itself needs none. Four elbows on 4 in. pipe at 417 gpm add well under 1 psi; confirm pump margin on the record. The device stays the last component.</p>
 
   <h3>If the loop's flow is above the model's range</h3>
   <p>Use arrangement D on sheet M-401: identical parallel branches with isolation valves, each device seeing half the flow, inside its range. The single model that matches the return pipe is always the first choice; parallel branches are for flow the single model cannot take. Confirm with AquaRev before ordering.</p>
@@ -361,7 +361,7 @@ root.innerHTML=`
       <dt>Clearance</dt><dd>Straight run L1 + 8 in. Body D1 + 4 in. Hand access to both nuts.</dd>
       <dt>Joints</dt><dd>Nut on first. Primer F656, cement D2564, heavy body at 4 in. and up. Full depth, quarter turn, 30 s.</dd>
       <dt>Nuts</dt><dd>Hand tight plus a small snug. No wrench, no dope, no cement on threads.</dd>
-      <dt>Support</dt><dd>Within 12 in. of each union. Never on the body.</dd>
+      <dt>Support</dt><dd>None required. Existing supports remain. On a long unsupported run, support near the device.</dd>
       <dt>Cure</dt><dd>Manufacturer's table for size and temperature. Longer when cold or damp.</dd>
       <dt>Restart</dt><dd>Pump lock-out off only. Air relief open till clear. Inspect. Gauge up to +2.6 psi. Feeders last. Photo. Record. Recheck 24 h.</dd>
       <dt>Help</dt><dd>Technical: aquarev@hdcproductsinc.com, (808) 628-0208. Sales and AHJ: water@aquarevwater.us, (832) 979-6758.</dd>
