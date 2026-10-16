@@ -597,12 +597,13 @@ root.innerHTML=`
     <line x1="1010" y1="500" x2="1010" y2="98" class="pe2"/>
     <use href="#inj" x="1010" y="440" transform="rotate(90 1010 440)"/>
     <text x="1014" y="474" class="mono" font-size="7.5">CL INJ (E)</text>
-    <use href="#fm" x="1010" y="380" transform="rotate(90 1010 380)"/><text x="1024" y="356" class="mono" font-size="8">FM-2 (E)</text>
+    <use href="#fm" x="1010" y="380" transform="rotate(90 1010 380)"/><text x="998" y="372" class="mono rt" font-size="8">FM-2 (E)</text>
     <use href="#gv" x="1010" y="290" transform="rotate(90 1010 290)"/><text x="1024" y="294" class="mono" font-size="7.5">GV (E)</text>
     <rect x="994" y="150" width="32" height="100" class="cutz"/>
     <use href="#wcd" transform="translate(1010 200) rotate(-90) scale(.675)"/>
     <line x1="1036" y1="222" x2="1036" y2="178" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/>
-    <text x="1030" y="132" class="disp rt acc" font-size="9.5">WCD-2 (N)</text><text x="1030" y="143" class="mono rt" font-size="8" fill="#0F5C91">KD2X4X2</text>
+    <text x="950" y="200" class="disp rt acc" font-size="9.5">WCD-2 (N)</text><text x="950" y="211" class="mono rt" font-size="8" fill="#0F5C91">KD2X4X2</text>
+    <line x1="954" y1="206" x2="992" y2="206" class="ldr"/>
     <text x="998" y="90" class="mono rt" font-size="9">2" TO SPA RETURN (E)</text>
     <path d="M1010 104 L1005 114 M1010 104 L1015 114" class="thin"/>
 
@@ -913,7 +914,7 @@ root.innerHTML=`
       <line x1="410" y1="270" x2="450" y2="270" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/>
       <text x="290" y="273" class="mono ctr" font-size="8" fill="#0F5C91">IN</text><text x="443" y="258" class="mono ctr" font-size="8" fill="#0F5C91">OUT</text>
       <!-- flow arrows -->
-      <line x1="135" y1="345" x2="200" y2="345" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="135" y="360" class="mono" font-size="8" fill="#0F5C91">FLOW FROM PUMP / HEATER / FEEDERS</text>
+      <line x1="135" y1="345" x2="200" y2="345" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="216" y="360" class="mono" font-size="8" fill="#0F5C91">FLOW FROM PUMP / HEATER / FEEDERS</text>
       <line x1="540" y1="345" x2="605" y2="345" stroke="#1B7FC4" stroke-width="2" marker-end="url(#arrA)"/><text x="605" y="360" class="mono rt" font-size="8" fill="#0F5C91">TO POOL RETURN</text>
       <!-- dims -->
       <g class="ext"><line x1="196" y1="232" x2="196" y2="150"/><line x1="534" y1="232" x2="534" y2="150"/><line x1="252" y1="229" x2="252" y2="176"/><line x1="478" y1="229" x2="478" y2="176"/></g>
@@ -977,13 +978,13 @@ root.innerHTML=`
       <!-- solvent zone highlight -->
       <rect x="862" y="222" width="48" height="4" fill="#9A6206" opacity=".7"/><rect x="862" y="334" width="48" height="4" fill="#9A6206" opacity=".7"/>
       <!-- leaders -->
-      <path d="M800 226 L800 160 L830 160" class="ldr" marker-start="url(#dot)"/><text x="834" y="163" font-size="9">EXISTING PIPE. CUT SQUARE, DEBUR IN AND OUT, WIPE CLEAN AND DRY</text>
+      <path d="M800 226 L800 186" class="ldr" marker-start="url(#dot)"/><text x="880" y="168" class="rt" font-size="9">EXISTING PIPE (E): CUT SQUARE,</text><text x="880" y="180" class="rt" font-size="9">DEBURRED, WIPED CLEAN AND DRY</text>
       <path d="M886 224 L886 140 L900 140" class="ldr" marker-start="url(#dot)"/><text x="904" y="143" font-size="9">SOLVENT JOINT: PRIMER ASTM F656 + CEMENT ASTM D2564 ON PIPE AND SOCKET,</text><text x="904" y="155" font-size="9">PUSH FULLY HOME WITH ¼ TURN, HOLD 30 S. HEAVY-BODY CEMENT FOR 4" AND UP</text>
       <path d="M910 334 L910 400 L930 400" class="ldr" marker-start="url(#dot)"/><text x="934" y="403" font-size="9">SOCKET BOTTOM. CUT LENGTH IS MEASURED SOCKET BOTTOM TO SOCKET BOTTOM (3/M-301)</text>
       <path d="M948 342 L948 430 L970 430" class="ldr" marker-start="url(#dot)"/><text x="974" y="433" font-size="9">O-RING, SUPPLIED. SEAT DRY ON CLEAN FACES. THE SEAL IS THE O-RING, NOT TORQUE</text>
       <path d="M990 190 L990 178 L1010 178" class="ldr" marker-start="url(#dot)"/><text x="1014" y="181" font-size="9">UNION NUT. HAND TIGHT PLUS A SMALL SNUG. NO WRENCH, NO DOPE, NO CEMENT ON THREADS</text>
-      <path d="M1050 343 L1050 460 L1030 460" class="ldr" marker-start="url(#dot)"/><text x="1034" y="463" font-size="9">DEVICE END WITH UNION HALF, SUPPLIED. CONFIRM FULL INSERTION FIRST</text>
-      <path d="M1210 280 L1250 280" class="ldr"/><text x="1254" y="283" font-size="9">TO DEVICE BODY</text>
+      <path d="M1050 343 L1050 460 L1040 460" class="ldr" marker-start="url(#dot)"/><text x="1036" y="463" class="rt" font-size="9">DEVICE END WITH UNION HALF (SUPPLIED). CONFIRM FULL INSERTION</text>
+      <path d="M1210 280 L1250 280" class="ldr"/><text x="1254" y="283" class="halo" font-size="9">TO DEVICE BODY</text>
       <text x="1320" y="490" class="mono rt" font-size="8" fill="#5C6B82">WEEP AT A UNION UNDER PRESSURE: DEPRESSURIZE, LOOSEN, CLEAN FACES, RESEAT O-RING, RETIGHTEN BY HAND</text>
       <!-- title -->
       <use href="#bub" x="740" y="98"/><text x="740" y="95" class="knt s9">2</text><text x="740" y="109" class="knt s8">M-301</text>
@@ -1046,9 +1047,9 @@ root.innerHTML=`
       <!-- optional support on a long run, dashed -->
       <g fill="none" stroke="#5C6B82" stroke-width="1.2" stroke-dasharray="5 3"><rect x="1264" y="727" width="12" height="165"/><rect x="1246" y="892" width="48" height="8"/><rect x="1254" y="666" width="32" height="68" rx="3"/></g>
       <!-- leaders -->
-      <path d="M850 760 L820 760 L790 760" class="ldr" marker-start="url(#dot)"/><text x="788" y="776" font-size="9">EXISTING PIPE SUPPORT (E), REMAINS</text><text x="788" y="788" font-size="9">WHERE IT IS. NOT RELOCATED.</text>
+      <path d="M856 770 L864 770" class="ldr" marker-start="url(#dot)"/><text x="868" y="773" font-size="9">EXISTING SUPPORT (E), REMAINS WHERE IT IS</text>
       <path d="M1270 666 L1270 646" class="ldr" marker-start="url(#dot)"/><text x="1270" y="640" class="ctr" font-size="9">OPTIONAL: LONG UNSUPPORTED RUN ONLY</text>
-      <path d="M1160 706 L1200 800 L1220 800" class="ldr" marker-start="url(#dot)"/><text x="1224" y="803" font-size="9">UNION (N) CARRIES THE DEVICE</text>
+      <path d="M1215 706 L1215 790 L1140 790" class="ldr" marker-start="url(#dot)"/><text x="1136" y="793" class="rt" font-size="9">UNION (N) CARRIES THE DEVICE</text>
       <!-- notes -->
       <text x="760" y="826" class="lab">NOTES</text>
       <g font-size="10">
@@ -1447,7 +1448,7 @@ root.innerHTML=`
       <rect x="941" y="657" width="208" height="86" fill="none" stroke="#9A6206" stroke-width="1.4" stroke-dasharray="6 4"/>
       <g class="dim"><line x1="941" y1="640" x2="1149" y2="640" marker-start="url(#da)" marker-end="url(#da)"/><line x1="1170" y1="657" x2="1170" y2="743" marker-start="url(#da)" marker-end="url(#da)"/></g>
       <g class="ext"><line x1="941" y1="646" x2="941" y2="657"/><line x1="1149" y1="646" x2="1149" y2="657"/><line x1="1149" y1="657" x2="1176" y2="657"/><line x1="1149" y1="743" x2="1176" y2="743"/></g>
-      <text x="1045" y="636" class="dimt">L1 + 8"</text><text x="1166" y="700" class="dimt s9" transform="rotate(-90 1166 700)">D1 + 4"</text>
+      <text x="1045" y="636" class="dimt">L1 + 8"</text><text x="1184" y="700" class="dimt s9" transform="rotate(-90 1184 700)">D1 + 4"</text>
       <text x="941" y="758" class="mono" font-size="7.5" fill="#9A6206">4" CLEAR</text><text x="1149" y="758" class="mono rt" font-size="7.5" fill="#9A6206">4" CLEAR</text>
       <rect x="760" y="790" width="580" height="18" class="tbfill"/>
       <g class="th"><text x="766" y="803">MODEL</text><text x="880" y="803">L1</text><text x="960" y="803">L1 + 8" RUN</text><text x="1080" y="803">D1</text><text x="1160" y="803">D1 + 4" CLEAR</text><text x="1270" y="803">SHIP LB</text></g>
@@ -1516,18 +1517,18 @@ root.innerHTML=`
     <!-- materials -->
     <text x="70" y="86" class="lab s11">MATERIALS PER DEVICE</text>
     <rect x="70" y="94" width="820" height="20" class="tbfill"/>
-    <g class="th"><text x="76" y="108">ITEM</text><text x="420" y="108">QTY</text><text x="480" y="108">BY</text><text x="580" y="108">SPECIFICATION</text></g>
+    <g class="th"><text x="76" y="108">ITEM</text><text x="420" y="108">QTY</text><text x="505" y="108">BY</text><text x="580" y="108">SPECIFICATION</text></g>
     <line x1="70" y1="114" x2="890" y2="114" class="rule"/>
     <g class="td" font-size="11">
-      <text x="76" y="132">AquaRev water conditioning device, model per site assessment record</text><text x="420" y="132" class="mono">1</text><text x="480" y="132">AquaRev</text><text x="580" y="132">NSF/ANSI/CAN 50-2024, IAPMO R&amp;T W-12547, PVC, lead-free</text>
-      <text x="76" y="152">Schedule 40 PVC union halves with O-rings</text><text x="420" y="152" class="mono">2</text><text x="480" y="152">AquaRev</text><text x="580" y="152">Supplied in the carton with the device; verify present</text>
-      <text x="76" y="172">PVC primer</text><text x="420" y="172" class="mono">1</text><text x="480" y="172">Contractor</text><text x="580" y="172">ASTM F656, purple, in date</text>
-      <text x="76" y="192">PVC solvent cement</text><text x="420" y="192" class="mono">1</text><text x="480" y="192">Contractor</text><text x="580" y="192">ASTM D2564; heavy body for 4 in. and larger; in date</text>
-      <text x="76" y="212">Spare pipe, same size and schedule as the return</text><text x="420" y="212" class="mono">10 ft</text><text x="480" y="212">Contractor</text><text x="580" y="212">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
-      <text x="76" y="232">Couplings and 90° elbows, same size and schedule</text><text x="420" y="232" class="mono">as req.</text><text x="480" y="232">Contractor</text><text x="580" y="232">ASTM D2466 Sch 40 PVC socket fittings</text>
-      <text x="76" y="252">Pipe supports</text><text x="420" y="252" class="mono">as req.</text><text x="480" y="252">Contractor</text><text x="580" y="252">None required for the device; only where a rerouted run needs them</text>
-      <text x="76" y="272">Lock-out devices and tags</text><text x="420" y="272" class="mono">per loop</text><text x="480" y="272">Contractor</text><text x="580" y="272">Pump disconnect plus every chemical feeder on the loop</text>
-      <text x="76" y="292">Flow-direction label on pipe at device</text><text x="420" y="292" class="mono">1</text><text x="480" y="292">Contractor</text><text x="580" y="292">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
+      <text x="76" y="132">AquaRev water conditioning device, model per site assessment record</text><text x="420" y="132" class="mono">1</text><text x="505" y="132">AquaRev</text><text x="580" y="132">NSF/ANSI/CAN 50-2024, IAPMO R&amp;T W-12547, PVC, lead-free</text>
+      <text x="76" y="152">Schedule 40 PVC union halves with O-rings</text><text x="420" y="152" class="mono">2</text><text x="505" y="152">AquaRev</text><text x="580" y="152">Supplied in the carton with the device; verify present</text>
+      <text x="76" y="172">PVC primer</text><text x="420" y="172" class="mono">1</text><text x="505" y="172">Contractor</text><text x="580" y="172">ASTM F656, purple, in date</text>
+      <text x="76" y="192">PVC solvent cement</text><text x="420" y="192" class="mono">1</text><text x="505" y="192">Contractor</text><text x="580" y="192">ASTM D2564; heavy body for 4 in. and larger; in date</text>
+      <text x="76" y="212">Spare pipe, same size and schedule as the return</text><text x="420" y="212" class="mono">10 ft</text><text x="505" y="212">Contractor</text><text x="580" y="212">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
+      <text x="76" y="232">Couplings and 90° elbows, same size and schedule</text><text x="420" y="232" class="mono">as req.</text><text x="505" y="232">Contractor</text><text x="580" y="232">ASTM D2466 Sch 40 PVC socket fittings</text>
+      <text x="76" y="252">Pipe supports</text><text x="420" y="252" class="mono">as req.</text><text x="505" y="252">Contractor</text><text x="580" y="252">None for the device; only where a rerouted run needs them</text>
+      <text x="76" y="272">Lock-out devices and tags</text><text x="420" y="272" class="mono">per loop</text><text x="505" y="272">Contractor</text><text x="580" y="272">Pump disconnect plus every chemical feeder on the loop</text>
+      <text x="76" y="292">Flow-direction label on pipe at device</text><text x="420" y="292" class="mono">1</text><text x="505" y="292">Contractor</text><text x="580" y="292">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
     </g>
     <g class="rule-s"><line x1="70" y1="138" x2="890" y2="138"/><line x1="70" y1="158" x2="890" y2="158"/><line x1="70" y1="178" x2="890" y2="178"/><line x1="70" y1="198" x2="890" y2="198"/><line x1="70" y1="218" x2="890" y2="218"/><line x1="70" y1="238" x2="890" y2="238"/><line x1="70" y1="258" x2="890" y2="258"/><line x1="70" y1="278" x2="890" y2="278"/><line x1="70" y1="298" x2="890" y2="298"/></g>
     <text x="70" y="318" class="mono" font-size="8.5" fill="#5C6B82">MODEL: SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE (1/M-301). CLEARANCE ENVELOPE: E/M-401.</text>
@@ -1550,25 +1551,49 @@ root.innerHTML=`
       <text x="70" y="548">4. The installation record, completed, with serial numbers, installer licence and photographs.</text>
     </g>
 
-    <!-- installation record form -->
-    <text x="930" y="86" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER DEVICE</text>
-    <rect x="930" y="94" width="430" height="440" fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"/>
-    <g class="rule-s"><line x1="930" y1="124" x2="1360" y2="124"/><line x1="930" y1="154" x2="1360" y2="154"/><line x1="930" y1="184" x2="1360" y2="184"/><line x1="930" y1="214" x2="1360" y2="214"/><line x1="930" y1="244" x2="1360" y2="244"/><line x1="930" y1="274" x2="1360" y2="274"/><line x1="930" y1="304" x2="1360" y2="304"/><line x1="930" y1="334" x2="1360" y2="334"/><line x1="930" y1="364" x2="1360" y2="364"/><line x1="930" y1="394" x2="1360" y2="394"/><line x1="930" y1="424" x2="1360" y2="424"/><line x1="930" y1="454" x2="1360" y2="454"/><line x1="930" y1="484" x2="1360" y2="484"/><line x1="1150" y1="94" x2="1150" y2="534" /></g>
-    <g class="lab" font-size="9.5">
-      <text x="938" y="113">PROPERTY / BODY OF WATER</text><text x="938" y="143">DEVICE TAG / MODEL</text><text x="938" y="173">SERIAL NUMBER</text><text x="938" y="203">RETURN PIPE OD / MATERIAL</text><text x="938" y="233">FLOW (GPM), HOW MEASURED</text><text x="938" y="263">CUT LENGTH USED (IN.)</text><text x="938" y="293">CEMENT TYPE / CURE ALLOWED</text><text x="938" y="323">FILTER GAUGE BEFORE / AFTER</text><text x="938" y="353">LEAK CHECK AT START-UP</text><text x="938" y="383">LEAK CHECK AFTER 24 H</text><text x="938" y="413">PHOTOS (LABEL, CUT, FINAL)</text><text x="938" y="443">AHJ DETERMINATION ON SITE</text><text x="938" y="473">INSTALLER / LICENCE NO.</text><text x="938" y="513">SIGNATURE / DATE</text>
-    </g>
-    <g class="mono" font-size="9.5" fill="#5C6B82">
-      <text x="1158" y="353">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="383">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="413">&#9744; LABEL &nbsp;&#9744; CUT &nbsp;&#9744; FINAL</text><text x="1158" y="443">&#9744; YES &nbsp;&#9744; PERMIT NO. ________</text><text x="1158" y="323">________ / ________ PSI</text>
+    <!-- contacts -->
+    <text x="930" y="86" class="lab s11">CONTACTS</text>
+    <g font-size="11">
+      <text x="930" y="108">Sales and AHJ package support</text><text x="930" y="124" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
+      <text x="930" y="148">Technical support and warranty claims</text><text x="930" y="164" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
+      <text x="930" y="188">Listing verification</text><text x="930" y="204" class="mono" font-size="10.5">pld.iapmo.org &#183; File No. W-12547</text>
+      <text x="930" y="228">Documents</text><text x="930" y="244" class="mono" font-size="10.5">aquarevwater.us/data &#183; aquarevwater.us/warranty</text>
     </g>
 
-    <!-- contacts -->
-    <text x="930" y="582" class="lab s11">CONTACTS</text>
-    <g font-size="11">
-      <text x="930" y="604">Sales and AHJ package support</text><text x="930" y="620" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
-      <text x="930" y="644">Technical support and warranty claims</text><text x="930" y="660" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
-      <text x="930" y="684">Listing verification</text><text x="930" y="700" class="mono" font-size="10.5">pld.iapmo.org &#183; File No. W-12547</text>
-      <text x="930" y="724">Documents</text><text x="930" y="740" class="mono" font-size="10.5">aquarevwater.us/data &#183; aquarevwater.us/warranty</text>
+    <!-- installation record form, one per job -->
+    <line x1="70" y1="590" x2="1360" y2="590" class="rule-s"/>
+    <text x="70" y="616" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER JOB &#183; ONE ROW PER BODY OF WATER</text>
+    <!-- job header: four boxes -->
+    <g fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="626" width="400" height="52"/><rect x="470" y="626" width="300" height="52"/><rect x="770" y="626" width="200" height="52"/><rect x="970" y="626" width="390" height="52"/></g>
+    <g class="lab" font-size="9.5"><text x="78" y="642">PROPERTY / ADDRESS</text><text x="478" y="642">INSTALLER / LICENCE NO.</text><text x="778" y="642">INSTALL DATE</text><text x="978" y="642">AHJ DETERMINATION ON SITE</text></g>
+    <text x="978" y="668" class="mono" font-size="9.5" fill="#5C6B82">&#9744; NO PERMIT REQUIRED &nbsp;&#9744; PERMIT NO. __________ &nbsp;&#9744; INSPECTED</text>
+    <!-- device table -->
+    <rect x="70" y="690" width="1290" height="34" class="tbfill"/>
+    <g class="th" font-size="9.5">
+      <text x="76" y="704">BODY OF</text><text x="76" y="716">WATER</text>
+      <text x="230" y="704">MODEL</text>
+      <text x="324" y="704">SERIAL</text>
+      <text x="438" y="704">RETURN PIPE</text><text x="438" y="716">OD / MATERIAL</text>
+      <text x="552" y="704">FLOW GPM</text><text x="552" y="716">HOW MEASURED</text>
+      <text x="686" y="704">CUT</text><text x="686" y="716">LENGTH IN.</text>
+      <text x="780" y="704">CEMENT /</text><text x="780" y="716">CURE ALLOWED</text>
+      <text x="904" y="704">FILTER GAUGE</text><text x="904" y="716">BEFORE / AFTER</text>
+      <text x="1038" y="704">LEAK CHECK</text><text x="1038" y="716">START-UP</text>
+      <text x="1142" y="704">LEAK CHECK</text><text x="1142" y="716">AFTER 24 H</text>
+      <text x="1246" y="704">PHOTOS</text><text x="1246" y="716">LABEL/CUT/FINAL</text>
     </g>
+    <line x1="70" y1="724" x2="1360" y2="724" class="rule"/>
+    <g fill="none" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="724" width="1290" height="102"/></g>
+    <g class="rule-s"><line x1="70" y1="758" x2="1360" y2="758"/><line x1="70" y1="792" x2="1360" y2="792"/><line x1="224" y1="690" x2="224" y2="826"/><line x1="318" y1="690" x2="318" y2="826"/><line x1="432" y1="690" x2="432" y2="826"/><line x1="546" y1="690" x2="546" y2="826"/><line x1="680" y1="690" x2="680" y2="826"/><line x1="774" y1="690" x2="774" y2="826"/><line x1="898" y1="690" x2="898" y2="826"/><line x1="1032" y1="690" x2="1032" y2="826"/><line x1="1136" y1="690" x2="1136" y2="826"/><line x1="1240" y1="690" x2="1240" y2="826"/></g>
+    <g class="mono" font-size="8.5" fill="#93A2B8">
+      <text x="904" y="746">____ / ____ PSI</text><text x="1038" y="746">&#9744; DRY &#9744; WEEP</text><text x="1142" y="746">&#9744; DRY &#9744; WEEP</text><text x="1246" y="746">&#9744; &#9744; &#9744;</text>
+      <text x="904" y="780">____ / ____ PSI</text><text x="1038" y="780">&#9744; DRY &#9744; WEEP</text><text x="1142" y="780">&#9744; DRY &#9744; WEEP</text><text x="1246" y="780">&#9744; &#9744; &#9744;</text>
+      <text x="904" y="814">____ / ____ PSI</text><text x="1038" y="814">&#9744; DRY &#9744; WEEP</text><text x="1142" y="814">&#9744; DRY &#9744; WEEP</text><text x="1246" y="814">&#9744; &#9744; &#9744;</text>
+    </g>
+    <!-- signatures -->
+    <g class="rule"><line x1="70" y1="872" x2="560" y2="872"/><line x1="600" y1="872" x2="900" y2="872"/><line x1="940" y1="872" x2="1360" y2="872"/></g>
+    <g class="lab" font-size="9.5"><text x="70" y="888">INSTALLER SIGNATURE</text><text x="600" y="888">DATE</text><text x="940" y="888">RECEIVED FOR THE PROPERTY (NAME, TITLE)</text></g>
+    <text x="70" y="920" font-size="10.5" fill="#5C6B82">One record per job. List every device installed on the job, one row per body of water. Weep at start-up: corrected before the row is signed off. File with the closeout documents above.</text>
   </svg>
   </div>
 </figure>
