@@ -383,7 +383,7 @@ root.innerHTML=`
       <tr><td>How big is it and how does the joint work?</td><td class="num">M-301</td><td>Device elevation with L1, L2, D1, D2; union joint section; cut-length detail; pipe support.</td></tr>
       <tr><td>What is the order of work?</td><td class="num">M-302</td><td>Eight steps from lock-out to restart, drawn.</td></tr>
       <tr><td>The run is short, vertical, or the flow is too high?</td><td class="num">M-401</td><td>Horizontal, vertical, offset reroute, parallel devices, clearance envelope by model.</td></tr>
-      <tr><td>What do I order and what do I hand in?</td><td class="num">M-501</td><td>Device schedule, materials, tools, sequence check, installation record, closeout, contacts.</td></tr>
+      <tr><td>What do I order and what do I hand in?</td><td class="num">M-501</td><td>Materials per device, tools and safety, installation record template, closeout list, contacts.</td></tr>
     </tbody>
   </table></div>
   <p><a href="https://www.aquarevwater.us/drawings">Open Drawing Set 100</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download the PDF</a></p>

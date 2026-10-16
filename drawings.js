@@ -114,7 +114,7 @@ root.innerHTML=`
     <li><span class="n">M-301</span><a href="#M-301">Device &amp; connection details</a></li>
     <li><span class="n">M-302</span><a href="#M-302">Installation sequence</a></li>
     <li><span class="n">M-401</span><a href="#M-401">Orientation &amp; alternates</a></li>
-    <li><span class="n">M-501</span><a href="#M-501">Schedules &amp; records</a></li>
+    <li><span class="n">M-501</span><a href="#M-501">Materials &amp; records</a></li>
   </ol>
 </nav>
 
@@ -189,7 +189,7 @@ root.innerHTML=`
       <text x="140" y="444">Device &amp; connection details &#183; dimensions, union joint, cut length, support</text>
       <text x="140" y="468">Installation sequence &#183; eight steps, lock-out to restart</text>
       <text x="140" y="492">Orientation &amp; alternate arrangements &#183; vertical, offset, parallel</text>
-      <text x="140" y="516">Schedules &amp; records &#183; device schedule, materials, tools, installation record</text>
+      <text x="140" y="516">Materials &amp; records &#183; materials, tools, installation record template, contacts</text>
     </g>
     <g class="rule-s"><line x1="80" y1="356" x2="580" y2="356"/><line x1="80" y1="380" x2="580" y2="380"/><line x1="80" y1="404" x2="580" y2="404"/><line x1="80" y1="428" x2="580" y2="428"/><line x1="80" y1="452" x2="580" y2="452"/><line x1="80" y1="476" x2="580" y2="476"/><line x1="80" y1="500" x2="580" y2="500"/><line x1="80" y1="524" x2="580" y2="524"/></g>
 
@@ -249,7 +249,7 @@ root.innerHTML=`
       <text x="690" y="384">The AquaRev device is a passive in-line water conditioning device certified to NSF/ANSI/CAN 50-2024</text><text x="690" y="400">(IAPMO R&amp;T File No. W-12547). It supplements the pool's disinfection system and does not replace it.</text><text x="690" y="416">Sanitizer and pH are maintained within the regulated range at all times, exactly as before.</text>
       <text x="690" y="436">Install one device per recirculating loop, on the return line, downstream of the pump, filter, heater,</text><text x="690" y="452">chemical feeders and sensors, as close to the pool return as practical. Any orientation is acceptable.</text>
       <text x="690" y="474">Existing equipment is not modified. No electrical, gas, water-supply, drain or sewer connection is made.</text><text x="690" y="490">Suction-side piping, main drains and drain covers are not touched.</text>
-      <text x="690" y="512">Size by return pipe diameter, then confirm the loop flow falls inside the model range (M-501). Refer flow</text><text x="690" y="528">within 10% of a range limit, pools over 500,000 gal, and 8 in. or larger returns to AquaRev before</text><text x="690" y="544">ordering. Loops above a model's maximum may be split across two devices in parallel (M-401).</text>
+      <text x="690" y="512">Size by return pipe diameter, then confirm the loop flow falls inside the model range (1/M-301). Refer flow</text><text x="690" y="528">within 10% of a range limit, pools over 500,000 gal, and 8 in. or larger returns to AquaRev before</text><text x="690" y="544">ordering. Loops above a model's maximum may be split across two devices in parallel (M-401).</text>
       <text x="690" y="564">The device adds up to 2.6 psi at rated flow. Confirm pump margin with a clean filter before installing.</text>
       <text x="690" y="588">Connections: two Schedule 40 PVC unions supplied with the device, solvent-welded to the existing pipe.</text><text x="690" y="604">Primer ASTM F656, cement ASTM D2564, practice ASTM D2855. Heavy-body cement for 4 in. and larger.</text>
       <text x="690" y="626">No dedicated supports are required. Existing pipe supports remain; on a long unsupported run, support near the device (4/M-301).</text>
@@ -665,7 +665,7 @@ root.innerHTML=`
     </g>
     <text x="1128" y="726" class="lab s11">PLAN NOTES</text>
     <g font-size="10.2">
-      <text x="1128" y="748">A. Clearance at each device: straight run</text><text x="1128" y="761">of L1 + 8" minimum, D1 + 4" around the</text><text x="1128" y="774">body. See schedule on M-501.</text>
+      <text x="1128" y="748">A. Clearance at each device: straight run</text><text x="1128" y="761">of L1 + 8" minimum, D1 + 4" around the</text><text x="1128" y="774">body. See 1/M-301 and E/M-401.</text>
       <text x="1128" y="796">B. Cut length is field-measured with the</text><text x="1128" y="809">union tails dry-fitted. Never cut to L1.</text>
       <text x="1128" y="831">C. Where the return run is shorter than</text><text x="1128" y="844">L1 + 8", reroute with elbows. M-401.</text>
       <text x="1128" y="866">D. Loops with flow above one model's</text><text x="1128" y="879">maximum: parallel devices. M-401.</text>
@@ -1471,9 +1471,9 @@ root.innerHTML=`
 
 <!-- ============================================================ M-501 -->
 <figure class="sheetwrap" id="M-501">
-  <div class="sheetbar"><div><span class="id">M-501</span> <h2 style="display:inline">Schedules &amp; records</h2></div><button type="button" class="zoom" aria-pressed="false">100%</button></div>
+  <div class="sheetbar"><div><span class="id">M-501</span> <h2 style="display:inline">Materials &amp; records</h2></div><button type="button" class="zoom" aria-pressed="false">100%</button></div>
   <div class="scroller">
-  <svg class="sh" viewBox="0 0 1632 1056" xmlns="http://www.w3.org/2000/svg" font-size="12" fill="#22304A" role="img" aria-label="Sheet M-501, schedules and records">
+  <svg class="sh" viewBox="0 0 1632 1056" xmlns="http://www.w3.org/2000/svg" font-size="12" fill="#22304A" role="img" aria-label="Sheet M-501, materials and records">
     <rect x="0" y="0" width="1632" height="1056" fill="#FFFFFF"/>
     <rect x="48" y="48" width="1536" height="960" class="border"/>
     <g class="mono" font-size="9" fill="#5C6B82">
@@ -1493,7 +1493,7 @@ root.innerHTML=`
       <text x="1396" y="272" class="lab">STATUS</text><text x="1396" y="290" font-size="11">Reference set. Not site-specific.</text>
       <text x="1396" y="312" class="lab">FOR</text><text x="1396" y="330" font-size="11">Engineers new to the device</text>
       <text x="1396" y="356" class="lab">SHEET TITLE</text>
-      <text x="1396" y="380" class="disp" font-size="14">Schedules &amp;</text><text x="1396" y="398" class="disp" font-size="14">Records</text>
+      <text x="1396" y="380" class="disp" font-size="14">Materials &amp;</text><text x="1396" y="398" class="disp" font-size="14">Records</text>
       <g font-size="10.5">
         <text x="1396" y="452" class="lab">DRAWN</text><text x="1470" y="452">AquaRev Water</text>
         <text x="1396" y="474" class="lab">BASIS</text><text x="1470" y="474">Sample property</text>
@@ -1507,98 +1507,66 @@ root.innerHTML=`
       <line x1="1396" y1="640" x2="1572" y2="640" class="rule"/>
       <g font-size="10"><text x="1396" y="656" class="mono">A</text><text x="1428" y="656" class="mono">09-22-26</text><text x="1500" y="656">Reference issue</text></g>
       <g class="rule-s"><line x1="1396" y1="664" x2="1572" y2="664"/><line x1="1396" y1="686" x2="1572" y2="686"/><line x1="1396" y1="708" x2="1572" y2="708"/><line x1="1396" y1="730" x2="1572" y2="730"/></g>
-      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Schedule values are for the</text><text x="1396" y="796">sample property. Real units are</text><text x="1396" y="810">selected from the site assessment</text><text x="1396" y="824">record. The record form is a</text><text x="1396" y="838">template for any installation.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
+      <g font-size="9.5" fill="#5C6B82"><text x="1396" y="782">Model is selected from the site</text><text x="1396" y="796">assessment record (1/M-301 for</text><text x="1396" y="810">ranges and dimensions). The</text><text x="1396" y="824">record form is a template for</text><text x="1396" y="838">any installation.</text><text x="1396" y="860">REFERENCE SET. NOT A</text><text x="1396" y="872">SITE-SPECIFIC DRAWING.</text></g>
       <text x="1396" y="906" class="lab">SHEET</text>
       <text x="1396" y="960" class="disp" font-size="46" letter-spacing="-1">M-501</text>
       <text x="1396" y="990" class="mono" font-size="10.5">SHEET 8 OF 8</text>
     </g>
 
-    <!-- device schedule -->
-    <text x="70" y="86" class="lab s11">WATER CONDITIONING DEVICE SCHEDULE</text>
-    <rect x="70" y="94" width="1290" height="20" class="tbfill"/>
-    <g class="th"><text x="76" y="108">TAG</text><text x="130" y="108">LOOP</text><text x="200" y="108">RETURN PIPE</text><text x="300" y="108">DESIGN FLOW</text><text x="400" y="108">MODEL</text><text x="490" y="108">RANGE GPM</text><text x="590" y="108">HEAD LOSS</text><text x="680" y="108">UNIONS</text><text x="790" y="108">LOCATION</text><text x="1090" y="108">SUPPORTS</text><text x="1230" y="108">WEIGHT</text></g>
-    <line x1="70" y1="114" x2="1360" y2="114" class="rule"/>
-    <g class="tdm">
-      <text x="76" y="132">WCD-1</text><text x="130" y="132" font-family="'Source Sans 3',Arial,sans-serif">Pool</text><text x="200" y="132">4" PVC Sch 40</text><text x="300" y="132">417 gpm</text><text x="400" y="132">KD4X8X4</text><text x="490" y="132">240–480</text><text x="590" y="132">≤ 2.6 psi</text><text x="680" y="132">2 × 4" Sch 40</text><text x="790" y="132" font-family="'Source Sans 3',Arial,sans-serif">After FM-1 on return run, 9½" from wall (M-101)</text><text x="1090" y="132" font-family="'Source Sans 3',Arial,sans-serif">None added</text><text x="1230" y="132">35 lb</text>
-      <text x="76" y="152">WCD-2</text><text x="130" y="152" font-family="'Source Sans 3',Arial,sans-serif">Spa</text><text x="200" y="152">2" PVC Sch 40</text><text x="300" y="152">100 gpm</text><text x="400" y="152">KD2X4X2</text><text x="490" y="152">44–127</text><text x="590" y="152">≤ 2.6 psi</text><text x="680" y="152">2 × 2" Sch 40</text><text x="790" y="152" font-family="'Source Sans 3',Arial,sans-serif">After FM-2 on spa return, at wall (M-101)</text><text x="1090" y="152" font-family="'Source Sans 3',Arial,sans-serif">None added</text><text x="1230" y="152">8 lb</text>
-    </g>
-    <g class="rule-s"><line x1="70" y1="138" x2="1360" y2="138"/><line x1="70" y1="158" x2="1360" y2="158"/></g>
-    <text x="70" y="176" class="mono" font-size="8.5" fill="#5C6B82">SELECT BY RETURN PIPE SIZE, THEN CONFIRM FLOW INSIDE THE RANGE. FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV BEFORE ORDERING.</text>
-
     <!-- materials -->
-    <text x="70" y="214" class="lab s11">MATERIALS PER DEVICE</text>
-    <rect x="70" y="222" width="820" height="20" class="tbfill"/>
-    <g class="th"><text x="76" y="236">ITEM</text><text x="420" y="236">QTY</text><text x="480" y="236">BY</text><text x="580" y="236">SPECIFICATION</text></g>
-    <line x1="70" y1="242" x2="890" y2="242" class="rule"/>
+    <text x="70" y="86" class="lab s11">MATERIALS PER DEVICE</text>
+    <rect x="70" y="94" width="820" height="20" class="tbfill"/>
+    <g class="th"><text x="76" y="108">ITEM</text><text x="420" y="108">QTY</text><text x="480" y="108">BY</text><text x="580" y="108">SPECIFICATION</text></g>
+    <line x1="70" y1="114" x2="890" y2="114" class="rule"/>
     <g class="td" font-size="11">
-      <text x="76" y="260">AquaRev water conditioning device, model per schedule</text><text x="420" y="260" class="mono">1</text><text x="480" y="260">AquaRev</text><text x="580" y="260">NSF/ANSI/CAN 50-2024, IAPMO R&amp;T W-12547, PVC, lead-free</text>
-      <text x="76" y="280">Schedule 40 PVC union halves with O-rings</text><text x="420" y="280" class="mono">2</text><text x="480" y="280">AquaRev</text><text x="580" y="280">Supplied in the carton with the device; verify present</text>
-      <text x="76" y="300">PVC primer</text><text x="420" y="300" class="mono">1</text><text x="480" y="300">Contractor</text><text x="580" y="300">ASTM F656, purple, in date</text>
-      <text x="76" y="320">PVC solvent cement</text><text x="420" y="320" class="mono">1</text><text x="480" y="320">Contractor</text><text x="580" y="320">ASTM D2564; heavy body for 4 in. and larger; in date</text>
-      <text x="76" y="340">Spare pipe, same size and schedule as the return</text><text x="420" y="340" class="mono">10 ft</text><text x="480" y="340">Contractor</text><text x="580" y="340">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
-      <text x="76" y="360">Couplings and 90° elbows, same size and schedule</text><text x="420" y="360" class="mono">as req.</text><text x="480" y="360">Contractor</text><text x="580" y="360">ASTM D2466 Sch 40 PVC socket fittings</text>
-      <text x="76" y="380">Pipe supports</text><text x="420" y="380" class="mono">as req.</text><text x="480" y="380">Contractor</text><text x="580" y="380">None required for the device; only where a rerouted run needs them</text>
-      <text x="76" y="400">Lock-out devices and tags</text><text x="420" y="400" class="mono">per loop</text><text x="480" y="400">Contractor</text><text x="580" y="400">Pump disconnect plus every chemical feeder on the loop</text>
-      <text x="76" y="420">Flow-direction label on pipe at device</text><text x="420" y="420" class="mono">1</text><text x="480" y="420">Contractor</text><text x="580" y="420">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
+      <text x="76" y="132">AquaRev water conditioning device, model per site assessment record</text><text x="420" y="132" class="mono">1</text><text x="480" y="132">AquaRev</text><text x="580" y="132">NSF/ANSI/CAN 50-2024, IAPMO R&amp;T W-12547, PVC, lead-free</text>
+      <text x="76" y="152">Schedule 40 PVC union halves with O-rings</text><text x="420" y="152" class="mono">2</text><text x="480" y="152">AquaRev</text><text x="580" y="152">Supplied in the carton with the device; verify present</text>
+      <text x="76" y="172">PVC primer</text><text x="420" y="172" class="mono">1</text><text x="480" y="172">Contractor</text><text x="580" y="172">ASTM F656, purple, in date</text>
+      <text x="76" y="192">PVC solvent cement</text><text x="420" y="192" class="mono">1</text><text x="480" y="192">Contractor</text><text x="580" y="192">ASTM D2564; heavy body for 4 in. and larger; in date</text>
+      <text x="76" y="212">Spare pipe, same size and schedule as the return</text><text x="420" y="212" class="mono">10 ft</text><text x="480" y="212">Contractor</text><text x="580" y="212">ASTM D1785 Sch 40 PVC, for reroute or recovery</text>
+      <text x="76" y="232">Couplings and 90° elbows, same size and schedule</text><text x="420" y="232" class="mono">as req.</text><text x="480" y="232">Contractor</text><text x="580" y="232">ASTM D2466 Sch 40 PVC socket fittings</text>
+      <text x="76" y="252">Pipe supports</text><text x="420" y="252" class="mono">as req.</text><text x="480" y="252">Contractor</text><text x="580" y="252">None required for the device; only where a rerouted run needs them</text>
+      <text x="76" y="272">Lock-out devices and tags</text><text x="420" y="272" class="mono">per loop</text><text x="480" y="272">Contractor</text><text x="580" y="272">Pump disconnect plus every chemical feeder on the loop</text>
+      <text x="76" y="292">Flow-direction label on pipe at device</text><text x="420" y="292" class="mono">1</text><text x="480" y="292">Contractor</text><text x="580" y="292">Optional; arrow toward pool, "AquaRev WCD, remove at unions"</text>
     </g>
-    <g class="rule-s"><line x1="70" y1="266" x2="890" y2="266"/><line x1="70" y1="286" x2="890" y2="286"/><line x1="70" y1="306" x2="890" y2="306"/><line x1="70" y1="326" x2="890" y2="326"/><line x1="70" y1="346" x2="890" y2="346"/><line x1="70" y1="366" x2="890" y2="366"/><line x1="70" y1="386" x2="890" y2="386"/><line x1="70" y1="406" x2="890" y2="406"/><line x1="70" y1="426" x2="890" y2="426"/></g>
+    <g class="rule-s"><line x1="70" y1="138" x2="890" y2="138"/><line x1="70" y1="158" x2="890" y2="158"/><line x1="70" y1="178" x2="890" y2="178"/><line x1="70" y1="198" x2="890" y2="198"/><line x1="70" y1="218" x2="890" y2="218"/><line x1="70" y1="238" x2="890" y2="238"/><line x1="70" y1="258" x2="890" y2="258"/><line x1="70" y1="278" x2="890" y2="278"/><line x1="70" y1="298" x2="890" y2="298"/></g>
+    <text x="70" y="318" class="mono" font-size="8.5" fill="#5C6B82">MODEL: BY RETURN PIPE SIZE, THEN FLOW INSIDE THE RANGE (1/M-301). CLEARANCE: E/M-401. FLOW WITHIN 10% OF A LIMIT, POOLS OVER 500,000 GAL, OR 8" AND LARGER RETURNS: REFER TO AQUAREV.</text>
 
     <!-- tools -->
-    <text x="70" y="462" class="lab s11">TOOLS AND SAFETY</text>
+    <text x="70" y="366" class="lab s11">TOOLS AND SAFETY</text>
     <g font-size="11">
-      <text x="70" y="484">Pipe cutter or fine-tooth saw &#183; deburring tool &#183; tape measure &#183; marker &#183; primer and cement daubers &#183; clean rags &#183; bucket</text>
-      <text x="70" y="502">Gloves and eye protection &#183; fan or open door for ventilation &#183; no heat or open flame near primer and cement</text>
-      <text x="70" y="520">Camera (carton label, cut zone with tape in frame, finished install with listing mark) &#183; copy of the AHJ determination on site</text>
-    </g>
-
-    <!-- sequence checklist -->
-    <text x="70" y="556" class="lab s11">SEQUENCE CHECK (TICK AS COMPLETED &#183; M-302)</text>
-    <g font-size="11">
-      <g fill="none" stroke="#0E1E3A" stroke-width="1.2"><rect x="70" y="568" width="12" height="12"/><rect x="70" y="590" width="12" height="12"/><rect x="70" y="612" width="12" height="12"/><rect x="70" y="634" width="12" height="12"/><rect x="480" y="568" width="12" height="12"/><rect x="480" y="590" width="12" height="12"/><rect x="480" y="612" width="12" height="12"/><rect x="480" y="634" width="12" height="12"/></g>
-      <text x="90" y="578">01 Pump and every feeder locked out and tagged</text>
-      <text x="90" y="600">02 Line isolated, gauge at zero, bucket placed, ventilation</text>
-      <text x="90" y="622">03 Cut length measured from dry-fitted tails; cut square</text>
-      <text x="90" y="644">04 Ends deburred, clean, dry; parts count confirmed</text>
-      <text x="500" y="578">05 Tails primed, cemented, full depth, ¼ turn, 30 s hold</text>
-      <text x="500" y="600">06 IN toward pump; nuts hand tight + snug; existing supports undisturbed</text>
-      <text x="500" y="622">07 Full cure waited; drains closed; filter refilled</text>
-      <text x="500" y="644">08 Pump restarted, no leaks, gauge read, feeders restored, photos</text>
+      <text x="70" y="388">Pipe cutter or fine-tooth saw &#183; deburring tool &#183; tape measure &#183; marker &#183; primer and cement daubers &#183; clean rags &#183; bucket</text>
+      <text x="70" y="406">Gloves and eye protection &#183; fan or open door for ventilation &#183; no heat or open flame near primer and cement</text>
+      <text x="70" y="424">Camera (carton label, cut zone with tape in frame, finished install with listing mark) &#183; copy of the AHJ determination on site</text>
     </g>
 
     <!-- closeout -->
-    <text x="70" y="686" class="lab s11">CLOSEOUT: KEEP IN THE PROJECT FILE</text>
+    <text x="70" y="472" class="lab s11">CLOSEOUT: KEEP IN THE PROJECT FILE</text>
     <g font-size="11">
-      <text x="70" y="708">1. Site assessment record for each body of water, with photographs (Implementation Guide §3).</text>
-      <text x="70" y="726">2. AHJ determination record with the written reply, or the permit and inspection sign-off (Implementation Guide §6–7).</text>
-      <text x="70" y="744">3. IAPMO R&amp;T listing, Product Specification Guide and warranty terms as issued at purchase.</text>
-      <text x="70" y="762">4. This installation record, completed, with serial numbers, installer licence and photographs.</text>
-    </g>
-    <text x="70" y="800" class="lab s11">AFTER INSTALLATION</text>
-    <g font-size="11">
-      <text x="70" y="822">Keep dosing exactly as the health code requires; let the controller find any new demand on its own. Do not change setpoints.</text>
-      <text x="70" y="840">Expect the filter to load faster in week one; a backwash or cartridge clean is normal. Filter gauge climbing later: clean the filter first.</text>
-      <text x="70" y="858">Device suspected blocked: lock out pump and feeders, loosen unions, remove, turn 180°, run water backward 5 minutes, reinstall in original direction.</text>
-      <text x="70" y="876">Warranty: lifetime limited on the device body; unions, O-rings and external piping excluded. Claims to water@aquarevwater.us with install date and serial.</text>
+      <text x="70" y="494">1. Site assessment record for each body of water, with photographs (Implementation Guide §3).</text>
+      <text x="70" y="512">2. AHJ determination record with the written reply, or the permit and inspection sign-off (Implementation Guide §6–7).</text>
+      <text x="70" y="530">3. IAPMO R&amp;T listing, Product Specification Guide and warranty terms as issued at purchase.</text>
+      <text x="70" y="548">4. The installation record, completed, with serial numbers, installer licence and photographs.</text>
     </g>
 
     <!-- installation record form -->
-    <text x="930" y="214" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER DEVICE</text>
-    <rect x="930" y="222" width="430" height="440" fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"/>
-    <g class="rule-s"><line x1="930" y1="252" x2="1360" y2="252"/><line x1="930" y1="282" x2="1360" y2="282"/><line x1="930" y1="312" x2="1360" y2="312"/><line x1="930" y1="342" x2="1360" y2="342"/><line x1="930" y1="372" x2="1360" y2="372"/><line x1="930" y1="402" x2="1360" y2="402"/><line x1="930" y1="432" x2="1360" y2="432"/><line x1="930" y1="462" x2="1360" y2="462"/><line x1="930" y1="492" x2="1360" y2="492"/><line x1="930" y1="522" x2="1360" y2="522"/><line x1="930" y1="552" x2="1360" y2="552"/><line x1="930" y1="582" x2="1360" y2="582"/><line x1="930" y1="612" x2="1360" y2="612"/><line x1="1150" y1="222" x2="1150" y2="662" /></g>
+    <text x="930" y="86" class="lab s11">INSTALLATION RECORD &#183; TEMPLATE, ONE PER DEVICE</text>
+    <rect x="930" y="94" width="430" height="440" fill="#FFFFFF" stroke="#0E1E3A" stroke-width="1.2"/>
+    <g class="rule-s"><line x1="930" y1="124" x2="1360" y2="124"/><line x1="930" y1="154" x2="1360" y2="154"/><line x1="930" y1="184" x2="1360" y2="184"/><line x1="930" y1="214" x2="1360" y2="214"/><line x1="930" y1="244" x2="1360" y2="244"/><line x1="930" y1="274" x2="1360" y2="274"/><line x1="930" y1="304" x2="1360" y2="304"/><line x1="930" y1="334" x2="1360" y2="334"/><line x1="930" y1="364" x2="1360" y2="364"/><line x1="930" y1="394" x2="1360" y2="394"/><line x1="930" y1="424" x2="1360" y2="424"/><line x1="930" y1="454" x2="1360" y2="454"/><line x1="930" y1="484" x2="1360" y2="484"/><line x1="1150" y1="94" x2="1150" y2="534" /></g>
     <g class="lab" font-size="9.5">
-      <text x="938" y="241">PROPERTY / BODY OF WATER</text><text x="938" y="271">DEVICE TAG / MODEL</text><text x="938" y="301">SERIAL NUMBER</text><text x="938" y="331">RETURN PIPE OD / MATERIAL</text><text x="938" y="361">FLOW (GPM), HOW MEASURED</text><text x="938" y="391">CUT LENGTH USED (IN.)</text><text x="938" y="421">CEMENT TYPE / CURE ALLOWED</text><text x="938" y="451">FILTER GAUGE BEFORE / AFTER</text><text x="938" y="481">LEAK CHECK AT START-UP</text><text x="938" y="511">LEAK CHECK AFTER 24 H</text><text x="938" y="541">PHOTOS (LABEL, CUT, FINAL)</text><text x="938" y="571">AHJ DETERMINATION ON SITE</text><text x="938" y="601">INSTALLER / LICENCE NO.</text><text x="938" y="641">SIGNATURE / DATE</text>
+      <text x="938" y="113">PROPERTY / BODY OF WATER</text><text x="938" y="143">DEVICE TAG / MODEL</text><text x="938" y="173">SERIAL NUMBER</text><text x="938" y="203">RETURN PIPE OD / MATERIAL</text><text x="938" y="233">FLOW (GPM), HOW MEASURED</text><text x="938" y="263">CUT LENGTH USED (IN.)</text><text x="938" y="293">CEMENT TYPE / CURE ALLOWED</text><text x="938" y="323">FILTER GAUGE BEFORE / AFTER</text><text x="938" y="353">LEAK CHECK AT START-UP</text><text x="938" y="383">LEAK CHECK AFTER 24 H</text><text x="938" y="413">PHOTOS (LABEL, CUT, FINAL)</text><text x="938" y="443">AHJ DETERMINATION ON SITE</text><text x="938" y="473">INSTALLER / LICENCE NO.</text><text x="938" y="513">SIGNATURE / DATE</text>
     </g>
     <g class="mono" font-size="9.5" fill="#5C6B82">
-      <text x="1158" y="481">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="511">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="541">&#9744; LABEL &nbsp;&#9744; CUT &nbsp;&#9744; FINAL</text><text x="1158" y="571">&#9744; YES &nbsp;&#9744; PERMIT NO. ________</text><text x="1158" y="451">________ / ________ PSI</text>
+      <text x="1158" y="353">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="383">&#9744; DRY &nbsp;&#9744; WEEP, CORRECTED</text><text x="1158" y="413">&#9744; LABEL &nbsp;&#9744; CUT &nbsp;&#9744; FINAL</text><text x="1158" y="443">&#9744; YES &nbsp;&#9744; PERMIT NO. ________</text><text x="1158" y="323">________ / ________ PSI</text>
     </g>
 
     <!-- contacts -->
-    <text x="930" y="700" class="lab s11">CONTACTS</text>
+    <text x="930" y="582" class="lab s11">CONTACTS</text>
     <g font-size="11">
-      <text x="930" y="722">Sales and AHJ package support</text><text x="930" y="738" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
-      <text x="930" y="762">Technical support and warranty claims</text><text x="930" y="778" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
-      <text x="930" y="802">Listing verification</text><text x="930" y="818" class="mono" font-size="10.5">pld.iapmo.org &#183; File No. W-12547</text>
-      <text x="930" y="842">Documents</text><text x="930" y="858" class="mono" font-size="10.5">aquarevwater.us/data &#183; aquarevwater.us/warranty</text>
+      <text x="930" y="604">Sales and AHJ package support</text><text x="930" y="620" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
+      <text x="930" y="644">Technical support and warranty claims</text><text x="930" y="660" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
+      <text x="930" y="684">Listing verification</text><text x="930" y="700" class="mono" font-size="10.5">pld.iapmo.org &#183; File No. W-12547</text>
+      <text x="930" y="724">Documents</text><text x="930" y="740" class="mono" font-size="10.5">aquarevwater.us/data &#183; aquarevwater.us/warranty</text>
     </g>
   </svg>
   </div>
