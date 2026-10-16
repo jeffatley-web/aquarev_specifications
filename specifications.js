@@ -8,396 +8,201 @@ root.innerHTML=`
   <div>
     <div class="brand">Aqua<span>Rev</span> Water &nbsp;&#183;&nbsp; Commercial</div>
     <h1>Specifications &amp; Installation Instructions</h1>
-    <p class="sub">The written companion to Drawing Set 100: a three-part specification for the AquaRev water conditioning device on a commercial pool or spa recirculation system, and the step-by-step instructions the installing contractor works from.</p>
+    <p class="sub">What the AquaRev water conditioning device is, where it goes on a commercial pool system, and how to install it. Written for engineers and contractors meeting the device for the first time. Companion to reference Drawing Set 100.</p>
   </div>
   <div class="meta">
-    <b>Revision A</b><br>Reference document &#183; 22 September 2026<br><br>
-    Companion to<br><b>Installation Drawing Set 100</b><br><b>Product Specification Guide 2026</b><br><b>Pump Room Implementation Guide Rev 1.1</b><br><br>
-    aquarevwater.us/data
+    <b>Revision A</b><br>September 2026<br>
+    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">Download PDF<small>Letter</small></a><br>
+    <a class="dl alt" href="https://www.aquarevwater.us/drawings">Drawing Set 100<small>8 sheets &#183; 17 &#215; 11 in.</small></a>
   </div>
 </header>
 
+<nav class="secnav" aria-label="Sections">
+  <a href="#s1"><b>1</b>The device</a>
+  <a href="#s2"><b>2</b>Where it goes</a>
+  <a href="#s3"><b>3</b>Before install day</a>
+  <a href="#s4"><b>4</b>Installation</a>
+  <a href="#s5"><b>5</b>After start-up</a>
+  <a href="#s6"><b>6</b>Specification</a>
+  <a href="#s7"><b>7</b>Drawings</a>
+</nav>
+
 <!-- ============ 1 ============ -->
 <section class="first" id="s1">
-  <h2>What this document is for</h2>
-  <p class="lead" style="margin-top:12px">Part A is the specification: what is being installed, to which standards, and how the work is accepted. It is written in the three-part format engineers, facilities departments and authorities expect, so it can be attached to a purchase order, a contractor scope, or a permit submittal without rewriting. Part B is the installation instruction the crew carries into the pump room.</p>
-  <ol class="toc">
-    <li><span class="n">A</span><div><a href="#partA">Specification &#183; Section 22 51 19</a><small>Swimming pool water treatment equipment: hydrodynamic cavitation water conditioning device</small></div></li>
-    <li><span class="n">A.1</span><div><a href="#p1">Part 1 &#183; General</a><small>Summary, references, submittals, quality, handling, warranty</small></div></li>
-    <li><span class="n">A.2</span><div><a href="#p2">Part 2 &#183; Products</a><small>Manufacturer, device, models, supplied and contractor materials</small></div></li>
-    <li><span class="n">A.3</span><div><a href="#p3">Part 3 &#183; Execution</a><small>Examination, preparation, installation, field quality control, closeout</small></div></li>
-    <li><span class="n">B</span><div><a href="#partB">Installation instructions</a><small>Before install day, the eight steps, after start-up, troubleshooting</small></div></li>
-    <li><span class="n">C</span><div><a href="#partC">Drawing cross-reference</a><small>Which sheet answers which question</small></div></li>
+  <div class="sechead"><div class="secnum">1</div><div><h2>The device</h2><p class="lead">A passive PVC vessel that mounts in-line on the pool return pipe. Water passing through its fixed internal shape undergoes hydrodynamic cavitation. Nothing to power, dose, clean, calibrate or replace.</p></div></div>
+  <dl class="facts">
+    <dt>Listing</dt><dd>Water Conditioning Device, certified to NSF/ANSI/CAN 50-2024 by IAPMO R&amp;T, File No. W-12547. USPC&#174; mark. Listed in compliance with the Uniform Swimming Pool, Spa and Hot Tub Code.</dd>
+    <dt>Materials</dt><dd>PVC body and fittings. NSF/ANSI 372 lead-free. California Prop 65 compliant. Made in the USA. No metal, so no grounding.</dd>
+    <dt>Moving parts</dt><dd>None. No media, screens, lamps, cartridges, chemicals or electrical connection.</dd>
+    <dt>Connection</dt><dd>In series on the existing return pipe using two Schedule 40 PVC unions supplied with the device. No bypass. No utility connection of any kind.</dd>
+    <dt>Head loss</dt><dd>2.6 psi rated, every model.</dd>
+    <dt>Warranty</dt><dd>Lifetime limited on the body. Requires professional installation and balanced water. Unions, O-rings and external piping excluded.</dd>
+  </dl>
+  <div class="note">
+    <div class="t">The one rule that never changes</div>
+    <p>The device supplements the pool's disinfection. It does not replace it. Free chlorine and pH stay inside the regulated range, tested and recorded exactly as before.</p>
+  </div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section id="s2">
+  <div class="sechead"><div class="secnum">2</div><div><h2>Where it goes and which model</h2><p class="lead">One device per recirculating loop, always the last component before water returns to the pool.</p></div></div>
+  <h3>Location</h3>
+  <ul>
+    <li>On the return line, downstream of the pump, filter, heater, chemical injection points and sensor taps. Nothing is installed after it except existing pipe.</li>
+    <li>As close to the pool return as the room allows. Any orientation: horizontal, vertical, diagonal.</li>
+    <li>Existing equipment, valves, suction piping and drains are not touched. No dedicated pipe supports are needed; existing supports stay where they are.</li>
+  </ul>
+  <h3>Model</h3>
+  <p>Select by return pipe size, then confirm the loop's flow sits inside that model's range.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Pipe</th><th>Model</th><th class="num">Flow range</th><th class="num">L1</th><th class="num">D1</th><th class="num">Straight run</th></tr></thead>
+    <tbody>
+      <tr><td class="lab">2 in.</td><td class="num">KD2X4X2</td><td class="num">44–127 gpm</td><td class="num">20.25 in.</td><td class="num">5.00 in.</td><td class="num">28.25 in.</td></tr>
+      <tr><td class="lab">3 in.</td><td class="num">KD3X6X3</td><td class="num">112–273 gpm</td><td class="num">24.00 in.</td><td class="num">7.25 in.</td><td class="num">32.00 in.</td></tr>
+      <tr><td class="lab">4 in.</td><td class="num">KD4X8X4</td><td class="num">240–480 gpm</td><td class="num">28.19 in.</td><td class="num">9.34 in.</td><td class="num">36.19 in.</td></tr>
+      <tr><td class="lab">6 in.</td><td class="num">KD6X12X6</td><td class="num">440–1,100 gpm</td><td class="num">40.00 in.</td><td class="num">13.75 in.</td><td class="num">48.00 in.</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><strong>Clearance:</strong> a straight run of L1 + 8 in. (4 in. clear each side to any fitting) and D1 + 4 in. around the body, with hand access to both union nuts. Full dimensions on sheet M-301.</li>
+    <li><strong>Short run:</strong> rebuild the run as an offset with four 90° elbows and put the device on the new leg (M-401, C).</li>
+    <li><strong>Flow above the range:</strong> two identical parallel branches with isolation valves, each device seeing half the flow (M-401, D). Confirm with AquaRev first.</li>
+    <li><strong>Refer to AquaRev before ordering</strong> when flow is within 10% of a range limit. Eight- and ten-inch units are available on request.</li>
+  </ul>
+</section>
+
+<!-- ============ 3 ============ -->
+<section id="s3">
+  <div class="sechead"><div class="secnum">3</div><div><h2>Before install day</h2><p class="lead">An installation is a half-day plumbing task per loop. Nearly all the effort is in confirming the pipe, the flow, the space and the paperwork before anything is cut.</p></div></div>
+  <div class="cols2">
+    <ul class="check">
+      <li><div><b>Site assessment record done</b><small>Return pipe outside diameter and material, flow from the meter or pump curve, clean-filter gauge reading, straight run available, isolation or drain-down method.</small></div></li>
+      <li><div><b>Pump margin confirmed</b><small>The device adds up to 2.6 psi.</small></div></li>
+      <li><div><b>AHJ determination in writing</b><small>Email reply or permit. A copy goes on site. Implementation Guide §6–7 has the package.</small></div></li>
+      <li><div><b>Pool closure scheduled</b><small>Three to five hours per loop, including cement cure.</small></div></li>
+    </ul>
+    <ul class="check">
+      <li><div><b>Device received and checked</b><small>Carton label photographed, serial recorded, two union halves and two O-rings present, IN and OUT identified.</small></div></li>
+      <li><div><b>Cut length measured from the unit</b><small>Dry-fit both union tails to the device and measure socket bottom to socket bottom. Write it down. Never cut to L1.</small></div></li>
+      <li><div><b>Primer and cement in date</b><small>ASTM F656 primer, ASTM D2564 cement, heavy-body for 4 in. and up.</small></div></li>
+      <li><div><b>Licensed installer, lock-out kit, ventilation</b><small>Locks and tags for the pump and every feeder on the loop. Fan or open door.</small></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 4 ============ -->
+<section id="s4">
+  <div class="sechead"><div class="secnum">4</div><div><h2>Installation</h2><p class="lead">Eight steps, in order. Sheet M-302 draws each one.</p></div></div>
+  <div class="stop">
+    <div class="t">Lock-out first, every time</div>
+    <p>The pump disconnect and every chemical feeder on the loop: chlorinator or salt cell, acid or CO&#8322; feed, and the controller's dosing outputs. Stopping flow with feeders live can concentrate chemical in the line.</p>
+  </div>
+  <ol class="steps">
+    <li><h3>Lock out and tag<small>M-302 &#183; 01</small></h3><p>Pump off at its disconnect, locked and tagged. Every feeder and the controller's dosing outputs off, locked and tagged. Confirm nothing can restart.</p></li>
+    <li><h3>Isolate and depressurize<small>02</small></h3><p>Close return isolation valves where fitted, otherwise open the filter drain. Open the filter air relief. The gauge must read zero. Bucket under the cut zone.</p></li>
+    <li><h3>Measure, mark and cut<small>03 &#183; 3/M-301</small></h3><p>Mark the recorded cut length on the return run after the last treatment component, 4 in. clear each side. Measure again. Cut square at both marks and remove the section.</p></li>
+    <li><h3>Debur and clean<small>04</small></h3><p>Burrs off inside and out. Ends and sockets wiped clean and dry. A tail should dry-fit one third to two thirds of the socket by hand.</p></li>
+    <li><h3>Prime and cement the union tails<small>05 &#183; 2/M-301</small></h3><p>Nut onto the pipe first. Prime pipe end and socket, cement both, push fully home with a quarter turn, hold 30 seconds. Repeat the other end. Set the nuts so they turn by hand.</p></li>
+    <li><h3>Set the device<small>06</small></h3><p>IN arrow toward the pump, label facing out. O-rings seated, faces clean. Confirm full insertion, then tighten each nut hand-tight plus a small snug. No wrench, no sealant, no cement on the threads.</p></li>
+    <li><h3>Cure, then refill<small>07</small></h3><p>Wait the cement manufacturer's full cure for the size and temperature: typically 1 to 2 hours for 2 in., 2 to 4 hours for 3 and 4 in., longer when cold or damp. Close drains and refill the filter while waiting.</p></li>
+    <li><h3>Restart, check and record<small>08</small></h3><p>Pump lock-out off only. Start with the air relief open until clear. Inspect both unions and welds under pressure; a weep means reseat, not more torque. Gauge up to 2.6 psi more. Restore feeders last. Photograph the listing mark. Fill the record on M-501. Recheck at 24 hours.</p></li>
   </ol>
+</section>
+
+<!-- ============ 5 ============ -->
+<section id="s5">
+  <div class="sechead"><div class="secnum">5</div><div><h2>After start-up</h2><p class="lead">The device works from the first pump cycle. Keep dosing exactly as the health code requires and let the controller find any new demand on its own.</p></div></div>
+  <div class="tw keep"><table>
+    <thead><tr><th>What you see</th><th>What to do</th></tr></thead>
+    <tbody>
+      <tr><td class="lab">Filter loads faster, week one</td><td>Normal. Backwash or clean the cartridge as usual.</td></tr>
+      <tr><td class="lab">Controller doses less</td><td>Expected. Leave setpoints where the health code puts them.</td></tr>
+      <tr><td class="lab">Weep at a union</td><td>Depressurize, loosen, clean both faces, reseat the O-ring, retighten by hand. Never add torque, sealant or cement.</td></tr>
+      <tr><td class="lab">Gauge up more than 2.6 psi</td><td>Clean the filter first. If still high with a clean filter, check the device for debris.</td></tr>
+      <tr><td class="lab">Device suspected blocked</td><td>Lock out pump and feeders. Loosen unions, remove, turn 180°, run water backward 5 minutes, reinstall in the original direction. Then fix what let debris past the filter.</td></tr>
+      <tr><td class="lab">Winter</td><td>Winterize with the rest of the loop. The device drains through the unions.</td></tr>
+    </tbody>
+  </table></div>
+  <p>No scheduled maintenance. Warranty claims go to water@aquarevwater.us with the install date and serial number.</p>
+</section>
+
+<!-- ============ 6 ============ -->
+<section id="s6">
+  <div class="sechead"><div class="secnum">6</div><div><h2>Specification</h2><p class="lead">For a purchase order, a contractor scope or a permit submittal. CSI MasterFormat Section 22 51 19, Swimming Pool Water Treatment Equipment. Renumber if the project manual uses another scheme.</p></div></div>
+  <h4>Part 1 &#183; General</h4>
+  <ol class="clauses">
+    <li><span class="c">1.1</span><div><strong>Work.</strong> Furnish and install one AquaRev water conditioning device per recirculating loop, in series on the existing return line downstream of all treatment equipment, using the supplied Schedule 40 PVC unions. No modification to pumps, filters, heaters, feeders, controllers, suction piping, drains, shell or barriers. No utility connection.</div></li>
+    <li><span class="c">1.2</span><div><strong>References.</strong> NSF/ANSI/CAN 50-2024; IAPMO R&amp;T Listing W-12547; NSF/ANSI 372; ASTM D1785, D2466, F656, D2564, D2855; local building and public-pool health codes; the AHJ's written determination.</div></li>
+    <li><span class="c">1.3</span><div><strong>Submittals.</strong> Site assessment record per loop; product data and listing; AHJ determination; installer licence; at closeout the completed installation record (M-501) with serial numbers and photographs.</div></li>
+    <li><span class="c">1.4</span><div><strong>Quality.</strong> Device bears the IAPMO R&amp;T mark; no substitutions. Licensed pool contractor or plumber. Solvent joints per ASTM D2855 and the cement manufacturer, whose instructions govern where they differ from this document.</div></li>
+    <li><span class="c">1.5</span><div><strong>Delivery and conditions.</strong> Manufacturer's carton, stored indoors off the floor. Three to five hour closure per loop. Ventilation while cementing; no flame. Cure time per the manufacturer for size and temperature.</div></li>
+    <li><span class="c">1.6</span><div><strong>Warranty.</strong> Lifetime limited on the device body, conditional on professional installation and balanced water. Unions, O-rings and external piping excluded.</div></li>
+  </ol>
+  <h4>Part 2 &#183; Products</h4>
+  <ol class="clauses">
+    <li><span class="c">2.1</span><div><strong>Manufacturer.</strong> AquaRev Water, aquarevwater.us. The listing carries the brand name HDC Products and the listee KM LLC dba KD Enterprises; cite it as issued.</div></li>
+    <li><span class="c">2.2</span><div><strong>Device.</strong> Passive in-line water conditioning device, PVC, lead-free, no moving parts or consumables, two Schedule 40 PVC union halves with O-rings supplied, label with listing mark, serial and flow direction. Models, ranges and dimensions per the table in Section 2.</div></li>
+    <li><span class="c">2.3</span><div><strong>By the contractor.</strong> ASTM F656 primer; ASTM D2564 cement, heavy body at 4 in. and up; Schedule 40 pipe and socket fittings of the return-line size for any reroute; lock-out devices and tags.</div></li>
+  </ol>
+  <h4>Part 3 &#183; Execution</h4>
+  <ol class="clauses">
+    <li><span class="c">3.1</span><div><strong>Examination.</strong> Complete the site assessment record. Confirm the model's range brackets the measured flow and that pump margin covers 2.6 psi. Report non-PVC pipe, out-of-tolerance pipe or a run that cannot be made to fit before cutting.</div></li>
+    <li><span class="c">3.2</span><div><strong>Installation.</strong> Per Section 4 of this document and sheets M-301 and M-302: lock-out and zero pressure before opening the line; location per Section 2; cut to the field-measured length; joints per ASTM D2855; nuts hand-tight plus a small snug, no wrench; existing supports retained, none added; full cure before pressure.</div></li>
+    <li><span class="c">3.3</span><div><strong>Field quality control.</strong> Leak inspection of both unions and welds at operating pressure and again after 24 hours. Filter gauge increase of not more than 2.6 psi over the clean-filter reading. Feeders and controller restored last; setpoints unchanged.</div></li>
+    <li><span class="c">3.4</span><div><strong>Closeout.</strong> Assessment record, AHJ determination or permit and inspection, listing and warranty as issued, and the completed installation record in the project file.</div></li>
+  </ol>
+</section>
+
+<!-- ============ 7 ============ -->
+<section id="s7">
+  <div class="sechead"><div class="secnum">7</div><div><h2>Drawings &amp; contacts</h2></div></div>
   <div class="linkcard">
     <div class="sheetico" aria-hidden="true"><span>M-101</span></div>
     <div>
-      <h3>Installation Drawing Set 100 &#183; Rev A</h3>
-      <p>Eight ANSI B sheets: cover and notes, site plan, pump room plan, flow diagram, connection details, installation sequence, alternate arrangements, schedules and records. Every sheet reference in this document (for example 3/M-301) points into that set.</p>
+      <h3>Reference Drawing Set 100 &#183; Rev A</h3>
+      <p>Eight ANSI B sheets drawn around a sample pool and spa pump room. Not site-specific; the same set serves every property.</p>
       <div class="links">
         <a class="primary" href="https://www.aquarevwater.us/drawings">Open the drawing set</a>
         <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF, 17 &#215; 11</a>
       </div>
     </div>
   </div>
-  <div class="note">
-    <div class="t">The one rule that never changes</div>
-    <p>The AquaRev device supplements the pool's disinfection system. It does not replace it. Free chlorine and pH must still be held inside the regulated range, tested on schedule, and recorded, exactly as before.</p>
-  </div>
-</section>
-
-<!-- ============ PART A ============ -->
-<section id="partA">
-  <div class="parthead">Part A &#183; Specification</div>
-  <h2>Section 22 51 19 &#183; Swimming Pool Water Treatment Equipment</h2>
-  <p class="lead" style="margin-top:10px">Hydrodynamic cavitation water conditioning device, in-line, passive. Section numbering follows CSI MasterFormat so the section drops into a project manual beside the existing pool plumbing sections. Where a project uses a different numbering, keep the clause text and renumber.</p>
-
-  <h3 id="p1"><span class="n">PART 1</span>General</h3>
-
-  <h4>1.1 Summary</h4>
-  <ol class="clauses">
-    <li><span class="c">1.1.A</span><div><p><strong>Work included.</strong> Furnish and install one AquaRev water conditioning device per recirculating loop, in series on the existing return line, downstream of all treatment equipment, using the two Schedule 40 PVC unions supplied with the device, and with the records listed in Part 3.</p></div></li>
-    <li><span class="c">1.1.B</span><div><p><strong>Work not included.</strong> No modification to the pump, filter, heater, chlorinator or salt cell, chemical feeders, controller, sensors, suction piping, main drains, drain covers, shell, deck or barriers. No electrical, gas, water-supply, drain, sewer or backwash connection. No change to turnover, flow rate or disinfection method.</p></div></li>
-    <li><span class="c">1.1.C</span><div><p><strong>Related documents.</strong> Installation Drawing Set 100, sheets G-001 through M-501. Product Specification Guide 2026. Pump Room Implementation Guide Rev 1.1 (site assessment, approvals, permit determination, jurisdiction package). Installation Pathway Rev 1.0 (who does what, when).</p></div></li>
-  </ol>
-
-  <h4>1.2 References</h4>
-  <div class="tw"><table class="spec">
-    <thead><tr><th>Reference</th><th>Applies to</th></tr></thead>
-    <tbody>
-      <tr><td class="lab">NSF/ANSI/CAN 50-2024</td><td>Equipment for swimming pools, spas, hot tubs. The device is certified to this standard by IAPMO R&amp;T.</td></tr>
-      <tr><td class="lab">IAPMO R&amp;T Product Listing, File No. W-12547</td><td>Listing of the device as a Water Conditioning Device bearing the USPC&#174; mark, listed in compliance with the Uniform Swimming Pool, Spa and Hot Tub Code. Verify at pld.iapmo.org.</td></tr>
-      <tr><td class="lab">NSF/ANSI 372</td><td>Lead content. Device materials are lead-free.</td></tr>
-      <tr><td class="lab">ASTM D1785</td><td>PVC pipe, Schedule 40, for any reroute or replacement lengths.</td></tr>
-      <tr><td class="lab">ASTM D2466</td><td>PVC Schedule 40 socket fittings: couplings, elbows, tees.</td></tr>
-      <tr><td class="lab">ASTM F656</td><td>Primer for PVC solvent-cemented joints.</td></tr>
-      <tr><td class="lab">ASTM D2564</td><td>Solvent cement for PVC pipe and fittings.</td></tr>
-      <tr><td class="lab">ASTM D2855</td><td>Standard practice for the two-step (primer and solvent cement) method of joining PVC pipe and fittings.</td></tr>
-      <tr><td class="lab">Local codes</td><td>Building or plumbing code and public pool health code as adopted by the authority having jurisdiction, and that authority's written permit determination.</td></tr>
-    </tbody>
-  </table></div>
-
-  <h4>1.3 Definitions</h4>
-  <ol class="clauses">
-    <li><span class="c">1.3.A</span><div><p><strong>Device, WCD.</strong> The AquaRev hydrodynamic cavitation water conditioning device, including its two union halves and O-rings.</p></div></li>
-    <li><span class="c">1.3.B</span><div><p><strong>Loop.</strong> One recirculating system: one body of water with its own pump, filter and return. Each loop receives its own device.</p></div></li>
-    <li><span class="c">1.3.C</span><div><p><strong>L1, L2, D1, D2.</strong> Overall length including unions; body length collar to collar; body diameter; union nut diameter. Per Product Specification Guide 2026 and sheet M-301.</p></div></li>
-    <li><span class="c">1.3.D</span><div><p><strong>Cut length.</strong> The length of existing pipe removed, measured socket bottom to socket bottom with both union tails dry-fitted to the device. It is always less than L1.</p></div></li>
-    <li><span class="c">1.3.E</span><div><p><strong>AHJ.</strong> Authority having jurisdiction: the building department and the public-pool health program, or whichever office decides on changes to public pool equipment.</p></div></li>
-  </ol>
-
-  <h4>1.4 System description and performance</h4>
-  <ol class="clauses">
-    <li><span class="c">1.4.A</span><div><p>The device is a passive PVC pressure vessel with fixed internal geometry. Water flowing through it undergoes hydrodynamic cavitation. It has no moving parts, no media, no consumables, no electrical or control connection, and requires no calibration.</p></div></li>
-    <li><span class="c">1.4.B</span><div><p>Rated head loss is 2.6 psi at maximum rated flow for every model. Flow ranges by model are in 2.3. The loop's design flow must fall inside the selected model's range.</p></div></li>
-    <li><span class="c">1.4.C</span><div><p>The device operates in any orientation. Gravity has no effect on performance.</p></div></li>
-    <li><span class="c">1.4.D</span><div><p>The device supplements disinfection. Sanitizer and pH requirements of the health code are unchanged and remain the operator's responsibility.</p></div></li>
-  </ol>
-
-  <h4>1.5 Submittals</h4>
-  <ol class="clauses">
-    <li><span class="c">1.5.A</span><div><p><strong>Before ordering:</strong> site assessment record for each loop (Implementation Guide §3) stating return pipe outside diameter and material, measured flow, filter gauge with clean filter, straight run available, isolation and drain-down method, and selected model.</p></div></li>
-    <li><span class="c">1.5.B</span><div><p><strong>Product data:</strong> Product Specification Guide 2026 pages for the selected model; IAPMO R&amp;T Product Listing W-12547, both pages; warranty terms as issued.</p></div></li>
-    <li><span class="c">1.5.C</span><div><p><strong>Before install day:</strong> the AHJ determination record with the authority's written reply, or the permit; installer's licence and insurance per the property's vendor requirements; confirmed cut length from the unit in hand.</p></div></li>
-    <li><span class="c">1.5.D</span><div><p><strong>Closeout:</strong> completed installation record (sheet M-501) with serial number, cut length, cure time, gauge readings before and after, leak checks at start-up and after 24 hours, and photographs of the carton label, the cut zone with a tape in frame, and the finished installation with the listing mark visible.</p></div></li>
-  </ol>
-
-  <h4>1.6 Quality assurance</h4>
-  <ol class="clauses">
-    <li><span class="c">1.6.A</span><div><p>Device shall bear the IAPMO R&amp;T listing mark. Substitutions are not permitted.</p></div></li>
-    <li><span class="c">1.6.B</span><div><p>Installer shall be a licensed pool contractor or plumber experienced in solvent-cemented PVC pressure piping. The warranty requires professional installation.</p></div></li>
-    <li><span class="c">1.6.C</span><div><p>Solvent-cemented joints shall follow ASTM D2855 and the cement manufacturer's instructions for pipe size, temperature and cure. Where these instructions and this document differ, the manufacturer's instructions govern.</p></div></li>
-    <li><span class="c">1.6.D</span><div><p>Refer to AquaRev before ordering when loop flow is within 10% of a model's range limit, the pool exceeds 500,000 gallons, or the return pipe is 8 in. or larger.</p></div></li>
-  </ol>
-
-  <h4>1.7 Delivery, storage and handling</h4>
-  <ol class="clauses">
-    <li><span class="c">1.7.A</span><div><p>Deliver in the manufacturer's carton. Carton sizes: 36 &#215; 10.5 &#215; 10.5 in. for 2, 3 and 4 in. models (8, 20 and 35 lb); 44 &#215; 16.5 &#215; 16.5 in. for the 6 in. model (50 lb).</p></div></li>
-    <li><span class="c">1.7.B</span><div><p>On receipt, photograph the carton label and confirm the model against the assessment record. Open and confirm both union halves and both O-rings are present. Store indoors, off the floor, out of direct sun, with the carton closed until install day.</p></div></li>
-  </ol>
-
-  <h4>1.8 Project conditions</h4>
-  <ol class="clauses">
-    <li><span class="c">1.8.A</span><div><p>Pool closure of three to five hours per loop, including cement cure. Schedule with operations; post signage and barrier per property policy.</p></div></li>
-    <li><span class="c">1.8.B</span><div><p>Ventilate the equipment room while priming and cementing: open door or fan. No heat or open flame.</p></div></li>
-    <li><span class="c">1.8.C</span><div><p>Cure time depends on pipe size and temperature. Cool or damp rooms need longer. Plan the closure window around the cement manufacturer's table, not around the pool schedule.</p></div></li>
-  </ol>
-
-  <h4>1.9 Warranty</h4>
-  <ol class="clauses">
-    <li><span class="c">1.9.A</span><div><p>Lifetime limited warranty on the device body. Unions, O-rings and external piping are excluded. Conditions: professional installation following AquaRev's documentation, and water kept balanced within industry ranges. Claims to water@aquarevwater.us with install date and serial number. Full terms at aquarevwater.us/warranty.</p></div></li>
-  </ol>
-
-  <h3 id="p2"><span class="n">PART 2</span>Products</h3>
-
-  <h4>2.1 Manufacturer</h4>
-  <ol class="clauses">
-    <li><span class="c">2.1.A</span><div><p>AquaRev Water, aquarevwater.us. Sales and AHJ package support: water@aquarevwater.us, (832) 979-6758. Technical support and warranty: aquarev@hdcproductsinc.com, (808) 628-0208.</p><p>The IAPMO R&amp;T listing carries the brand name HDC Products and the listee KM LLC dba KD Enterprises, Honolulu, HI. Cite the listing exactly as issued in any submittal.</p></div></li>
-  </ol>
-
-  <h4>2.2 Device</h4>
-  <ol class="clauses">
-    <li><span class="c">2.2.A</span><div><p><strong>Type:</strong> Water Conditioning Device for pools, spas and hot tubs, certified to NSF/ANSI/CAN 50-2024 by IAPMO R&amp;T, File No. W-12547.</p></div></li>
-    <li><span class="c">2.2.B</span><div><p><strong>Materials:</strong> PVC body and fittings. NSF/ANSI 372 lead-free. California Proposition 65 compliant. Made in the USA. No metal components; no grounding required.</p></div></li>
-    <li><span class="c">2.2.C</span><div><p><strong>Connections:</strong> Two Schedule 40 PVC unions, supplied, one each end, sized to the return pipe. Solvent-weld socket on the pipe side; O-ring face seal; hand-tightened nut.</p></div></li>
-    <li><span class="c">2.2.D</span><div><p><strong>Marking:</strong> Label with listing mark, model and serial number, and IN and OUT flow direction.</p></div></li>
-  </ol>
-
-  <h4>2.3 Models</h4>
-  <div class="tw"><table class="spec">
-    <thead><tr><th>Return pipe</th><th class="num">2 in.</th><th class="num">3 in.</th><th class="num">4 in.</th><th class="num">6 in.</th></tr></thead>
-    <tbody>
-      <tr><td class="lab">Product ID</td><td class="num">KD2X4X2</td><td class="num">KD3X6X3</td><td class="num">KD4X8X4</td><td class="num">KD6X12X6</td></tr>
-      <tr><td class="lab">Flow range</td><td class="num">44–127 gpm</td><td class="num">112–273 gpm</td><td class="num">240–480 gpm</td><td class="num">440–1,100 gpm</td></tr>
-      <tr><td class="lab">Head loss, rated</td><td class="num">2.6 psi</td><td class="num">2.6 psi</td><td class="num">2.6 psi</td><td class="num">2.6 psi</td></tr>
-      <tr><td class="lab">Fitting</td><td class="num">2 in. PVC hub</td><td class="num">3 in. PVC hub</td><td class="num">4 in. PVC hub</td><td class="num">6 in. PVC hub</td></tr>
-      <tr><td class="lab">L1 overall</td><td class="num">20.25 in.</td><td class="num">24.00 in.</td><td class="num">28.19 in.</td><td class="num">40.00 in.</td></tr>
-      <tr><td class="lab">L2 body</td><td class="num">13.375 in.</td><td class="num">15.00 in.</td><td class="num">18.88 in.</td><td class="num">25.00 in.</td></tr>
-      <tr><td class="lab">D1 body dia.</td><td class="num">5.00 in.</td><td class="num">7.25 in.</td><td class="num">9.34 in.</td><td class="num">13.75 in.</td></tr>
-      <tr><td class="lab">D2 union dia.</td><td class="num">3.60 in.</td><td class="num">5.06 in.</td><td class="num">6.19 in.</td><td class="num">9.00 in.</td></tr>
-      <tr><td class="lab">Min. straight run, L1 + 8 in.</td><td class="num">28.25 in.</td><td class="num">32.00 in.</td><td class="num">36.19 in.</td><td class="num">48.00 in.</td></tr>
-      <tr><td class="lab">Clear around body, D1 + 4 in.</td><td class="num">9.00 in.</td><td class="num">11.25 in.</td><td class="num">13.34 in.</td><td class="num">17.75 in.</td></tr>
-      <tr><td class="lab">Shipping weight</td><td class="num">8 lb</td><td class="num">20 lb</td><td class="num">35 lb</td><td class="num">50 lb</td></tr>
-    </tbody>
-  </table></div>
-  <p>Eight-inch and ten-inch units are available on request. Source: Product Specification Guide 2026. Measure the unit in hand before marking pipe; dimensions are for selection and clearance, not for cutting.</p>
-
-  <h4>2.4 Supplied with the device</h4>
-  <ol class="clauses">
-    <li><span class="c">2.4.A</span><div><p>Two Schedule 40 PVC union halves with O-rings, matched to the device size. Nothing else is required from AquaRev for a standard installation.</p></div></li>
-  </ol>
-
-  <h4>2.5 Materials furnished by the contractor</h4>
   <div class="tw"><table>
-    <thead><tr><th>Item</th><th>Requirement</th></tr></thead>
+    <thead><tr><th>Sheet</th><th>Use it for</th></tr></thead>
     <tbody>
-      <tr><td class="lab">Primer</td><td>ASTM F656, purple, within shelf date.</td></tr>
-      <tr><td class="lab">Solvent cement</td><td>ASTM D2564 for PVC. Heavy-body cement for 4 in. and larger. Within shelf date.</td></tr>
-      <tr><td class="lab">Pipe</td><td>ASTM D1785 Schedule 40 PVC, same size as the return line. Carry 10 ft for reroute or recovery.</td></tr>
-      <tr><td class="lab">Fittings</td><td>ASTM D2466 Schedule 40 PVC socket couplings, 90° elbows and tees as required for arrangements C and D on sheet M-401.</td></tr>
-      <tr><td class="lab">Pipe supports</td><td>None required for the device. Where a rerouted run (arrangement C on M-401) needs support, corrosion-resistant strut or clevis hangers with clamps.</td></tr>
-      <tr><td class="lab">Lock-out</td><td>Lock-out devices and tags for the pump disconnect and every chemical feeder on the loop.</td></tr>
-      <tr><td class="lab">Label</td><td>Optional flow-direction label on the pipe at the device: arrow toward pool, "AquaRev WCD, remove at unions".</td></tr>
+      <tr><td class="num">G-001</td><td>General notes, symbols, abbreviations</td></tr>
+      <tr><td class="num">C-101</td><td>Where the work sits on a property</td></tr>
+      <tr><td class="num">M-101</td><td>Pump room plan: where the device goes on each loop</td></tr>
+      <tr><td class="num">M-201</td><td>Flow diagram: what is upstream and downstream</td></tr>
+      <tr><td class="num">M-301</td><td>Device dimensions, union joint, cut length, supports</td></tr>
+      <tr><td class="num">M-302</td><td>The eight installation steps, drawn</td></tr>
+      <tr><td class="num">M-401</td><td>Vertical runs, short runs, parallel devices, clearance</td></tr>
+      <tr><td class="num">M-501</td><td>Materials, tools, closeout, installation record</td></tr>
     </tbody>
   </table></div>
-
-  <h3 id="p3"><span class="n">PART 3</span>Execution</h3>
-
-  <h4>3.1 Examination</h4>
-  <ol class="clauses">
-    <li><span class="c">3.1.A</span><div><p>Walk the equipment room with a tape and camera and complete the assessment record for each loop. Confirm: return pipe outside diameter and material; flow from the flow meter or pump curve; filter gauge with a clean filter; the last treatment component on the return; straight run available after it; isolation valves or drain-down method; injection points and sample taps; door and access for the carton.</p></div></li>
-    <li><span class="c">3.1.B</span><div><p>Confirm the selected model's flow range brackets the measured flow, and that pump margin covers an added 2.6 psi. Where the straight run is less than L1 + 8 in., plan the offset reroute (M-401, C). Where flow exceeds a model's maximum, plan parallel devices (M-401, D) with AquaRev's concurrence.</p></div></li>
-    <li><span class="c">3.1.C</span><div><p>Report unforeseen conditions before cutting: non-PVC return pipe, pipe outside the union's tolerance, no way to isolate or drain, or a return run that cannot be made to fit.</p></div></li>
-  </ol>
-
-  <h4>3.2 Preparation</h4>
-  <ol class="clauses">
-    <li><span class="c">3.2.A</span><div><p>Approvals in hand: spend approval, brand engineering acceptance where applicable, the AHJ's written permit determination or permit, and the scheduled closure window. The contractor carries a copy of the determination on site.</p></div></li>
-    <li><span class="c">3.2.B</span><div><p>Materials on site per 2.5. Device unpacked, label photographed, serial recorded, union halves and O-rings counted, IN and OUT identified.</p></div></li>
-    <li><span class="c">3.2.C</span><div><p>Dry-fit both union tails to the device and measure socket bottom to socket bottom. Record the cut length before anything is switched off.</p></div></li>
-  </ol>
-
-  <h4>3.3 Installation</h4>
-  <ol class="clauses">
-    <li><span class="c">3.3.A</span><div><p><strong>Lock-out.</strong> Switch off and lock the pump at its disconnect and every chemical feeder on the loop, including controller dosing outputs, before opening the line. Depressurize; confirm the filter gauge reads zero.</p></div></li>
-    <li><span class="c">3.3.B</span><div><p><strong>Location.</strong> On the return line, downstream of the pump, filter, heater, chemical injection points and sensor taps, as close to the pool return as practical. Nothing is installed downstream of the device except existing pipe. Existing isolation valves, if any, remain in place.</p></div></li>
-    <li><span class="c">3.3.C</span><div><p><strong>Orientation.</strong> Any. IN toward the pump. Label facing out where it can be photographed.</p></div></li>
-    <li><span class="c">3.3.D</span><div><p><strong>Cut.</strong> Square, at the marked cut length, with 4 in. minimum clear from each union to any fitting. Deburr inside and out; wipe clean and dry.</p></div></li>
-    <li><span class="c">3.3.E</span><div><p><strong>Joints.</strong> Slide the nut onto the pipe first. Prime pipe end and socket, cement both, push fully home with a quarter turn, hold 30 seconds, wipe the bead. Repeat the other end. Orient nuts to be turned by hand. Follow ASTM D2855 and the cement manufacturer.</p></div></li>
-    <li><span class="c">3.3.F</span><div><p><strong>Set.</strong> Seat the device in the tails with O-rings in place and faces clean. Confirm full insertion. Tighten each nut hand-tight plus a small snug. No wrench, no thread sealant, no cement on the threads.</p></div></li>
-    <li><span class="c">3.3.G</span><div><p><strong>Support.</strong> No dedicated supports are required; the device is carried by the return line on its two unions. Existing pipe supports remain in place. On a long unsupported horizontal run, support the pipe or the device body adjacent to the device as good practice.</p></div></li>
-    <li><span class="c">3.3.H</span><div><p><strong>Cure.</strong> Full cure per the cement manufacturer for the pipe size and temperature before pressurizing. Close drains and refill the filter during the wait.</p></div></li>
-  </ol>
-
-  <h4>3.4 Field quality control</h4>
-  <ol class="clauses">
-    <li><span class="c">3.4.A</span><div><p>Remove the pump lock-out only. Start with the air relief open until water runs clear. Inspect both unions and both welds under operating pressure. A weep at a union is corrected by depressurizing, loosening, cleaning the faces, reseating the O-ring and retightening by hand, never by more torque.</p></div></li>
-    <li><span class="c">3.4.B</span><div><p>Read the filter gauge. Accept an increase of not more than 2.6 psi over the clean-filter reading before installation. Record both.</p></div></li>
-    <li><span class="c">3.4.C</span><div><p>Restore feeders and controller last. Recheck for leaks after 24 hours and record.</p></div></li>
-  </ol>
-
-  <h4>3.5 Start-up and first weeks</h4>
-  <ol class="clauses">
-    <li><span class="c">3.5.A</span><div><p>Controller setpoints are not changed. Dosing continues as the health code requires; any reduced demand shows up as less dosing, not as a reason to run leaner.</p></div></li>
-    <li><span class="c">3.5.B</span><div><p>Expect faster filter loading in week one; a backwash or cartridge clean is normal. Chemistry stays inside the regulated range, which is also a warranty condition.</p></div></li>
-  </ol>
-
-  <h4>3.6 Closeout</h4>
-  <ol class="clauses">
-    <li><span class="c">3.6.A</span><div><p>Project file contains: assessment record with photographs; AHJ determination record with the written reply or permit and inspection sign-off; listing, specification guide and warranty as issued; completed installation record with serial numbers, installer licence and photographs.</p></div></li>
-  </ol>
-
-  <h4>3.7 Maintenance</h4>
-  <ol class="clauses">
-    <li><span class="c">3.7.A</span><div><p>None scheduled. The device has no media, screens, lamps, cartridges or chemicals.</p></div></li>
-    <li><span class="c">3.7.B</span><div><p>If a blockage is suspected after the filter has been cleaned: lock out pump and feeders, loosen both unions, remove the device, turn it 180°, run water backward through it for five minutes, and reinstall in the original direction. Then correct whatever let debris past the filter.</p></div></li>
-    <li><span class="c">3.7.C</span><div><p>Winterize with the rest of the loop. The device drains through the unions.</p></div></li>
-  </ol>
-</section>
-
-<!-- ============ PART B ============ -->
-<section id="partB">
-  <div class="parthead">Part B &#183; Installation instructions</div>
-  <h2>For the crew in the pump room</h2>
-  <p class="lead" style="margin-top:10px">One loop, one device, one crew, three to five hours including cure. Almost all of the risk sits in three places: feeders left live, a cut made to the catalogue length instead of the measured one, and pressure applied before the cement has cured. The eight steps below match sheet M-302 panel for panel.</p>
-
-  <h3>Before install day</h3>
-  <div class="cols2">
-    <ul class="check">
-      <li><div><b>Assessment record complete</b><small>Pipe OD and material, flow, clean-filter gauge, straight run, isolation, model.</small></div></li>
-      <li><div><b>AHJ determination in hand</b><small>Written reply or permit. Carry a copy on site.</small></div></li>
-      <li><div><b>Closure scheduled and posted</b><small>Three to five hours per loop.</small></div></li>
-      <li><div><b>Device received and checked</b><small>Label photographed, serial recorded, two union halves and two O-rings present.</small></div></li>
-    </ul>
-    <ul class="check">
-      <li><div><b>Cut length measured from the unit</b><small>Tails dry-fitted, socket bottom to socket bottom. Written down.</small></div></li>
-      <li><div><b>Primer and cement in date</b><small>Heavy-body cement for 4 in. and up.</small></div></li>
-      <li><div><b>Spare pipe and fittings on the truck</b><small>Same size and schedule as the return line.</small></div></li>
-      <li><div><b>Lock-out kit for pump and every feeder</b><small>Locks, tags, and a way to ventilate the room.</small></div></li>
-    </ul>
-  </div>
-
-  <div class="stop">
-    <div class="t">Lock-out first, every time</div>
-    <p>The pump disconnect and every chemical feeder on the loop: chlorinator or salt cell, acid or CO&#8322; feed, and the controller's dosing outputs. Stopping flow with feeders live can concentrate chemical in the line and off-gas when the pipe is opened.</p>
-  </div>
-
-  <h3>The eight steps</h3>
-  <ol class="steps">
-    <li>
-      <h5>Lock out and tag <small>M-302 &#183; 01</small></h5>
-      <ol>
-        <li>Switch off the pump at its disconnect. Lock and tag.</li>
-        <li>Switch off and lock every feeder on the loop and the controller's dosing outputs. Tag each.</li>
-        <li>Confirm nothing can restart: no timer, no remote, no second switch.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Isolate and depressurize <small>M-302 &#183; 02</small></h5>
-      <ol>
-        <li>Close return-line isolation valves where fitted. Otherwise open the filter drain and let the line empty.</li>
-        <li>Open the filter air relief. The gauge must read zero before any cut.</li>
-        <li>Bucket under the cut zone. Open the door or run a fan.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Measure, mark and cut <small>M-302 &#183; 03 and 3/M-301</small></h5>
-      <ol>
-        <li>Mark the recorded cut length on the return run, after the last treatment component and as close to the pool return as the room allows, with 4 in. clear each side to any fitting.</li>
-        <li>Measure again. A short cut is recovered with a coupling and spare pipe; a long cut is not.</li>
-        <li>Cut square at both marks. Remove the section.</li>
-      </ol>
-      <p>Never cut to L1. L1 includes the union tails, which slide over the pipe you are keeping.</p>
-    </li>
-    <li>
-      <h5>Debur and clean <small>M-302 &#183; 04</small></h5>
-      <ol>
-        <li>Remove burrs inside and out on both cut ends. Wipe ends and sockets clean and dry.</li>
-        <li>Dry-fit a tail on each end. It should enter one third to two thirds of the socket depth by hand. If it will not enter, or drops fully home loose, stop and check pipe size and schedule.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Prime and cement the union tails <small>M-302 &#183; 05 and 2/M-301</small></h5>
-      <ol>
-        <li>Slide the union nut onto the pipe first, facing the cut. It cannot be added later.</li>
-        <li>Prime the pipe end and the tail socket. Cement both while the primer is wet.</li>
-        <li>Push the tail fully home with a quarter turn. Hold 30 seconds. Wipe the bead.</li>
-        <li>Repeat on the other end. Set both nuts so they can be turned by hand once the device is in.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Set the device <small>M-302 &#183; 06</small></h5>
-      <ol>
-        <li>Check the IN arrow points toward the pump, label facing out.</li>
-        <li>O-rings in their grooves, faces clean and dry. Seat the device in the tails and confirm full insertion.</li>
-        <li>Tighten each nut hand-tight plus a small snug. No wrench. No thread sealant. No cement on the threads. The O-ring makes the seal, not torque.</li>
-        <li>Leave the existing pipe supports where they are. No dedicated support is needed for the device.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Cure, then refill <small>M-302 &#183; 07</small></h5>
-      <ol>
-        <li>Wait the cement manufacturer's full cure for the pipe size and room temperature. Two-inch joints at room temperature typically want one to two hours; 3 and 4 in. two to four; 6 in. four or more; cool or damp rooms longer. When in doubt, wait longer.</li>
-        <li>Meanwhile close drains, refill the filter, leave the air relief open, tidy the cut zone.</li>
-      </ol>
-    </li>
-    <li>
-      <h5>Restart, check and record <small>M-302 &#183; 08</small></h5>
-      <ol>
-        <li>Open isolation valves. Remove the pump lock-out only.</li>
-        <li>Start the pump with the air relief open until water runs clear. Close the relief.</li>
-        <li>Inspect both unions and both welds under pressure. A weep at a union: depressurize, loosen, clean faces, reseat the O-ring, retighten by hand.</li>
-        <li>Read the filter gauge. Expect up to 2.6 psi more than the clean-filter reading, not more.</li>
-        <li>Restore feeders and controller. Photograph the installation with the listing mark visible.</li>
-        <li>Fill the installation record on sheet M-501. Recheck for leaks after 24 hours.</li>
-      </ol>
-    </li>
-  </ol>
-
-  <h3>If the straight run is too short</h3>
-  <p>Use arrangement C on sheet M-401: remove the short run and rebuild it as an offset with four 90° elbows of the same size and schedule, putting the device on the new horizontal leg. Support the new run at its elbows as for any rerouted pipe; the device itself needs none. Four elbows on 4 in. pipe at 417 gpm add well under 1 psi; confirm pump margin on the record. The device stays the last component.</p>
-
-  <h3>If the loop's flow is above the model's range</h3>
-  <p>Use arrangement D on sheet M-401: identical parallel branches with isolation valves, each device seeing half the flow, inside its range. The single model that matches the return pipe is always the first choice; parallel branches are for flow the single model cannot take. Confirm with AquaRev before ordering.</p>
-
-  <h3>Troubleshooting after start-up</h3>
-  <div class="tw keep"><table>
-    <thead><tr><th>Symptom</th><th>Do this</th></tr></thead>
-    <tbody>
-      <tr><td class="lab">Weep at a union</td><td>Depressurize, loosen, clean both faces, reseat the O-ring, retighten by hand. Do not add torque, sealant or cement.</td></tr>
-      <tr><td class="lab">Gauge up more than 2.6 psi</td><td>Clean the filter first; that is the cause far more often than the device. If still high with a clean filter, check the device for debris per 3.7.B.</td></tr>
-      <tr><td class="lab">Filter loading faster in week one</td><td>Normal. Agglomerated fines reach the filter for the first time. Backwash or clean as usual.</td></tr>
-      <tr><td class="lab">Controller dosing less</td><td>Expected. Setpoints stay where the health code puts them; the controller finds the new demand on its own.</td></tr>
-      <tr><td class="lab">Device suspected blocked</td><td>Lock out pump and feeders. Loosen unions, remove, turn 180°, run water backward 5 minutes, reinstall in original direction. Fix what let debris past the filter.</td></tr>
-      <tr><td class="lab">Winter</td><td>Winterize with the rest of the loop. The device drains through the unions.</td></tr>
-    </tbody>
-  </table></div>
-
-  <div class="card">
-    <div class="head"><h3 style="margin:0">Quick reference card</h3><span class="mono" style="color:var(--muted)">Print and carry</span></div>
-    <dl class="kv">
-      <dt>Location</dt><dd>Return line. After pump, filter, heater, feeders, sensors. Last component. Any orientation. IN toward pump.</dd>
-      <dt>Cut length</dt><dd>Socket bottom to socket bottom, tails dry-fitted. Never L1. 2 in. field example: L1 20.25 in., cut 17.5 in.</dd>
-      <dt>Clearance</dt><dd>Straight run L1 + 8 in. Body D1 + 4 in. Hand access to both nuts.</dd>
-      <dt>Joints</dt><dd>Nut on first. Primer F656, cement D2564, heavy body at 4 in. and up. Full depth, quarter turn, 30 s.</dd>
-      <dt>Nuts</dt><dd>Hand tight plus a small snug. No wrench, no dope, no cement on threads.</dd>
-      <dt>Support</dt><dd>None required. Existing supports remain. On a long unsupported run, support near the device.</dd>
-      <dt>Cure</dt><dd>Manufacturer's table for size and temperature. Longer when cold or damp.</dd>
-      <dt>Restart</dt><dd>Pump lock-out off only. Air relief open till clear. Inspect. Gauge up to +2.6 psi. Feeders last. Photo. Record. Recheck 24 h.</dd>
-      <dt>Help</dt><dd>Technical: aquarev@hdcproductsinc.com, (808) 628-0208. Sales and AHJ: water@aquarevwater.us, (832) 979-6758.</dd>
-    </dl>
-  </div>
-</section>
-
-<!-- ============ PART C ============ -->
-<section id="partC">
-  <div class="parthead">Part C &#183; Drawing cross-reference</div>
-  <h2>Which sheet answers which question</h2>
-  <div class="tw"><table>
-    <thead><tr><th>Question</th><th>Sheet</th><th>What it shows</th></tr></thead>
-    <tbody>
-      <tr><td>What are the rules and symbols?</td><td class="num">G-001</td><td>General notes, abbreviations, legend, design basis, references.</td></tr>
-      <tr><td>Where is the work on the property?</td><td class="num">C-101</td><td>Pool, spa, buried lines, equipment room, limit of work. All work is inside the room.</td></tr>
-      <tr><td>Where exactly does the device go?</td><td class="num">M-101</td><td>Equipment plan at 1/2 in. = 1 ft. Both loops, cut zones, keynotes, dimensions to the device.</td></tr>
-      <tr><td>What is upstream and downstream?</td><td class="num">M-201</td><td>Single-line flow diagram for pool and spa. Hydraulic check table.</td></tr>
-      <tr><td>How big is it and how does the joint work?</td><td class="num">M-301</td><td>Device elevation with L1, L2, D1, D2; union joint section; cut-length detail; pipe support.</td></tr>
-      <tr><td>What is the order of work?</td><td class="num">M-302</td><td>Eight steps from lock-out to restart, drawn.</td></tr>
-      <tr><td>The run is short, vertical, or the flow is too high?</td><td class="num">M-401</td><td>Horizontal, vertical, offset reroute, parallel devices, clearance envelope by model.</td></tr>
-      <tr><td>What do I order and what do I hand in?</td><td class="num">M-501</td><td>Materials per device, tools and safety, installation record template, closeout list, contacts.</td></tr>
-    </tbody>
-  </table></div>
-  <p><a href="https://www.aquarevwater.us/drawings">Open Drawing Set 100</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download the PDF</a></p>
-  <div class="caution">
-    <div class="t">A reference set, not a per-property issue</div>
-    <p>Set 100 is drawn around a sample property, a 150,000-gallon pool and a 3,000-gallon spa sharing one equipment room, for engineers and contractors new to the device. Drawings are not produced for each installation; pump rooms differ too much to map every one. The site assessment record (Implementation Guide §3) and field conditions govern each job. Permit determinations rest with the authority having jurisdiction.</p>
-  </div>
+  <h3>Contacts and documents</h3>
+  <dl class="facts">
+    <dt>Sales and AHJ package</dt><dd>water@aquarevwater.us &#183; (832) 979-6758</dd>
+    <dt>Technical and warranty</dt><dd>aquarev@hdcproductsinc.com &#183; (808) 628-0208</dd>
+    <dt>Listing</dt><dd>pld.iapmo.org, File No. W-12547</dd>
+    <dt>Related documents</dt><dd>Product Specification Guide 2026 &#183; Pump Room Implementation Guide Rev 1.1 (site assessment, approvals, AHJ package) &#183; aquarevwater.us/data</dd>
+  </dl>
 </section>
 
 <footer>
   <div><b>AquaRev Water</b> &#183; Specifications &amp; Installation Instructions &#183; Rev A &#183; September 2026</div>
-  <div>Companion to Drawing Set 100. Dimensions from the Product Specification Guide 2026. Field-verify before use.</div>
+  <div>Companion to reference Drawing Set 100. Dimensions from the Product Specification Guide 2026. Field conditions govern.</div>
 </footer>
 </div>
 `;
+(function(){
+  function navOffset(){
+    var nav=document.querySelector('.w-nav, nav.w-nav'); var h=0;
+    if(nav){ var cs=getComputedStyle(nav); if(cs.position==='sticky'||cs.position==='fixed'){ h=Math.round(nav.getBoundingClientRect().height); } }
+    root.style.setProperty('--arsp-sticky-top', h+'px');
+  }
+  navOffset(); window.addEventListener('resize', navOffset); window.addEventListener('load', navOffset);
+})();
 if(location.hash){ var t=root.querySelector(decodeURIComponent(location.hash)); if(t){ setTimeout(function(){ t.scrollIntoView({block:'start'}); }, 80); } }
 })();

@@ -39,6 +39,7 @@ scope_css() {
     -e '/^html\{scroll-behavior:smooth\}$/d' \
     -e '/^@media \(prefers-reduced-motion:reduce\)\{html\{scroll-behavior:auto\}\}$/d' \
     -e "s/^body\{/#${root}{/" \
+    -e "s/position:sticky;top:0;z-index:5;/position:sticky;top:var(--${root}-sticky-top,0px);z-index:5;/" \
   | perl -e '
     my $css = do { local $/; <STDIN> }; my $root = shift @ARGV; my $out = "";
     while ($css =~ /\G([^{}]*)([{}])/gc) {
@@ -80,6 +81,17 @@ rewrite_links() {
   echo "root.innerHTML=\`"
   awk '/^<div class="page">$/{f=1} f&&/^<script>$/{exit} f{print}' "$SPEC" | rewrite_links | sed -E 's/`/\\`/g'
   echo "\`;"
+  # measure the site's sticky nav so the section navigator sits below it
+  cat <<'EOF'
+(function(){
+  function navOffset(){
+    var nav=document.querySelector('.w-nav, nav.w-nav'); var h=0;
+    if(nav){ var cs=getComputedStyle(nav); if(cs.position==='sticky'||cs.position==='fixed'){ h=Math.round(nav.getBoundingClientRect().height); } }
+    root.style.setProperty('--arsp-sticky-top', h+'px');
+  }
+  navOffset(); window.addEventListener('resize', navOffset); window.addEventListener('load', navOffset);
+})();
+EOF
   echo "if(location.hash){ var t=root.querySelector(decodeURIComponent(location.hash)); if(t){ setTimeout(function(){ t.scrollIntoView({block:'start'}); }, 80); } }"
   echo "})();"
 } > specifications.js
