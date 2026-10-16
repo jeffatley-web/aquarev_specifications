@@ -94,18 +94,17 @@ root.innerHTML=`
   <div>
     <div class="brand">Aqua<span>Rev</span> Water &nbsp;&#183;&nbsp; Commercial</div>
     <h1>Reference Drawing Set</h1>
-    <p class="sub">A sample commercial pool and spa pump room, drawn so an engineer or contractor new to the AquaRev water conditioning device can see where it goes, how it connects, and how it is installed. Not a site-specific drawing; the same set serves every property.</p>
+    <p class="sub">Where the AquaRev water conditioning device goes in a commercial pool pump room, how it connects, and how it is installed. Drawn around a sample property for engineers and contractors new to the device.</p>
   </div>
   <div class="meta">
-    <b>Set 100 &#183; Revision A</b><br>Reference set &#183; 22 September 2026<br><br>
-    8 sheets &#183; ANSI B (17 &#215; 11 in.)<br>
-    Companion to<br><b>Specifications &amp; Installation Instructions</b><br><b>Pump Room Implementation Guide Rev 1.1</b><br><br>
-    aquarevwater.us/data<br>
-    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF<small>8 sheets &#183; 17 &#215; 11 in. &#183; 1.7 MB</small></a>
+    <b>Set 100 &#183; Revision A</b><br>8 sheets &#183; 17 &#215; 11 in. &#183; September 2026<br>
+    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF<small>1.7 MB</small></a><br>
+    <a class="dl alt" href="https://www.aquarevwater.us/specifications">Specifications &amp; Instructions<small>Written companion</small></a>
   </div>
 </header>
 
 <nav class="index" aria-label="Sheet index">
+  <div class="lab">Sheets</div>
   <ol>
     <li><span class="n">G-001</span><a href="#G-001">Cover, notes &amp; legend</a></li>
     <li><span class="n">C-101</span><a href="#C-101">Site plan</a></li>
@@ -118,11 +117,6 @@ root.innerHTML=`
   </ol>
 </nav>
 
-<div class="note">
-  <div class="t">How to read this set</div>
-  <p>This is a reference set, not a per-property issue. A sample 150,000-gallon pool and 3,000-gallon spa sharing one equipment room stand in for any property; pump rooms differ too much to draw each one. Existing equipment is drawn in black and is not modified. New work is drawn in blue. The cut zone is hatched in amber. Use the 100% button on any sheet to read it at print size, then scroll sideways.</p>
-  <p style="margin-top:8px">Written companion: <a href="https://www.aquarevwater.us/specifications">Specifications &amp; Installation Instructions</a> (Section 22 51 19 and the crew instructions) &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">Download its PDF</a></p>
-</div>
 
 <!-- ============================================================ G-001 -->
 <figure class="sheetwrap" id="G-001">

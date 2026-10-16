@@ -42,10 +42,14 @@
 #ardw .meta b{color:var(--ink);font-weight:500}
 #ardw .meta .dl{display:inline-block;margin-top:14px;font-family:var(--display);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;background:var(--accent);color:#FFFFFF;padding:10px 14px;border-radius:3px;white-space:nowrap}
 #ardw .meta .dl:hover{background:var(--accent-ink)}
+#ardw .meta .dl.alt{background:transparent;color:var(--accent-ink);border:1.5px solid var(--accent);margin-top:8px}
+#ardw .meta .dl.alt:hover{background:var(--wash)}
+#ardw .meta .dl.alt small{opacity:1;color:var(--muted)}
 #ardw .meta .dl small{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:0;text-transform:none;opacity:.85;margin-top:2px}
 @media (max-width:640px){#ardw header.cover{grid-template-columns:1fr}#ardw .meta{text-align:left}}
 
 #ardw nav.index{margin:22px 0 8px}
+#ardw nav.index .lab{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:6px}
 #ardw nav.index ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:6px 18px;max-width:none}
 #ardw nav.index li{display:grid;grid-template-columns:64px 1fr;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--rule-soft);font-size:15px}
 #ardw nav.index .n{font-family:var(--mono);font-size:13px;color:var(--accent-ink);font-weight:500}
