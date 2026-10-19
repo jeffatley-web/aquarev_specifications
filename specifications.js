@@ -25,12 +25,11 @@ root.innerHTML=`
   <a href="#s5"><b>5</b>After start-up</a>
   <a href="#s6"><b>6</b>Specification</a>
   <a href="#s7"><b>7</b>Drawings</a>
-  <a href="#s8"><b>8</b>How it works</a>
 </nav>
 
 <!-- ============ 1 ============ -->
 <section class="first" id="s1">
-  <div class="sechead"><div class="secnum">1</div><div><h2>The device</h2><p class="lead">A passive PVC vessel that mounts in-line on the pool return pipe. Water passing through its fixed internal shape undergoes hydrodynamic cavitation. Nothing to power, dose, clean, calibrate or replace. The process is described in <a href="#s8">Section 8, How it works</a>.</p></div></div>
+  <div class="sechead"><div class="secnum">1</div><div><h2>The device</h2><p class="lead">A passive PVC vessel that mounts in-line on the pool return pipe. Water passing through its fixed internal shape undergoes hydrodynamic cavitation. Nothing to power, dose, clean, calibrate or replace.</p></div></div>
   <div class="figs">
     <figure><div class="frame"><img src="https://jeffatley-web.github.io/aquarev_specifications/aquarev-device.png" alt="AquaRev water conditioning device: a white PVC body with a union at each end" width="600" height="595"></div><figcaption>The device as supplied: PVC body, a Schedule 40 union at each end.</figcaption></figure>
     <figure><div class="frame"><img src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69fa547c218410884aef0c68_a9e11bad811f37bc59cf9350fdbd17fb_AquaRev-Device_Graphic-5b.png" alt="Cutaway of the device showing water entering, cavitation in the chamber, and conditioned water leaving" width="802" height="484"></div><figcaption>Inside the chamber: water enters, hydrodynamic cavitation forms and collapses nano-bubbles, conditioned water leaves. Same graphic as the <a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Data page</a>.</figcaption></figure>
@@ -211,13 +210,6 @@ root.innerHTML=`
   </dl>
 </section>
 
-<!-- ============ 8 ============ -->
-<section id="s8">
-  <div class="sechead"><div class="secnum">8</div><div><h2>How it works</h2><p class="lead">Reference for Section 1. The process inside the chamber, from the Product Specification Guide.</p></div></div>
-  <p>As water passes through the AquaRev device chamber, the water undergoes hydrodynamic cavitation, temporarily converting from liquid into gas nano-bubbles. These cavitation bubbles implode inside the chamber and then re-liquefy before returning to the body of water. During the cavitation process, temperatures within the collapsing nano-bubbles can exceed 500°F destroying bacteria and removing heavy metals and other contaminants.</p>
-  <p>The system operates completely silently, produces no back-pressure, and contains no moving parts or electrical components. The result of this patented process is purified, cleaner, softer, healthier water and reduced costs.</p>
-  <p><a href="#s1">Back to Section 1, The device</a> &#183; Lab reports and the Technical White Paper are on the <a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Data page</a>.</p>
-</section>
 
 <footer>
   <div><b>AquaRev Water</b> &#183; Specifications &amp; Installation Instructions &#183; Rev A &#183; September 2026</div>
