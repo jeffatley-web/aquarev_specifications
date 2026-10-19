@@ -69,6 +69,21 @@ root.innerHTML=`
       <tr><td class="lab">6 in.</td><td class="num">KD6X12X6</td><td class="num">440–1,100 gpm</td><td class="num">40.00 in.</td><td class="num">13.75 in.</td><td class="num">48.00 in.</td></tr>
     </tbody>
   </table></div>
+  <h4>Metric pipe equivalents</h4>
+  <p>Outside North America, return lines are usually metric PVC to ISO 161 / EN 1452. Select the model by the nominal size, then confirm the pipe's actual outside diameter on site.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Model</th><th class="num">Imperial pipe</th><th class="num">Sch 40 OD</th><th class="num">Nominal DN</th><th class="num">Metric PVC OD</th><th class="num">Flow range</th></tr></thead>
+    <tbody>
+      <tr><td class="num">KD2X4X2</td><td class="num">2 in.</td><td class="num">60.3 mm</td><td class="num">DN 50</td><td class="num">63 mm</td><td class="num">10–29 m³/h</td></tr>
+      <tr><td class="num">KD3X6X3</td><td class="num">3 in.</td><td class="num">88.9 mm</td><td class="num">DN 80</td><td class="num">90 mm</td><td class="num">25–62 m³/h</td></tr>
+      <tr><td class="num">KD4X8X4</td><td class="num">4 in.</td><td class="num">114.3 mm</td><td class="num">DN 100</td><td class="num">110 mm</td><td class="num">55–109 m³/h</td></tr>
+      <tr><td class="num">KD6X12X6</td><td class="num">6 in.</td><td class="num">168.3 mm</td><td class="num">DN 150</td><td class="num">160 mm</td><td class="num">100–250 m³/h</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caution">
+    <div class="t">Metric pipe needs transition fittings</div>
+    <p>The supplied unions are imperial Schedule 40 PVC sockets and will not solvent-weld to metric pipe: 63 mm pipe is 2.7 mm larger than 2 in., 110 mm is 4.3 mm smaller than 4 in. Use a metric-to-imperial PVC transition coupling of the same nominal size on each side of the device, from the same cement system as the pipe. Confirm availability with AquaRev when ordering.</p>
+  </div>
   <ul>
     <li><strong>Clearance:</strong> a straight run of L1 + 8 in. (4 in. clear each side to any fitting) and D1 + 4 in. around the body, with hand access to both union nuts. Full dimensions on <a href="https://www.aquarevwater.us/drawings#M-301" target="_blank" rel="noopener">sheet M-301</a>.</li>
     <li><strong>Short run:</strong> rebuild the run as an offset with four 90° elbows and put the device on the new leg (<a href="https://www.aquarevwater.us/drawings#M-401" target="_blank" rel="noopener">M-401, C</a>).</li>
