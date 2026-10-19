@@ -98,8 +98,8 @@ root.innerHTML=`
   </div>
   <div class="meta">
     <b>Set 100 &#183; Revision A</b><br>8 sheets &#183; 17 &#215; 11 in. &#183; September 2026<br>
-    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF<small>1.7 MB</small></a><br>
-    <a class="dl alt" href="https://www.aquarevwater.us/specifications">Specifications &amp; Instructions<small>Written companion</small></a>
+    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF<small>1.7 MB</small></a><br>
+    <a class="dl alt" href="https://www.aquarevwater.us/specifications" target="_blank" rel="noopener">Specifications &amp; Instructions<small>Written companion</small></a>
   </div>
 </header>
 
@@ -1541,7 +1541,7 @@ root.innerHTML=`
     <!-- contacts -->
     <text x="930" y="86" class="lab s11">CONTACTS</text>
     <g font-size="11">
-      <text x="930" y="108">Sales and AHJ package support</text><text x="930" y="124" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
+      <text x="930" y="108">Sales</text><text x="930" y="124" class="mono" font-size="10.5">water@aquarevwater.us &#183; (832) 979-6758</text>
       <text x="930" y="148">Technical support and warranty claims</text><text x="930" y="164" class="mono" font-size="10.5">aquarev@hdcproductsinc.com &#183; (808) 628-0208</text>
     </g>
 

@@ -12,8 +12,8 @@ root.innerHTML=`
   </div>
   <div class="meta">
     <b>Revision A</b><br>September 2026<br>
-    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf">Download PDF<small>Letter</small></a><br>
-    <a class="dl alt" href="https://www.aquarevwater.us/drawings">Drawing Set 100<small>8 sheets &#183; 17 &#215; 11 in.</small></a>
+    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf" target="_blank" rel="noopener">Download PDF<small>Letter</small></a><br>
+    <a class="dl alt" href="https://www.aquarevwater.us/drawings" target="_blank" rel="noopener">Drawing Set 100<small>8 sheets &#183; 17 &#215; 11 in.</small></a>
   </div>
 </header>
 
@@ -30,6 +30,10 @@ root.innerHTML=`
 <!-- ============ 1 ============ -->
 <section class="first" id="s1">
   <div class="sechead"><div class="secnum">1</div><div><h2>The device</h2><p class="lead">A passive PVC vessel that mounts in-line on the pool return pipe. Water passing through its fixed internal shape undergoes hydrodynamic cavitation. Nothing to power, dose, clean, calibrate or replace.</p></div></div>
+  <div class="figs">
+    <figure><img src="https://jeffatley-web.github.io/aquarev_specifications/aquarev-device.png" alt="AquaRev water conditioning device: a white PVC body with a union at each end" width="600" height="595"><figcaption>The device as supplied: PVC body, a Schedule 40 union at each end.</figcaption></figure>
+    <figure><img src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69fa547c218410884aef0c68_a9e11bad811f37bc59cf9350fdbd17fb_AquaRev-Device_Graphic-5b.png" alt="Cutaway of the device showing water entering, cavitation in the chamber, and conditioned water leaving" width="802" height="484"><figcaption>Inside the chamber: water enters, hydrodynamic cavitation forms and collapses nano-bubbles, conditioned water leaves. Same graphic as the <a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Data page</a>.</figcaption></figure>
+  </div>
   <dl class="facts">
     <dt>Listing</dt><dd>Water Conditioning Device, certified to NSF/ANSI/CAN 50-2024 by IAPMO R&amp;T, File No. W-12547. USPC&#174; mark. Listed in compliance with the Uniform Swimming Pool, Spa and Hot Tub Code.</dd>
     <dt>Materials</dt><dd>PVC body and fittings. NSF/ANSI 372 lead-free. California Prop 65 compliant. Made in the USA. No metal, so no grounding.</dd>
@@ -53,6 +57,7 @@ root.innerHTML=`
     <li>As close to the pool return as the room allows. Any orientation: horizontal, vertical, diagonal.</li>
     <li>Existing equipment, valves, suction piping and drains are not touched. No dedicated pipe supports are needed; existing supports stay where they are.</li>
   </ul>
+  <figure class="single"><img src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f4d1ee8f81cc5957ead786_AquaRev_Pump_Room%203.png" alt="Sample pump room: pump, sand filter and chemical feeders in a row, with the AquaRev device last on the return pipe to the pool" width="1672" height="941" loading="lazy"><figcaption>Sample pump room. Flow runs left to right: from the pool, through pump, filter and chemical feed, then the AquaRev device last on the return. Plan view and dimensions on <a href="https://www.aquarevwater.us/drawings#M-101" target="_blank" rel="noopener">sheet M-101</a>.</figcaption></figure>
   <h3>Model</h3>
   <p>Select by return pipe size, then confirm the loop's flow sits inside that model's range.</p>
   <div class="tw"><table>
@@ -65,9 +70,9 @@ root.innerHTML=`
     </tbody>
   </table></div>
   <ul>
-    <li><strong>Clearance:</strong> a straight run of L1 + 8 in. (4 in. clear each side to any fitting) and D1 + 4 in. around the body, with hand access to both union nuts. Full dimensions on sheet M-301.</li>
-    <li><strong>Short run:</strong> rebuild the run as an offset with four 90° elbows and put the device on the new leg (M-401, C).</li>
-    <li><strong>Flow above the range:</strong> two identical parallel branches with isolation valves, each device seeing half the flow (M-401, D). Confirm with AquaRev first.</li>
+    <li><strong>Clearance:</strong> a straight run of L1 + 8 in. (4 in. clear each side to any fitting) and D1 + 4 in. around the body, with hand access to both union nuts. Full dimensions on <a href="https://www.aquarevwater.us/drawings#M-301" target="_blank" rel="noopener">sheet M-301</a>.</li>
+    <li><strong>Short run:</strong> rebuild the run as an offset with four 90° elbows and put the device on the new leg (<a href="https://www.aquarevwater.us/drawings#M-401" target="_blank" rel="noopener">M-401, C</a>).</li>
+    <li><strong>Flow above the range:</strong> two identical parallel branches with isolation valves, each device seeing half the flow (<a href="https://www.aquarevwater.us/drawings#M-401" target="_blank" rel="noopener">M-401, D</a>). Confirm with AquaRev first.</li>
     <li><strong>Refer to AquaRev before ordering</strong> when flow is within 10% of a range limit. Eight- and ten-inch units are available on request.</li>
   </ul>
 </section>
@@ -79,7 +84,7 @@ root.innerHTML=`
     <ul class="check">
       <li><div><b>Site assessment record done</b><small>Return pipe outside diameter and material, flow from the meter or pump curve, clean-filter gauge reading, straight run available, isolation or drain-down method.</small></div></li>
       <li><div><b>Pump margin confirmed</b><small>The device adds up to 2.6 psi.</small></div></li>
-      <li><div><b>AHJ determination in writing</b><small>Email reply or permit. A copy goes on site. Implementation Guide §6–7 has the package.</small></div></li>
+      <li><div><b>AHJ determination in writing</b><small>Email reply or permit. A copy goes on site. See <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Implementation Guide §6–7</a>.</small></div></li>
       <li><div><b>Pool closure scheduled</b><small>Three to five hours per loop, including cement cure.</small></div></li>
     </ul>
     <ul class="check">
@@ -93,7 +98,7 @@ root.innerHTML=`
 
 <!-- ============ 4 ============ -->
 <section id="s4">
-  <div class="sechead"><div class="secnum">4</div><div><h2>Installation</h2><p class="lead">Eight steps, in order. Sheet M-302 draws each one.</p></div></div>
+  <div class="sechead"><div class="secnum">4</div><div><h2>Installation</h2><p class="lead">Eight steps, in order. <a href="https://www.aquarevwater.us/drawings#M-302" target="_blank" rel="noopener">Sheet M-302</a> draws each one; <a href="https://www.aquarevwater.us/drawings#M-301" target="_blank" rel="noopener">M-301</a> has the joint and cut-length details.</p></div></div>
   <div class="stop">
     <div class="t">Lock-out first, every time</div>
     <p>The pump disconnect and every chemical feeder on the loop: chlorinator or salt cell, acid or CO&#8322; feed, and the controller's dosing outputs. Stopping flow with feeders live can concentrate chemical in the line.</p>
@@ -106,7 +111,7 @@ root.innerHTML=`
     <li><h3>Prime and cement the union tails<small>05 &#183; 2/M-301</small></h3><p>Nut onto the pipe first. Prime pipe end and socket, cement both, push fully home with a quarter turn, hold 30 seconds. Repeat the other end. Set the nuts so they turn by hand.</p></li>
     <li><h3>Set the device<small>06</small></h3><p>IN arrow toward the pump, label facing out. O-rings seated, faces clean. Confirm full insertion, then tighten each nut hand-tight plus a small snug. No wrench, no sealant, no cement on the threads.</p></li>
     <li><h3>Cure, then refill<small>07</small></h3><p>Wait the cement manufacturer's full cure for the size and temperature: typically 1 to 2 hours for 2 in., 2 to 4 hours for 3 and 4 in., longer when cold or damp. Close drains and refill the filter while waiting.</p></li>
-    <li><h3>Restart, check and record<small>08</small></h3><p>Pump lock-out off only. Start with the air relief open until clear. Inspect both unions and welds under pressure; a weep means reseat, not more torque. Gauge up to 2.6 psi more. Restore feeders last. Photograph the listing mark. Fill the record on M-501. Recheck at 24 hours.</p></li>
+    <li><h3>Restart, check and record<small>08</small></h3><p>Pump lock-out off only. Start with the air relief open until clear. Inspect both unions and welds under pressure; a weep means reseat, not more torque. Gauge up to 2.6 psi more. Restore feeders last. Photograph the listing mark. Fill the record on <a href="https://www.aquarevwater.us/drawings#M-501" target="_blank" rel="noopener">M-501</a>. Recheck at 24 hours.</p></li>
   </ol>
 </section>
 
@@ -133,7 +138,7 @@ root.innerHTML=`
   <h4>Part 1 &#183; General</h4>
   <ol class="clauses">
     <li><span class="c">1.1</span><div><strong>Work.</strong> Furnish and install one AquaRev water conditioning device per recirculating loop, in series on the existing return line downstream of all treatment equipment, using the supplied Schedule 40 PVC unions. No modification to pumps, filters, heaters, feeders, controllers, suction piping, drains, shell or barriers. No utility connection.</div></li>
-    <li><span class="c">1.2</span><div><strong>References.</strong> NSF/ANSI/CAN 50-2024; IAPMO R&amp;T Listing W-12547; NSF/ANSI 372; ASTM D1785, D2466, F656, D2564, D2855; local building and public-pool health codes; the AHJ's written determination.</div></li>
+    <li><span class="c">1.2</span><div><strong>References.</strong> NSF/ANSI/CAN 50-2024; <a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f3bf14c339fa9773476853_IAPMO%20R%26T%20Product%20Listing.pdf" target="_blank" rel="noopener">IAPMO R&amp;T Listing W-12547</a>; NSF/ANSI 372; ASTM D1785, D2466, F656, D2564, D2855; local building and public-pool health codes; the AHJ's written determination.</div></li>
     <li><span class="c">1.3</span><div><strong>Submittals.</strong> Site assessment record per loop; product data and listing; AHJ determination; installer licence; at closeout the completed installation record (M-501) with serial numbers and photographs.</div></li>
     <li><span class="c">1.4</span><div><strong>Quality.</strong> Device bears the IAPMO R&amp;T mark; no substitutions. Licensed pool contractor or plumber. Solvent joints per ASTM D2855 and the cement manufacturer, whose instructions govern where they differ from this document.</div></li>
     <li><span class="c">1.5</span><div><strong>Delivery and conditions.</strong> Manufacturer's carton, stored indoors off the floor. Three to five hour closure per loop. Ventilation while cementing; no flame. Cure time per the manufacturer for size and temperature.</div></li>
@@ -148,7 +153,7 @@ root.innerHTML=`
   <h4>Part 3 &#183; Execution</h4>
   <ol class="clauses">
     <li><span class="c">3.1</span><div><strong>Examination.</strong> Complete the site assessment record. Confirm the model's range brackets the measured flow and that pump margin covers 2.6 psi. Report non-PVC pipe, out-of-tolerance pipe or a run that cannot be made to fit before cutting.</div></li>
-    <li><span class="c">3.2</span><div><strong>Installation.</strong> Per Section 4 of this document and sheets M-301 and M-302: lock-out and zero pressure before opening the line; location per Section 2; cut to the field-measured length; joints per ASTM D2855; nuts hand-tight plus a small snug, no wrench; existing supports retained, none added; full cure before pressure.</div></li>
+    <li><span class="c">3.2</span><div><strong>Installation.</strong> Per Section 4 of this document and sheets <a href="https://www.aquarevwater.us/drawings#M-301" target="_blank" rel="noopener">M-301</a> and <a href="https://www.aquarevwater.us/drawings#M-302" target="_blank" rel="noopener">M-302</a>: lock-out and zero pressure before opening the line; location per Section 2; cut to the field-measured length; joints per ASTM D2855; nuts hand-tight plus a small snug, no wrench; existing supports retained, none added; full cure before pressure.</div></li>
     <li><span class="c">3.3</span><div><strong>Field quality control.</strong> Leak inspection of both unions and welds at operating pressure and again after 24 hours. Filter gauge increase of not more than 2.6 psi over the clean-filter reading. Feeders and controller restored last; setpoints unchanged.</div></li>
     <li><span class="c">3.4</span><div><strong>Closeout.</strong> Assessment record, AHJ determination or permit and inspection, listing and warranty as issued, and the completed installation record in the project file.</div></li>
   </ol>
@@ -163,30 +168,30 @@ root.innerHTML=`
       <h3>Reference Drawing Set 100 &#183; Rev A</h3>
       <p>Eight ANSI B sheets drawn around a sample pool and spa pump room. Not site-specific; the same set serves every property.</p>
       <div class="links">
-        <a class="primary" href="https://www.aquarevwater.us/drawings">Open the drawing set</a>
-        <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF, 17 &#215; 11</a>
+        <a class="primary" href="https://www.aquarevwater.us/drawings" target="_blank" rel="noopener">Open the drawing set</a>
+        <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF, 17 &#215; 11</a>
       </div>
     </div>
   </div>
   <div class="tw"><table>
     <thead><tr><th>Sheet</th><th>Use it for</th></tr></thead>
     <tbody>
-      <tr><td class="num">G-001</td><td>General notes, symbols, abbreviations</td></tr>
-      <tr><td class="num">C-101</td><td>Where the work sits on a property</td></tr>
-      <tr><td class="num">M-101</td><td>Pump room plan: where the device goes on each loop</td></tr>
-      <tr><td class="num">M-201</td><td>Flow diagram: what is upstream and downstream</td></tr>
-      <tr><td class="num">M-301</td><td>Device dimensions, union joint, cut length, supports</td></tr>
-      <tr><td class="num">M-302</td><td>The eight installation steps, drawn</td></tr>
-      <tr><td class="num">M-401</td><td>Vertical runs, short runs, parallel devices, clearance</td></tr>
-      <tr><td class="num">M-501</td><td>Materials, tools, closeout, installation record</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#G-001" target="_blank" rel="noopener">G-001</a></td><td>General notes, symbols, abbreviations</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#C-101" target="_blank" rel="noopener">C-101</a></td><td>Where the work sits on a property</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-101" target="_blank" rel="noopener">M-101</a></td><td>Pump room plan: where the device goes on each loop</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-201" target="_blank" rel="noopener">M-201</a></td><td>Flow diagram: what is upstream and downstream</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-301" target="_blank" rel="noopener">M-301</a></td><td>Device dimensions, union joint, cut length, supports</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-302" target="_blank" rel="noopener">M-302</a></td><td>The eight installation steps, drawn</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-401" target="_blank" rel="noopener">M-401</a></td><td>Vertical runs, short runs, parallel devices, clearance</td></tr>
+      <tr><td class="num"><a href="https://www.aquarevwater.us/drawings#M-501" target="_blank" rel="noopener">M-501</a></td><td>Materials, tools, closeout, installation record</td></tr>
     </tbody>
   </table></div>
   <h3>Contacts and documents</h3>
   <dl class="facts">
-    <dt>Sales and AHJ package</dt><dd>water@aquarevwater.us &#183; (832) 979-6758</dd>
+    <dt>Sales</dt><dd>water@aquarevwater.us &#183; (832) 979-6758</dd>
     <dt>Technical and warranty</dt><dd>aquarev@hdcproductsinc.com &#183; (808) 628-0208</dd>
-    <dt>Listing</dt><dd>pld.iapmo.org, File No. W-12547</dd>
-    <dt>Related documents</dt><dd>Product Specification Guide 2026 &#183; Pump Room Implementation Guide Rev 1.1 (site assessment, approvals, AHJ package) &#183; aquarevwater.us/data</dd>
+    <dt>Listing</dt><dd><a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f3bf14c339fa9773476853_IAPMO%20R%26T%20Product%20Listing.pdf" target="_blank" rel="noopener">IAPMO R&amp;T listing, File No. W-12547</a> &#183; verify at <a href="https://pld.iapmo.org" target="_blank" rel="noopener">pld.iapmo.org</a></dd>
+    <dt>Related documents</dt><dd><a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Product Specification Guide 2026 and data page</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Pump Room Implementation Guide Rev 1.1</a> (site assessment, approvals, permit determination)</dd>
   </dl>
 </section>
 
