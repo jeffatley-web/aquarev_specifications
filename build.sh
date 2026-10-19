@@ -64,6 +64,9 @@ rewrite_links() {
     -e "s|$ARTIFACT_DRAW|$SITE_DRAW|g" \
     -e "s|href=\"$SPEC_PDF\"|href=\"$PAGES/$SPEC_PDF\"|g" \
     -e "s|href=\"$DRAW_PDF\"|href=\"$PAGES/$DRAW_PDF\"|g" \
+    -e 's|src="img/aquarev-device.png"|src="'"$PAGES"'/aquarev-device.png"|g' \
+    -e 's|src="img/device-process.png"|src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69fa547c218410884aef0c68_a9e11bad811f37bc59cf9350fdbd17fb_AquaRev-Device_Graphic-5b.png"|g' \
+    -e 's|src="img/pump-room.jpg"|src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f4d1ee8f81cc5957ead786_AquaRev_Pump_Room%203.png"|g' \
     -e 's|<a href="AquaRev_Installation_Drawing_Set_V1.html">Local web copy</a>||g' \
     -e 's| &#183; <a href="AquaRev_Installation_Drawing_Set_V1.html">local web copy</a>||g'
 }
