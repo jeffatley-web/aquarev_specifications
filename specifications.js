@@ -12,7 +12,7 @@ root.innerHTML=`
   </div>
   <div class="meta">
     <b>Revision A</b><br>September 2026<br>
-    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Specifications_V1.pdf" target="_blank" rel="noopener">Download PDF<small>Letter</small></a><br>
+    <a class="dl" href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947c794481b4863475f_AquaRev_Installation_Specifications_V1.pdf" target="_blank" rel="noopener">Download PDF<small>Letter</small></a><br>
     <a class="dl alt" href="https://www.aquarevwater.us/drawings" target="_blank" rel="noopener">Drawing Set 100<small>8 sheets &#183; 17 &#215; 11 in.</small></a>
   </div>
 </header>
@@ -99,7 +99,7 @@ root.innerHTML=`
     <ul class="check">
       <li><div><b>Site assessment record done</b><small>Return pipe outside diameter and material, flow from the meter or pump curve, clean-filter gauge reading, straight run available, isolation or drain-down method.</small></div></li>
       <li><div><b>Pump margin confirmed</b><small>The device adds up to 2.6 psi.</small></div></li>
-      <li><div><b>AHJ determination in writing</b><small>Email reply or permit. A copy goes on site. See <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Implementation Guide §6–7</a>.</small></div></li>
+      <li><div><b>AHJ determination in writing</b><small>Email reply or permit. A copy goes on site. See <a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c9481bfbe093bbb37f8b_AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Implementation Guide §6–7</a>.</small></div></li>
       <li><div><b>Pool closure scheduled</b><small>Three to five hours per loop, including cement cure.</small></div></li>
     </ul>
     <ul class="check">
@@ -184,7 +184,7 @@ root.innerHTML=`
       <p>Eight ANSI B sheets drawn around a sample pool and spa pump room. Not site-specific; the same set serves every property.</p>
       <div class="links">
         <a class="primary" href="https://www.aquarevwater.us/drawings" target="_blank" rel="noopener">Open the drawing set</a>
-        <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF, 17 &#215; 11</a>
+        <a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947ae34160edcb559af_AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF, 17 &#215; 11</a>
       </div>
     </div>
   </div>
@@ -206,7 +206,7 @@ root.innerHTML=`
     <dt>Sales</dt><dd>water@aquarevwater.us &#183; (832) 979-6758</dd>
     <dt>Technical and warranty</dt><dd>aquarev@hdcproductsinc.com &#183; (808) 628-0208</dd>
     <dt>Listing</dt><dd><a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f3bf14c339fa9773476853_IAPMO%20R%26T%20Product%20Listing.pdf" target="_blank" rel="noopener">IAPMO R&amp;T listing, File No. W-12547</a> &#183; verify at <a href="https://pld.iapmo.org" target="_blank" rel="noopener">pld.iapmo.org</a></dd>
-    <dt>Related documents</dt><dd><a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Product Specification Guide 2026 and data page</a> &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Pump Room Implementation Guide Rev 1.1</a> (site assessment, approvals, permit determination)</dd>
+    <dt>Related documents</dt><dd><a href="https://www.aquarevwater.us/data" target="_blank" rel="noopener">Product Specification Guide 2026 and data page</a> &#183; <a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c9481bfbe093bbb37f8b_AquaRev_Implementation_Guide_V1.pdf" target="_blank" rel="noopener">Pump Room Implementation Guide Rev 1.1</a> (site assessment, approvals, permit determination)</dd>
   </dl>
 </section>
 

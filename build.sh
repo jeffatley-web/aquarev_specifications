@@ -28,6 +28,26 @@ FONTS='https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..8
 
 cd "$HERE"
 
+# ---- Webflow asset copies of the PDFs (webflow-assets.json) ----
+# The site pages link to the Webflow asset library copies, not GitHub Pages. The manifest holds each
+# asset's hostedUrl and the MD5 of the file that was uploaded. Webflow cannot replace an asset's file
+# in place, so a changed PDF is uploaded as a NEW asset and the manifest is updated by hand (or by
+# Claude through the Webflow connector). This block warns when a local PDF no longer matches.
+MANIFEST="$HERE/webflow-assets.json"
+wf_url() { python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["assets"][sys.argv[2]]["hostedUrl"])' "$MANIFEST" "$1"; }
+wf_md5() { python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["assets"][sys.argv[2]]["md5"])' "$MANIFEST" "$1"; }
+WF_SPEC_PDF="$(wf_url "$SPEC_PDF")"
+WF_DRAW_PDF="$(wf_url "$DRAW_PDF")"
+WF_IMPL_PDF="$(wf_url AquaRev_Implementation_Guide_V1.pdf)"
+STALE=0
+for pair in "$SPEC_PDF|$MASTER/$SPEC_PDF" "$DRAW_PDF|$MASTER/$DRAW_PDF" "AquaRev_Implementation_Guide_V1.pdf|/Users/jatley/Documents/Jeff Atley/Aquarev Water /Marketing/Collateral/Implementation Guide/AquaRev_Implementation_Guide_V1.pdf"; do
+  name="${pair%%|*}"; path="${pair#*|}"
+  if [ -f "$path" ] && [ "$(md5 -q "$path")" != "$(wf_md5 "$name")" ]; then
+    echo "WARNING: $name has changed since it was uploaded to Webflow. Re-upload it as a new asset and update webflow-assets.json." >&2
+    STALE=1
+  fi
+done
+
 # scope_css ROOT — reads CSS on stdin, writes CSS scoped under #ROOT on stdout
 scope_css() {
   local root="$1"
@@ -62,8 +82,11 @@ rewrite_links() {
   sed -E \
     -e "s|$ARTIFACT_SPEC|$SITE_SPEC|g" \
     -e "s|$ARTIFACT_DRAW|$SITE_DRAW|g" \
-    -e "s|href=\"$SPEC_PDF\"|href=\"$PAGES/$SPEC_PDF\"|g" \
-    -e "s|href=\"$DRAW_PDF\"|href=\"$PAGES/$DRAW_PDF\"|g" \
+    -e "s|href=\"$SPEC_PDF\"|href=\"$WF_SPEC_PDF\"|g" \
+    -e "s|href=\"$DRAW_PDF\"|href=\"$WF_DRAW_PDF\"|g" \
+    -e "s|$PAGES/$SPEC_PDF|$WF_SPEC_PDF|g" \
+    -e "s|$PAGES/$DRAW_PDF|$WF_DRAW_PDF|g" \
+    -e "s|$PAGES/AquaRev_Implementation_Guide_V1.pdf|$WF_IMPL_PDF|g" \
     -e 's|src="img/aquarev-device.png"|src="'"$PAGES"'/aquarev-device.png"|g' \
     -e 's|src="img/device-process.png"|src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69fa547c218410884aef0c68_a9e11bad811f37bc59cf9350fdbd17fb_AquaRev-Device_Graphic-5b.png"|g' \
     -e 's|src="img/pump-room.jpg"|src="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/69f4d1ee8f81cc5957ead786_AquaRev_Pump_Room%203.png"|g' \
@@ -176,3 +199,4 @@ EOF
 cp -f "$MASTER/$SPEC_PDF" "$MASTER/$DRAW_PDF" .
 
 wc -c specifications.css specifications.js drawings.css drawings.js webflow-embed-specifications.html webflow-embed-drawings.html "$SPEC_PDF" "$DRAW_PDF"
+[ "$STALE" = 1 ] && echo "Site pages still link to the PREVIOUS Webflow asset until webflow-assets.json is updated and this script is re-run." >&2 || true

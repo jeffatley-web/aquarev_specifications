@@ -98,7 +98,7 @@ root.innerHTML=`
   </div>
   <div class="meta">
     <b>Set 100 &#183; Revision A</b><br>8 sheets &#183; 17 &#215; 11 in. &#183; September 2026<br>
-    <a class="dl" href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF<small>1.7 MB</small></a><br>
+    <a class="dl" href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947ae34160edcb559af_AquaRev_Installation_Drawing_Set_V1.pdf" target="_blank" rel="noopener">Download PDF<small>1.7 MB</small></a><br>
     <a class="dl alt" href="https://www.aquarevwater.us/specifications" target="_blank" rel="noopener">Specifications &amp; Instructions<small>Written companion</small></a>
   </div>
 </header>
@@ -1586,7 +1586,7 @@ root.innerHTML=`
 
 
 <footer>
-  <div><b>AquaRev Water</b> &#183; Installation Drawing Set 100 &#183; Rev A &#183; 22 September 2026 &#183; <a href="https://jeffatley-web.github.io/aquarev_specifications/AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF</a></div>
+  <div><b>AquaRev Water</b> &#183; Installation Drawing Set 100 &#183; Rev A &#183; 22 September 2026 &#183; <a href="https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947ae34160edcb559af_AquaRev_Installation_Drawing_Set_V1.pdf">Download PDF</a></div>
   <div>Reference set drawn around a sample property. Field conditions govern. Permit determinations rest with the authority having jurisdiction.</div>
 </footer>
 </div>

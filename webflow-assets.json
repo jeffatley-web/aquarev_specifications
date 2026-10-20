@@ -1,0 +1,26 @@
+{
+  "_comment": "Webflow asset library copies of the PDFs the /specifications and /drawings pages link to. build.sh rewrites the GitHub Pages PDF URLs in the masters to these hostedUrl values and warns when a local PDF's MD5 no longer matches. Webflow has no replace-file API: a changed PDF is uploaded as a new asset (new id and URL) and this file is updated. Folder: Engineering (6ad6bd0e3ab5b2b1d428d26e). Site: 691fa5d63fc3a5a75a65efeb.",
+  "assets": {
+    "AquaRev_Installation_Specifications_V1.pdf": {
+      "assetId": "6ad6c947c794481b4863475f",
+      "hostedUrl": "https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947c794481b4863475f_AquaRev_Installation_Specifications_V1.pdf",
+      "md5": "41ec9566023e4404753a00a3007ac79f",
+      "source": "Marketing/Collateral/Installation Drawings/AquaRev_Installation_Specifications_V1.pdf",
+      "uploaded": "2026-10-20"
+    },
+    "AquaRev_Installation_Drawing_Set_V1.pdf": {
+      "assetId": "6ad6c947ae34160edcb559af",
+      "hostedUrl": "https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c947ae34160edcb559af_AquaRev_Installation_Drawing_Set_V1.pdf",
+      "md5": "812a8a1385cdd521254bd169d0148a9b",
+      "source": "Marketing/Collateral/Installation Drawings/AquaRev_Installation_Drawing_Set_V1.pdf",
+      "uploaded": "2026-10-20"
+    },
+    "AquaRev_Implementation_Guide_V1.pdf": {
+      "assetId": "6ad6c9481bfbe093bbb37f8b",
+      "hostedUrl": "https://cdn.prod.website-files.com/691fa5d63fc3a5a75a65efeb/6ad6c9481bfbe093bbb37f8b_AquaRev_Implementation_Guide_V1.pdf",
+      "md5": "883829d5ddcee745e332523fad1a6ef6",
+      "source": "Marketing/Collateral/Implementation Guide/AquaRev_Implementation_Guide_V1.pdf",
+      "uploaded": "2026-10-20"
+    }
+  }
+}

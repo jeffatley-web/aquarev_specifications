@@ -31,6 +31,31 @@ local PDF links become GitHub Pages links; the "local web copy" button is droppe
 
 `preview.html` and `preview-drawings.html` mirror the two embeds with local files.
 
+## PDFs are Webflow assets
+
+The PDFs the site pages link to live in the Webflow asset library (folder
+**Engineering**), not on GitHub Pages. `webflow-assets.json` records each asset's
+ID, hosted URL and the MD5 of the uploaded file; `build.sh` rewrites the PDF links
+in the generated JS to those URLs and prints a WARNING when a local PDF no longer
+matches its recorded MD5.
+
+| PDF | Webflow asset ID |
+|---|---|
+| AquaRev_Installation_Specifications_V1.pdf | 6ad6c947c794481b4863475f |
+| AquaRev_Installation_Drawing_Set_V1.pdf | 6ad6c947ae34160edcb559af |
+| AquaRev_Implementation_Guide_V1.pdf | 6ad6c9481bfbe093bbb37f8b |
+
+**When a PDF changes.** Webflow has no replace-file API, so the new file is uploaded
+as a new asset (new ID and URL). Steps: re-render the PDF from its master; upload it to
+the Engineering folder (Claude does this through the Webflow connector: `create_asset`
+with the file's MD5, then POST the bytes to the returned S3 URL); paste the new
+`hostedUrl` and `md5` into `webflow-assets.json`; run `./build.sh`; commit and push.
+The old asset can then be deleted from the Webflow asset panel. The Webflow embeds do
+not change, because the URLs live in the JS on GitHub Pages.
+
+The GitHub Pages copies of the two PDFs are still published for the private
+claude.ai review pages, which link to them.
+
 ## GitHub Pages
 
 - Repo: `jeffatley-web/aquarev_specifications` (public), Pages source `main` branch, root.
